@@ -1,0 +1,4 @@
+Machine#1.0-Limits:
+##################
+153px on y-axis (top-side)
+145px on x-axis (right-hand-side)

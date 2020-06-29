@@ -1,0 +1,105 @@
+(Scribbled version of C:\Users\BENBOU~1\AppData\Local\Temp\ink_ext_XXXXXX.svgY909VZ @ 3500.00)
+( unicorn.py --tab="plotter_setup" --pen-up-angle=35 --pen-down-angle=0 --start-delay=150 --stop-delay=150 --xy-feedrate=3500 --z-feedrate=150 --z-height=0 --finished-height=0 --register-pen=true --x-home=0 --y-home=0 --num-copies=1 --continuous=false --pause-on-layer-change=false C:\Users\BENBOU~1\AppData\Local\Temp\ink_ext_XXXXXX.svgY909VZ )
+G21 (metric ftw)
+G90 (absolute mode)
+G92 X0.00 Y0.00 Z0.00 (you are here)
+
+M300 S0 (pen down)
+G4 P150 (wait 150ms)
+M300 S35 (pen up)
+G4 P150 (wait 150ms)
+M18 (disengage drives)
+M01 (Was registration test successful?)
+M17 (engage drives if YES, and continue)
+
+(Polyline consisting of 2 segments.)
+G1 X76.69 Y6.04 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X76.86 Y8.40 F3500.00
+G1 X77.36 Y10.48 F3500.00
+G1 X78.21 Y12.30 F3500.00
+G1 X79.39 Y13.84 F3500.00
+G1 X80.84 Y15.08 F3500.00
+G1 X82.48 Y15.96 F3500.00
+G1 X84.33 Y16.49 F3500.00
+G1 X86.36 Y16.66 F3500.00
+G1 X89.02 Y16.33 F3500.00
+G1 X91.41 Y15.34 F3500.00
+G1 X93.39 Y13.75 F3500.00
+G1 X94.83 Y11.64 F3500.00
+G1 X95.72 Y9.12 F3500.00
+G1 X96.01 Y6.27 F3500.00
+G1 X95.70 Y3.39 F3500.00
+G1 X94.77 Y0.83 F3500.00
+G1 X93.27 Y-1.28 F3500.00
+G1 X91.26 Y-2.81 F3500.00
+G1 X88.89 Y-3.74 F3500.00
+G1 X86.35 Y-4.05 F3500.00
+G1 X83.65 Y-3.71 F3500.00
+G1 X81.25 Y-2.68 F3500.00
+G1 X79.28 Y-1.07 F3500.00
+G1 X77.85 Y1.04 F3500.00
+G1 X76.98 Y3.47 F3500.00
+G1 X76.69 Y6.04 F3500.00
+G1 X76.69 Y6.04 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 2 segments.)
+G1 X79.45 Y6.00 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X79.94 Y2.77 F3500.00
+G1 X80.55 Y1.44 F3500.00
+G1 X81.41 Y0.30 F3500.00
+G1 X83.62 Y-1.26 F3500.00
+G1 X86.34 Y-1.78 F3500.00
+G1 X89.09 Y-1.26 F3500.00
+G1 X91.30 Y0.32 F3500.00
+G1 X92.16 Y1.48 F3500.00
+G1 X92.77 Y2.86 F3500.00
+G1 X93.25 Y6.29 F3500.00
+G1 X93.05 Y8.57 F3500.00
+G1 X92.42 Y10.55 F3500.00
+G1 X91.39 Y12.17 F3500.00
+G1 X89.98 Y13.38 F3500.00
+G1 X88.28 Y14.13 F3500.00
+G1 X86.38 Y14.38 F3500.00
+G1 X83.74 Y13.90 F3500.00
+G1 X81.49 Y12.45 F3500.00
+G1 X80.60 Y11.32 F3500.00
+G1 X79.96 Y9.87 F3500.00
+G1 X79.45 Y6.00 F3500.00
+G1 X79.45 Y6.00 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1 segments.)
+G1 X99.33 Y-3.71 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X99.33 Y16.31 F3500.00
+G1 X102.01 Y16.31 F3500.00
+G1 X102.01 Y6.38 F3500.00
+G1 X112.04 Y16.31 F3500.00
+G1 X115.66 Y16.31 F3500.00
+G1 X107.19 Y8.20 F3500.00
+G1 X116.04 Y-3.71 F3500.00
+G1 X112.51 Y-3.71 F3500.00
+G1 X105.31 Y6.42 F3500.00
+G1 X102.01 Y3.23 F3500.00
+G1 X102.01 Y-3.71 F3500.00
+G1 X99.33 Y-3.71 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+
+(end of print job)
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+M300 S255 (turn off servo)
+G1 X0 Y0 F3500.00
+G1 Z0.00 F150.00 (go up to finished level)
+G1 X0.00 Y0.00 F3500.00 (go home)
+M18 (drives off)

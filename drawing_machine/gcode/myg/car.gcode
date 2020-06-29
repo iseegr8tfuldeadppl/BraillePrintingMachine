@@ -1,0 +1,15259 @@
+(Scribbled version of C:\Users\BENBOU~1\AppData\Local\Temp\ink_ext_XXXXXX.svgRX6WVZ @ 3500.00)
+( unicorn.py --tab="plotter_setup" --pen-up-angle=35 --pen-down-angle=0 --start-delay=150 --stop-delay=150 --xy-feedrate=3500 --z-feedrate=150 --z-height=0 --finished-height=0 --register-pen=true --x-home=0 --y-home=0 --num-copies=1 --continuous=false --pause-on-layer-change=false C:\Users\BENBOU~1\AppData\Local\Temp\ink_ext_XXXXXX.svgRX6WVZ )
+G21 (metric ftw)
+G90 (absolute mode)
+G92 X0.00 Y0.00 Z0.00 (you are here)
+
+M300 S0 (pen down)
+G4 P150 (wait 150ms)
+M300 S35 (pen up)
+G4 P150 (wait 150ms)
+M18 (disengage drives)
+M01 (Was registration test successful?)
+M17 (engage drives if YES, and continue)
+
+(Polyline consisting of 1323 segments.)
+G1 X11.14 Y14.05 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X12.05 Y14.05 F3500.00
+G1 X12.10 Y14.04 F3500.00
+G1 X11.59 Y14.03 F3500.00
+G1 X11.08 Y14.04 F3500.00
+G1 X11.14 Y14.05 F3500.00
+G1 X11.14 Y14.05 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X10.13 Y14.10 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X10.38 Y14.10 F3500.00
+G1 X10.24 Y14.07 F3500.00
+G1 X10.13 Y14.10 F3500.00
+G1 X10.13 Y14.10 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X12.81 Y14.10 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X13.13 Y14.10 F3500.00
+G1 X12.97 Y14.08 F3500.00
+G1 X12.81 Y14.10 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X9.69 Y14.14 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X9.86 Y14.14 F3500.00
+G1 X9.77 Y14.12 F3500.00
+G1 X9.69 Y14.14 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X13.50 Y14.14 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X13.72 Y14.14 F3500.00
+G1 X13.61 Y14.12 F3500.00
+G1 X13.50 Y14.14 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X9.19 Y14.19 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X9.37 Y14.19 F3500.00
+G1 X9.28 Y14.17 F3500.00
+G1 X9.19 Y14.19 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X14.04 Y14.19 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X14.26 Y14.19 F3500.00
+G1 X14.15 Y14.17 F3500.00
+G1 X14.04 Y14.19 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X8.75 Y14.24 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X8.95 Y14.24 F3500.00
+G1 X8.86 Y14.22 F3500.00
+G1 X8.75 Y14.24 F3500.00
+G1 X8.75 Y14.24 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X14.53 Y14.24 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X14.76 Y14.24 F3500.00
+G1 X14.65 Y14.22 F3500.00
+G1 X14.53 Y14.24 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X8.31 Y14.29 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X8.50 Y14.29 F3500.00
+G1 X8.42 Y14.27 F3500.00
+G1 X8.31 Y14.29 F3500.00
+G1 X8.31 Y14.29 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X15.08 Y14.29 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X15.30 Y14.29 F3500.00
+G1 X15.19 Y14.27 F3500.00
+G1 X15.08 Y14.29 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X7.86 Y14.34 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X8.06 Y14.34 F3500.00
+G1 X7.98 Y14.32 F3500.00
+G1 X7.86 Y14.34 F3500.00
+G1 X7.86 Y14.34 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X15.59 Y14.34 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X15.84 Y14.34 F3500.00
+G1 X15.70 Y14.32 F3500.00
+G1 X15.59 Y14.34 F3500.00
+G1 X15.59 Y14.34 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-0.18 Y14.39 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X1.22 Y14.39 F3500.00
+G1 X1.30 Y14.38 F3500.00
+G1 X0.52 Y14.38 F3500.00
+G1 X-0.27 Y14.38 F3500.00
+G1 X-0.18 Y14.39 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X7.47 Y14.39 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X7.64 Y14.39 F3500.00
+G1 X7.56 Y14.37 F3500.00
+G1 X7.47 Y14.39 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X16.11 Y14.39 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X16.33 Y14.39 F3500.00
+G1 X16.22 Y14.37 F3500.00
+G1 X16.11 Y14.39 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-1.71 Y14.46 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-3.15 Y15.43 F3500.00
+G1 X-4.15 Y17.25 F3500.00
+G1 X-4.30 Y17.49 F3500.00
+G1 X-4.74 Y18.66 F3500.00
+G1 X-4.61 Y18.34 F3500.00
+G1 X-4.47 Y18.02 F3500.00
+G1 X-4.53 Y18.29 F3500.00
+G1 X-4.59 Y18.57 F3500.00
+G1 X-4.48 Y18.31 F3500.00
+G1 X-3.76 Y16.51 F3500.00
+G1 X-2.73 Y15.05 F3500.00
+G1 X-1.48 Y14.50 F3500.00
+G1 X-1.06 Y14.43 F3500.00
+G1 X-1.71 Y14.46 F3500.00
+G1 X-1.71 Y14.46 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-4.38 Y17.86 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-4.45 Y17.96 F3500.00
+G1 X-4.32 Y17.67 F3500.00
+G1 X-4.38 Y17.86 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X2.08 Y14.44 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X2.23 Y14.44 F3500.00
+G1 X2.17 Y14.41 F3500.00
+G1 X2.08 Y14.44 F3500.00
+G1 X2.08 Y14.44 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X7.03 Y14.44 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X7.20 Y14.44 F3500.00
+G1 X7.11 Y14.42 F3500.00
+G1 X7.03 Y14.44 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X16.65 Y14.44 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X16.87 Y14.44 F3500.00
+G1 X16.76 Y14.42 F3500.00
+G1 X16.65 Y14.44 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X2.45 Y14.48 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X2.55 Y14.49 F3500.00
+G1 X2.52 Y14.46 F3500.00
+G1 X2.45 Y14.48 F3500.00
+G1 X2.45 Y14.48 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X6.58 Y14.49 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X6.78 Y14.49 F3500.00
+G1 X6.70 Y14.47 F3500.00
+G1 X6.58 Y14.49 F3500.00
+G1 X6.58 Y14.49 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X17.17 Y14.49 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X17.36 Y14.49 F3500.00
+G1 X17.28 Y14.47 F3500.00
+G1 X17.17 Y14.49 F3500.00
+G1 X17.17 Y14.49 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X2.95 Y14.63 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X3.27 Y14.75 F3500.00
+G1 X3.25 Y14.80 F3500.00
+G1 X3.36 Y14.85 F3500.00
+G1 X3.15 Y14.67 F3500.00
+G1 X2.74 Y14.50 F3500.00
+G1 X2.95 Y14.63 F3500.00
+G1 X2.95 Y14.63 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X6.17 Y14.54 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X6.31 Y14.54 F3500.00
+G1 X6.25 Y14.51 F3500.00
+G1 X6.17 Y14.54 F3500.00
+G1 X6.17 Y14.54 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X17.71 Y14.54 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X17.91 Y14.54 F3500.00
+G1 X17.82 Y14.52 F3500.00
+G1 X17.71 Y14.54 F3500.00
+G1 X17.71 Y14.54 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X5.72 Y14.59 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X5.87 Y14.59 F3500.00
+G1 X5.81 Y14.56 F3500.00
+G1 X5.72 Y14.58 F3500.00
+G1 X5.72 Y14.59 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X18.25 Y14.59 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X18.42 Y14.59 F3500.00
+G1 X18.34 Y14.56 F3500.00
+G1 X18.25 Y14.59 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X5.28 Y14.63 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X5.43 Y14.64 F3500.00
+G1 X5.37 Y14.61 F3500.00
+G1 X5.28 Y14.63 F3500.00
+G1 X5.28 Y14.63 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X18.79 Y14.64 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X18.96 Y14.64 F3500.00
+G1 X18.88 Y14.61 F3500.00
+G1 X18.79 Y14.64 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X4.89 Y14.68 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X5.01 Y14.68 F3500.00
+G1 X4.95 Y14.66 F3500.00
+G1 X4.89 Y14.68 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X19.31 Y14.68 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X19.46 Y14.69 F3500.00
+G1 X19.40 Y14.66 F3500.00
+G1 X19.31 Y14.68 F3500.00
+G1 X19.31 Y14.68 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X3.71 Y14.78 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X3.83 Y14.78 F3500.00
+G1 X3.77 Y14.76 F3500.00
+G1 X3.71 Y14.78 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X20.74 Y14.78 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X20.88 Y14.78 F3500.00
+G1 X20.82 Y14.76 F3500.00
+G1 X20.74 Y14.78 F3500.00
+G1 X20.74 Y14.78 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X21.25 Y14.83 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X21.43 Y14.83 F3500.00
+G1 X21.34 Y14.81 F3500.00
+G1 X21.25 Y14.83 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X2.94 Y14.88 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X3.04 Y14.88 F3500.00
+G1 X3.01 Y14.85 F3500.00
+G1 X2.94 Y14.88 F3500.00
+G1 X2.94 Y14.88 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X21.77 Y14.88 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X21.92 Y14.88 F3500.00
+G1 X21.86 Y14.86 F3500.00
+G1 X21.77 Y14.88 F3500.00
+G1 X21.77 Y14.88 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-0.22 Y14.97 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-0.13 Y15.05 F3500.00
+G1 X-0.17 Y14.97 F3500.00
+G1 X-0.26 Y14.90 F3500.00
+G1 X-0.22 Y14.97 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X2.70 Y14.93 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X2.79 Y14.93 F3500.00
+G1 X2.76 Y14.90 F3500.00
+G1 X2.70 Y14.93 F3500.00
+G1 X2.70 Y14.93 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X22.29 Y14.93 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X22.46 Y14.93 F3500.00
+G1 X22.37 Y14.91 F3500.00
+G1 X22.29 Y14.93 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X2.45 Y14.98 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X2.55 Y14.98 F3500.00
+G1 X2.52 Y14.95 F3500.00
+G1 X2.45 Y14.98 F3500.00
+G1 X2.45 Y14.98 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X22.83 Y14.98 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X23.03 Y14.98 F3500.00
+G1 X22.94 Y14.96 F3500.00
+G1 X22.83 Y14.98 F3500.00
+G1 X22.83 Y14.98 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X2.23 Y15.03 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X2.35 Y15.03 F3500.00
+G1 X2.29 Y15.00 F3500.00
+G1 X2.23 Y15.03 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X10.99 Y15.03 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X11.90 Y15.03 F3500.00
+G1 X11.96 Y15.02 F3500.00
+G1 X11.45 Y15.02 F3500.00
+G1 X10.94 Y15.02 F3500.00
+G1 X10.99 Y15.03 F3500.00
+G1 X10.99 Y15.03 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X23.32 Y15.03 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X23.52 Y15.03 F3500.00
+G1 X23.43 Y15.01 F3500.00
+G1 X23.32 Y15.03 F3500.00
+G1 X23.32 Y15.03 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X2.01 Y15.07 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X2.10 Y15.08 F3500.00
+G1 X2.07 Y15.05 F3500.00
+G1 X2.01 Y15.07 F3500.00
+G1 X2.01 Y15.07 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X9.56 Y15.08 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X10.00 Y15.08 F3500.00
+G1 X9.80 Y15.06 F3500.00
+G1 X9.56 Y15.08 F3500.00
+G1 X9.56 Y15.08 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X12.84 Y15.08 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X13.21 Y15.08 F3500.00
+G1 X13.02 Y15.06 F3500.00
+G1 X12.84 Y15.08 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X23.76 Y15.08 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X23.94 Y15.08 F3500.00
+G1 X23.85 Y15.06 F3500.00
+G1 X23.76 Y15.08 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X1.87 Y15.15 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X1.86 Y15.22 F3500.00
+G1 X1.91 Y15.17 F3500.00
+G1 X1.87 Y15.15 F3500.00
+G1 X1.87 Y15.15 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X8.63 Y15.13 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X8.97 Y15.13 F3500.00
+G1 X8.81 Y15.11 F3500.00
+G1 X8.63 Y15.13 F3500.00
+G1 X8.63 Y15.13 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X13.67 Y15.13 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X14.04 Y15.13 F3500.00
+G1 X13.86 Y15.11 F3500.00
+G1 X13.67 Y15.13 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X24.16 Y15.13 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X24.33 Y15.13 F3500.00
+G1 X24.24 Y15.11 F3500.00
+G1 X24.16 Y15.13 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X0.11 Y15.44 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X0.31 Y15.71 F3500.00
+G1 X-0.05 Y15.14 F3500.00
+G1 X0.11 Y15.44 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X7.84 Y15.18 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X8.16 Y15.18 F3500.00
+G1 X8.00 Y15.16 F3500.00
+G1 X7.84 Y15.18 F3500.00
+G1 X7.84 Y15.18 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X14.46 Y15.18 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X14.73 Y15.18 F3500.00
+G1 X14.60 Y15.16 F3500.00
+G1 X14.46 Y15.18 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X24.55 Y15.18 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X24.72 Y15.18 F3500.00
+G1 X24.64 Y15.15 F3500.00
+G1 X24.55 Y15.18 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X7.23 Y15.23 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X7.47 Y15.23 F3500.00
+G1 X7.34 Y15.21 F3500.00
+G1 X7.23 Y15.23 F3500.00
+G1 X7.23 Y15.23 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X15.10 Y15.23 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X15.37 Y15.23 F3500.00
+G1 X15.24 Y15.21 F3500.00
+G1 X15.10 Y15.23 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X24.95 Y15.23 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X25.12 Y15.23 F3500.00
+G1 X25.03 Y15.20 F3500.00
+G1 X24.95 Y15.23 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X6.63 Y15.28 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X6.88 Y15.28 F3500.00
+G1 X6.74 Y15.26 F3500.00
+G1 X6.63 Y15.28 F3500.00
+G1 X6.63 Y15.28 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X15.74 Y15.28 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X16.01 Y15.28 F3500.00
+G1 X15.88 Y15.26 F3500.00
+G1 X15.74 Y15.28 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X25.34 Y15.28 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X25.51 Y15.28 F3500.00
+G1 X25.43 Y15.25 F3500.00
+G1 X25.34 Y15.28 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X1.85 Y15.34 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X1.97 Y15.43 F3500.00
+G1 X1.92 Y15.35 F3500.00
+G1 X1.85 Y15.34 F3500.00
+G1 X1.85 Y15.34 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X6.09 Y15.32 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X6.29 Y15.33 F3500.00
+G1 X6.20 Y15.30 F3500.00
+G1 X6.09 Y15.32 F3500.00
+G1 X6.09 Y15.32 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X16.38 Y15.33 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X16.65 Y15.33 F3500.00
+G1 X16.52 Y15.31 F3500.00
+G1 X16.38 Y15.33 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X25.73 Y15.32 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X25.91 Y15.32 F3500.00
+G1 X25.82 Y15.30 F3500.00
+G1 X25.73 Y15.32 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X5.65 Y15.37 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X5.82 Y15.37 F3500.00
+G1 X5.74 Y15.35 F3500.00
+G1 X5.65 Y15.37 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X16.97 Y15.37 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X17.17 Y15.37 F3500.00
+G1 X17.08 Y15.35 F3500.00
+G1 X16.97 Y15.37 F3500.00
+G1 X16.97 Y15.37 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X26.13 Y15.37 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X26.30 Y15.37 F3500.00
+G1 X26.21 Y15.35 F3500.00
+G1 X26.13 Y15.37 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X5.21 Y15.42 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X5.40 Y15.42 F3500.00
+G1 X5.32 Y15.40 F3500.00
+G1 X5.21 Y15.42 F3500.00
+G1 X5.21 Y15.42 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X17.51 Y15.42 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X17.76 Y15.42 F3500.00
+G1 X17.62 Y15.40 F3500.00
+G1 X17.51 Y15.42 F3500.00
+G1 X17.51 Y15.42 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X26.52 Y15.42 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X26.69 Y15.42 F3500.00
+G1 X26.61 Y15.40 F3500.00
+G1 X26.52 Y15.42 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X2.06 Y15.47 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X2.15 Y15.47 F3500.00
+G1 X2.12 Y15.44 F3500.00
+G1 X2.06 Y15.47 F3500.00
+G1 X2.06 Y15.47 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X4.67 Y15.47 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X4.91 Y15.47 F3500.00
+G1 X4.78 Y15.45 F3500.00
+G1 X4.67 Y15.47 F3500.00
+G1 X4.67 Y15.47 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X18.05 Y15.47 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X18.25 Y15.47 F3500.00
+G1 X18.17 Y15.45 F3500.00
+G1 X18.05 Y15.47 F3500.00
+G1 X18.05 Y15.47 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X26.94 Y15.47 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X27.09 Y15.47 F3500.00
+G1 X27.03 Y15.45 F3500.00
+G1 X26.94 Y15.47 F3500.00
+G1 X26.94 Y15.47 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X2.25 Y15.52 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X2.35 Y15.52 F3500.00
+G1 X2.32 Y15.49 F3500.00
+G1 X2.25 Y15.52 F3500.00
+G1 X2.25 Y15.52 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X4.12 Y15.52 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X4.30 Y15.52 F3500.00
+G1 X4.21 Y15.50 F3500.00
+G1 X4.12 Y15.52 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X18.65 Y15.52 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X18.82 Y15.52 F3500.00
+G1 X18.73 Y15.50 F3500.00
+G1 X18.65 Y15.52 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X27.33 Y15.52 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X27.48 Y15.52 F3500.00
+G1 X27.42 Y15.50 F3500.00
+G1 X27.33 Y15.52 F3500.00
+G1 X27.33 Y15.52 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X2.52 Y15.57 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X2.67 Y15.57 F3500.00
+G1 X2.61 Y15.55 F3500.00
+G1 X2.52 Y15.57 F3500.00
+G1 X2.52 Y15.57 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X3.61 Y15.57 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X3.75 Y15.57 F3500.00
+G1 X3.69 Y15.55 F3500.00
+G1 X3.61 Y15.57 F3500.00
+G1 X3.61 Y15.57 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X19.04 Y15.57 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X19.13 Y15.57 F3500.00
+G1 X19.10 Y15.54 F3500.00
+G1 X19.04 Y15.57 F3500.00
+G1 X19.04 Y15.57 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X27.68 Y15.57 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X27.80 Y15.57 F3500.00
+G1 X27.74 Y15.54 F3500.00
+G1 X27.68 Y15.57 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X2.94 Y15.62 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X3.08 Y15.66 F3500.00
+G1 X2.91 Y15.96 F3500.00
+G1 X2.73 Y16.30 F3500.00
+G1 X2.87 Y16.10 F3500.00
+G1 X3.27 Y15.62 F3500.00
+G1 X3.10 Y15.60 F3500.00
+G1 X2.94 Y15.62 F3500.00
+G1 X2.94 Y15.62 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X28.00 Y15.62 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X28.09 Y15.62 F3500.00
+G1 X28.06 Y15.59 F3500.00
+G1 X28.00 Y15.62 F3500.00
+G1 X28.00 Y15.62 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X19.53 Y15.67 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X19.63 Y15.67 F3500.00
+G1 X19.60 Y15.64 F3500.00
+G1 X19.53 Y15.67 F3500.00
+G1 X19.53 Y15.67 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X13.50 Y15.77 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X13.82 Y15.77 F3500.00
+G1 X13.66 Y15.75 F3500.00
+G1 X13.50 Y15.77 F3500.00
+G1 X13.50 Y15.77 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X19.91 Y15.78 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X20.04 Y15.83 F3500.00
+G1 X20.01 Y15.78 F3500.00
+G1 X19.89 Y15.74 F3500.00
+G1 X19.91 Y15.78 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X29.08 Y15.76 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X29.18 Y15.77 F3500.00
+G1 X29.15 Y15.74 F3500.00
+G1 X29.08 Y15.76 F3500.00
+G1 X29.08 Y15.76 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-2.71 Y15.88 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-3.44 Y16.48 F3500.00
+G1 X-3.90 Y17.26 F3500.00
+G1 X-3.69 Y16.93 F3500.00
+G1 X-2.63 Y15.89 F3500.00
+G1 X-2.44 Y15.79 F3500.00
+G1 X-2.71 Y15.88 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X13.06 Y15.82 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X13.18 Y15.82 F3500.00
+G1 X13.12 Y15.79 F3500.00
+G1 X13.06 Y15.82 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X14.51 Y15.82 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X14.76 Y15.82 F3500.00
+G1 X14.62 Y15.80 F3500.00
+G1 X14.51 Y15.82 F3500.00
+G1 X14.51 Y15.82 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X29.40 Y15.82 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X29.52 Y15.82 F3500.00
+G1 X29.46 Y15.79 F3500.00
+G1 X29.40 Y15.82 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-1.57 Y15.91 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-0.96 Y16.43 F3500.00
+G1 X-0.48 Y17.28 F3500.00
+G1 X-0.34 Y17.53 F3500.00
+G1 X-0.97 Y16.35 F3500.00
+G1 X-1.67 Y15.83 F3500.00
+G1 X-1.57 Y15.91 F3500.00
+G1 X-1.57 Y15.91 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X12.69 Y15.92 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X12.49 Y16.01 F3500.00
+G1 X12.97 Y15.85 F3500.00
+G1 X12.69 Y15.92 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X15.15 Y15.87 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X15.35 Y15.87 F3500.00
+G1 X15.26 Y15.85 F3500.00
+G1 X15.15 Y15.87 F3500.00
+G1 X15.15 Y15.87 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X20.37 Y15.87 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X20.54 Y15.87 F3500.00
+G1 X20.45 Y15.84 F3500.00
+G1 X20.37 Y15.87 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X29.70 Y15.87 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X29.82 Y15.87 F3500.00
+G1 X29.76 Y15.84 F3500.00
+G1 X29.70 Y15.87 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X0.37 Y15.91 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X0.42 Y16.03 F3500.00
+G1 X0.47 Y16.05 F3500.00
+G1 X0.42 Y15.93 F3500.00
+G1 X0.37 Y15.91 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X15.74 Y15.92 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X15.94 Y15.92 F3500.00
+G1 X15.85 Y15.89 F3500.00
+G1 X15.74 Y15.92 F3500.00
+G1 X15.74 Y15.92 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X20.91 Y15.92 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X21.11 Y15.92 F3500.00
+G1 X21.02 Y15.89 F3500.00
+G1 X20.91 Y15.92 F3500.00
+G1 X20.91 Y15.92 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X29.99 Y15.91 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X30.11 Y15.91 F3500.00
+G1 X30.05 Y15.89 F3500.00
+G1 X29.99 Y15.91 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X16.38 Y15.97 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X16.63 Y15.97 F3500.00
+G1 X16.49 Y15.95 F3500.00
+G1 X16.38 Y15.97 F3500.00
+G1 X16.38 Y15.97 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X21.52 Y15.97 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X21.75 Y15.97 F3500.00
+G1 X21.64 Y15.94 F3500.00
+G1 X21.52 Y15.97 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X30.29 Y15.96 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X30.43 Y15.96 F3500.00
+G1 X30.37 Y15.94 F3500.00
+G1 X30.29 Y15.96 F3500.00
+G1 X30.29 Y15.96 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X17.02 Y16.02 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X17.27 Y16.01 F3500.00
+G1 X17.13 Y15.99 F3500.00
+G1 X17.02 Y16.02 F3500.00
+G1 X17.02 Y16.02 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X22.04 Y16.01 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X22.24 Y16.02 F3500.00
+G1 X22.15 Y15.99 F3500.00
+G1 X22.04 Y16.01 F3500.00
+G1 X22.04 Y16.01 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X30.58 Y16.01 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X30.73 Y16.01 F3500.00
+G1 X30.67 Y15.99 F3500.00
+G1 X30.58 Y16.01 F3500.00
+G1 X30.58 Y16.01 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X11.95 Y16.21 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X11.56 Y16.41 F3500.00
+G1 X12.43 Y16.05 F3500.00
+G1 X11.95 Y16.21 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X17.59 Y16.06 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X17.81 Y16.06 F3500.00
+G1 X17.70 Y16.04 F3500.00
+G1 X17.59 Y16.06 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X22.53 Y16.06 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X22.73 Y16.06 F3500.00
+G1 X22.64 Y16.04 F3500.00
+G1 X22.53 Y16.06 F3500.00
+G1 X22.53 Y16.06 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X30.93 Y16.06 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X31.05 Y16.06 F3500.00
+G1 X30.99 Y16.04 F3500.00
+G1 X30.93 Y16.06 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X18.15 Y16.11 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X18.40 Y16.11 F3500.00
+G1 X18.26 Y16.09 F3500.00
+G1 X18.15 Y16.11 F3500.00
+G1 X18.15 Y16.11 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X23.05 Y16.11 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X23.27 Y16.11 F3500.00
+G1 X23.16 Y16.09 F3500.00
+G1 X23.05 Y16.11 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X31.22 Y16.11 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X31.35 Y16.11 F3500.00
+G1 X31.28 Y16.09 F3500.00
+G1 X31.22 Y16.11 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X18.72 Y16.16 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X18.94 Y16.16 F3500.00
+G1 X18.83 Y16.14 F3500.00
+G1 X18.72 Y16.16 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X23.54 Y16.16 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X23.76 Y16.16 F3500.00
+G1 X23.65 Y16.14 F3500.00
+G1 X23.54 Y16.16 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X31.52 Y16.16 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X31.66 Y16.16 F3500.00
+G1 X31.60 Y16.14 F3500.00
+G1 X31.52 Y16.16 F3500.00
+G1 X31.52 Y16.16 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-2.25 Y16.21 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-2.10 Y16.21 F3500.00
+G1 X-2.16 Y16.19 F3500.00
+G1 X-2.25 Y16.21 F3500.00
+G1 X-2.25 Y16.21 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X13.07 Y16.22 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X13.43 Y16.26 F3500.00
+G1 X14.13 Y16.30 F3500.00
+G1 X14.42 Y16.29 F3500.00
+G1 X13.07 Y16.22 F3500.00
+G1 X13.07 Y16.22 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X19.24 Y16.21 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X19.48 Y16.21 F3500.00
+G1 X19.35 Y16.19 F3500.00
+G1 X19.24 Y16.21 F3500.00
+G1 X19.24 Y16.21 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X24.01 Y16.21 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X24.21 Y16.21 F3500.00
+G1 X24.12 Y16.19 F3500.00
+G1 X24.01 Y16.21 F3500.00
+G1 X24.01 Y16.21 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X31.81 Y16.21 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X31.96 Y16.21 F3500.00
+G1 X31.90 Y16.19 F3500.00
+G1 X31.81 Y16.21 F3500.00
+G1 X31.81 Y16.21 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-2.43 Y16.29 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-2.47 Y17.17 F3500.00
+G1 X-2.46 Y17.97 F3500.00
+G1 X-2.45 Y17.16 F3500.00
+G1 X-2.38 Y16.29 F3500.00
+G1 X-2.35 Y16.23 F3500.00
+G1 X-2.43 Y16.29 F3500.00
+G1 X-2.43 Y16.29 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-1.94 Y16.26 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-1.83 Y16.34 F3500.00
+G1 X-1.81 Y16.33 F3500.00
+G1 X-1.92 Y16.24 F3500.00
+G1 X-1.94 Y16.26 F3500.00
+G1 X-1.94 Y16.26 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X12.44 Y16.26 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X12.35 Y16.32 F3500.00
+G1 X12.87 Y16.25 F3500.00
+G1 X12.44 Y16.26 F3500.00
+G1 X12.44 Y16.26 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X19.80 Y16.26 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X20.02 Y16.26 F3500.00
+G1 X19.91 Y16.24 F3500.00
+G1 X19.80 Y16.26 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X24.50 Y16.26 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X24.70 Y16.26 F3500.00
+G1 X24.61 Y16.24 F3500.00
+G1 X24.50 Y16.26 F3500.00
+G1 X24.50 Y16.26 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X32.11 Y16.26 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X32.25 Y16.26 F3500.00
+G1 X32.19 Y16.24 F3500.00
+G1 X32.11 Y16.26 F3500.00
+G1 X32.11 Y16.26 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X14.75 Y16.30 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X15.45 Y16.32 F3500.00
+G1 X15.08 Y16.28 F3500.00
+G1 X14.75 Y16.30 F3500.00
+G1 X14.75 Y16.30 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X20.32 Y16.31 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X20.51 Y16.31 F3500.00
+G1 X20.43 Y16.29 F3500.00
+G1 X20.32 Y16.31 F3500.00
+G1 X20.32 Y16.31 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X24.95 Y16.31 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X25.14 Y16.31 F3500.00
+G1 X25.06 Y16.29 F3500.00
+G1 X24.95 Y16.31 F3500.00
+G1 X24.95 Y16.31 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X32.43 Y16.31 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X32.52 Y16.31 F3500.00
+G1 X32.49 Y16.28 F3500.00
+G1 X32.43 Y16.31 F3500.00
+G1 X32.43 Y16.31 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X12.01 Y16.37 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X12.01 Y16.42 F3500.00
+G1 X12.21 Y16.37 F3500.00
+G1 X12.21 Y16.33 F3500.00
+G1 X12.01 Y16.37 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X15.80 Y16.37 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X16.12 Y16.37 F3500.00
+G1 X15.88 Y16.33 F3500.00
+G1 X15.56 Y16.34 F3500.00
+G1 X15.80 Y16.37 F3500.00
+G1 X15.80 Y16.37 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X20.76 Y16.36 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X20.96 Y16.36 F3500.00
+G1 X20.87 Y16.34 F3500.00
+G1 X20.76 Y16.36 F3500.00
+G1 X20.76 Y16.36 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X25.39 Y16.36 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X25.59 Y16.36 F3500.00
+G1 X25.50 Y16.34 F3500.00
+G1 X25.39 Y16.36 F3500.00
+G1 X25.39 Y16.36 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X32.63 Y16.36 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X32.72 Y16.36 F3500.00
+G1 X32.69 Y16.33 F3500.00
+G1 X32.63 Y16.36 F3500.00
+G1 X32.63 Y16.36 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-3.08 Y16.62 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-3.32 Y17.15 F3500.00
+G1 X-3.28 Y17.53 F3500.00
+G1 X-3.26 Y17.27 F3500.00
+G1 X-3.15 Y16.74 F3500.00
+G1 X-2.71 Y16.48 F3500.00
+G1 X-2.67 Y17.43 F3500.00
+G1 X-2.65 Y18.32 F3500.00
+G1 X-2.66 Y17.36 F3500.00
+G1 X-2.75 Y16.38 F3500.00
+G1 X-3.08 Y16.62 F3500.00
+G1 X-3.08 Y16.62 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X7.52 Y16.41 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X8.09 Y16.41 F3500.00
+G1 X7.80 Y16.39 F3500.00
+G1 X7.52 Y16.41 F3500.00
+G1 X7.52 Y16.41 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X8.82 Y16.49 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X8.76 Y16.71 F3500.00
+G1 X8.65 Y16.87 F3500.00
+G1 X4.88 Y23.30 F3500.00
+G1 X4.66 Y23.52 F3500.00
+G1 X4.64 Y23.54 F3500.00
+G1 X4.77 Y23.53 F3500.00
+G1 X8.89 Y16.48 F3500.00
+G1 X8.84 Y16.37 F3500.00
+G1 X8.82 Y16.49 F3500.00
+G1 X8.82 Y16.49 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X16.28 Y16.40 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X16.96 Y16.41 F3500.00
+G1 X16.61 Y16.37 F3500.00
+G1 X16.28 Y16.40 F3500.00
+G1 X16.28 Y16.40 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X21.20 Y16.41 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X21.38 Y16.41 F3500.00
+G1 X21.29 Y16.39 F3500.00
+G1 X21.20 Y16.41 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X25.88 Y16.41 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X26.05 Y16.41 F3500.00
+G1 X25.97 Y16.39 F3500.00
+G1 X25.88 Y16.41 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X32.87 Y16.40 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X32.97 Y16.41 F3500.00
+G1 X32.94 Y16.38 F3500.00
+G1 X32.87 Y16.40 F3500.00
+G1 X32.87 Y16.40 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-1.65 Y16.52 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-1.68 Y16.71 F3500.00
+G1 X-1.65 Y16.69 F3500.00
+G1 X-1.57 Y16.50 F3500.00
+G1 X-1.54 Y16.42 F3500.00
+G1 X-1.65 Y16.52 F3500.00
+G1 X-1.65 Y16.52 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X6.51 Y16.46 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X6.82 Y16.59 F3500.00
+G1 X6.76 Y16.78 F3500.00
+G1 X6.69 Y17.11 F3500.00
+G1 X6.89 Y16.51 F3500.00
+G1 X6.55 Y16.43 F3500.00
+G1 X6.20 Y16.44 F3500.00
+G1 X6.51 Y16.46 F3500.00
+G1 X6.51 Y16.46 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X10.93 Y16.67 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X10.38 Y16.96 F3500.00
+G1 X10.39 Y17.08 F3500.00
+G1 X10.45 Y17.00 F3500.00
+G1 X10.53 Y16.94 F3500.00
+G1 X10.73 Y16.87 F3500.00
+G1 X11.30 Y16.67 F3500.00
+G1 X11.89 Y16.42 F3500.00
+G1 X11.50 Y16.54 F3500.00
+G1 X11.15 Y16.64 F3500.00
+G1 X11.34 Y16.53 F3500.00
+G1 X11.45 Y16.44 F3500.00
+G1 X10.93 Y16.67 F3500.00
+G1 X10.93 Y16.67 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X17.06 Y16.44 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X18.33 Y16.57 F3500.00
+G1 X19.12 Y16.69 F3500.00
+G1 X19.44 Y17.08 F3500.00
+G1 X19.55 Y17.24 F3500.00
+G1 X19.25 Y16.67 F3500.00
+G1 X17.06 Y16.44 F3500.00
+G1 X17.06 Y16.44 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X21.65 Y16.46 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X21.82 Y16.46 F3500.00
+G1 X21.73 Y16.43 F3500.00
+G1 X21.65 Y16.46 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X26.27 Y16.46 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X26.45 Y16.46 F3500.00
+G1 X26.36 Y16.43 F3500.00
+G1 X26.27 Y16.46 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X33.07 Y16.45 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X33.16 Y16.46 F3500.00
+G1 X33.13 Y16.43 F3500.00
+G1 X33.07 Y16.45 F3500.00
+G1 X33.07 Y16.45 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-1.28 Y16.68 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-1.04 Y17.04 F3500.00
+G1 X-0.96 Y17.10 F3500.00
+G1 X-1.43 Y16.47 F3500.00
+G1 X-1.28 Y16.68 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X5.21 Y16.51 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X5.29 Y16.66 F3500.00
+G1 X5.34 Y16.72 F3500.00
+G1 X5.36 Y16.59 F3500.00
+G1 X5.57 Y16.51 F3500.00
+G1 X5.47 Y16.49 F3500.00
+G1 X5.21 Y16.51 F3500.00
+G1 X5.21 Y16.51 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X22.07 Y16.50 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X22.21 Y16.51 F3500.00
+G1 X22.15 Y16.48 F3500.00
+G1 X22.07 Y16.50 F3500.00
+G1 X22.07 Y16.50 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X26.74 Y16.50 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X26.89 Y16.51 F3500.00
+G1 X26.83 Y16.48 F3500.00
+G1 X26.74 Y16.50 F3500.00
+G1 X26.74 Y16.50 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X33.27 Y16.50 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X33.36 Y16.51 F3500.00
+G1 X33.33 Y16.48 F3500.00
+G1 X33.27 Y16.50 F3500.00
+G1 X33.27 Y16.50 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X4.49 Y16.56 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X4.71 Y16.56 F3500.00
+G1 X4.60 Y16.54 F3500.00
+G1 X4.49 Y16.56 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X22.51 Y16.55 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X22.66 Y16.56 F3500.00
+G1 X22.60 Y16.53 F3500.00
+G1 X22.51 Y16.55 F3500.00
+G1 X22.51 Y16.55 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X27.14 Y16.55 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X27.26 Y16.55 F3500.00
+G1 X27.20 Y16.53 F3500.00
+G1 X27.14 Y16.55 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X0.62 Y16.64 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X0.65 Y16.71 F3500.00
+G1 X0.65 Y16.61 F3500.00
+G1 X0.62 Y16.64 F3500.00
+G1 X0.62 Y16.64 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X3.79 Y16.61 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X4.00 Y16.70 F3500.00
+G1 X4.05 Y16.68 F3500.00
+G1 X3.84 Y16.58 F3500.00
+G1 X3.79 Y16.61 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X22.95 Y16.60 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X23.08 Y16.60 F3500.00
+G1 X23.01 Y16.58 F3500.00
+G1 X22.95 Y16.60 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X27.46 Y16.60 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X27.55 Y16.60 F3500.00
+G1 X27.52 Y16.57 F3500.00
+G1 X27.46 Y16.60 F3500.00
+G1 X27.46 Y16.60 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X3.43 Y16.68 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X3.44 Y16.79 F3500.00
+G1 X3.50 Y16.69 F3500.00
+G1 X3.43 Y16.68 F3500.00
+G1 X3.43 Y16.68 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-1.84 Y16.79 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-1.81 Y16.88 F3500.00
+G1 X-1.81 Y16.73 F3500.00
+G1 X-1.84 Y16.79 F3500.00
+G1 X-1.84 Y16.79 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X7.87 Y16.70 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X7.96 Y16.70 F3500.00
+G1 X7.93 Y16.67 F3500.00
+G1 X7.87 Y16.70 F3500.00
+G1 X7.87 Y16.70 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X24.06 Y16.70 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X24.16 Y16.70 F3500.00
+G1 X24.13 Y16.67 F3500.00
+G1 X24.06 Y16.70 F3500.00
+G1 X24.06 Y16.70 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X2.59 Y16.79 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X2.62 Y16.85 F3500.00
+G1 X2.62 Y16.76 F3500.00
+G1 X2.59 Y16.79 F3500.00
+G1 X2.59 Y16.79 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X6.02 Y16.75 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X6.14 Y16.75 F3500.00
+G1 X6.08 Y16.73 F3500.00
+G1 X6.02 Y16.75 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X8.28 Y16.75 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X8.43 Y16.75 F3500.00
+G1 X8.37 Y16.73 F3500.00
+G1 X8.28 Y16.75 F3500.00
+G1 X8.28 Y16.75 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X24.43 Y16.75 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X24.55 Y16.75 F3500.00
+G1 X24.49 Y16.73 F3500.00
+G1 X24.43 Y16.75 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X28.54 Y16.75 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X28.63 Y16.75 F3500.00
+G1 X28.60 Y16.72 F3500.00
+G1 X28.54 Y16.75 F3500.00
+G1 X28.54 Y16.75 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X0.67 Y16.84 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X0.70 Y16.90 F3500.00
+G1 X0.70 Y16.81 F3500.00
+G1 X0.67 Y16.84 F3500.00
+G1 X0.67 Y16.84 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X3.58 Y16.80 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X3.68 Y16.80 F3500.00
+G1 X3.65 Y16.77 F3500.00
+G1 X3.58 Y16.80 F3500.00
+G1 X3.58 Y16.80 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X4.42 Y16.80 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X4.51 Y16.80 F3500.00
+G1 X4.48 Y16.77 F3500.00
+G1 X4.42 Y16.80 F3500.00
+G1 X4.42 Y16.80 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X6.36 Y16.80 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X6.49 Y16.80 F3500.00
+G1 X6.42 Y16.78 F3500.00
+G1 X6.36 Y16.80 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X24.82 Y16.80 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X24.95 Y16.80 F3500.00
+G1 X24.88 Y16.78 F3500.00
+G1 X24.82 Y16.80 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X28.86 Y16.80 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X28.98 Y16.80 F3500.00
+G1 X28.92 Y16.78 F3500.00
+G1 X28.86 Y16.80 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X3.98 Y16.99 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X4.00 Y17.10 F3500.00
+G1 X4.00 Y16.90 F3500.00
+G1 X3.98 Y16.99 F3500.00
+G1 X3.98 Y16.99 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X4.69 Y16.85 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X4.81 Y16.85 F3500.00
+G1 X4.75 Y16.82 F3500.00
+G1 X4.69 Y16.85 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X5.22 Y16.88 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X5.19 Y17.06 F3500.00
+G1 X5.26 Y17.02 F3500.00
+G1 X5.22 Y16.88 F3500.00
+G1 X5.22 Y16.88 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X25.22 Y16.85 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X25.36 Y16.85 F3500.00
+G1 X25.30 Y16.83 F3500.00
+G1 X25.22 Y16.85 F3500.00
+G1 X25.22 Y16.85 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X29.18 Y16.85 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X29.27 Y16.85 F3500.00
+G1 X29.24 Y16.82 F3500.00
+G1 X29.18 Y16.85 F3500.00
+G1 X29.18 Y16.85 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X34.89 Y16.85 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X34.98 Y16.85 F3500.00
+G1 X34.95 Y16.82 F3500.00
+G1 X34.89 Y16.85 F3500.00
+G1 X34.89 Y16.85 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-1.74 Y16.99 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-1.71 Y17.08 F3500.00
+G1 X-1.71 Y16.93 F3500.00
+G1 X-1.74 Y16.99 F3500.00
+G1 X-1.74 Y16.99 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X4.94 Y16.90 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X5.06 Y16.90 F3500.00
+G1 X5.00 Y16.87 F3500.00
+G1 X4.94 Y16.90 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X25.63 Y16.90 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X25.81 Y16.90 F3500.00
+G1 X25.72 Y16.88 F3500.00
+G1 X25.63 Y16.90 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X29.50 Y16.90 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X29.62 Y16.90 F3500.00
+G1 X29.56 Y16.87 F3500.00
+G1 X29.50 Y16.90 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X35.09 Y16.90 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X35.18 Y16.90 F3500.00
+G1 X35.15 Y16.87 F3500.00
+G1 X35.09 Y16.90 F3500.00
+G1 X35.09 Y16.90 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X3.34 Y17.11 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X3.36 Y17.22 F3500.00
+G1 X3.36 Y17.00 F3500.00
+G1 X3.34 Y17.11 F3500.00
+G1 X3.34 Y17.11 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X26.00 Y16.95 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X26.15 Y16.95 F3500.00
+G1 X26.09 Y16.92 F3500.00
+G1 X26.00 Y16.95 F3500.00
+G1 X26.00 Y16.95 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X29.79 Y16.95 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X29.92 Y16.95 F3500.00
+G1 X29.86 Y16.92 F3500.00
+G1 X29.79 Y16.95 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X35.28 Y16.95 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X35.38 Y16.95 F3500.00
+G1 X35.35 Y16.92 F3500.00
+G1 X35.28 Y16.95 F3500.00
+G1 X35.28 Y16.95 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-1.89 Y17.03 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-1.86 Y17.10 F3500.00
+G1 X-1.86 Y17.00 F3500.00
+G1 X-1.89 Y17.03 F3500.00
+G1 X-1.89 Y17.03 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X26.30 Y17.00 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X26.45 Y17.00 F3500.00
+G1 X26.39 Y16.97 F3500.00
+G1 X26.30 Y17.00 F3500.00
+G1 X26.30 Y17.00 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X30.09 Y17.00 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X30.24 Y17.00 F3500.00
+G1 X30.18 Y16.97 F3500.00
+G1 X30.09 Y17.00 F3500.00
+G1 X30.09 Y17.00 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X35.53 Y16.99 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X35.62 Y17.00 F3500.00
+G1 X35.59 Y16.97 F3500.00
+G1 X35.53 Y16.99 F3500.00
+G1 X35.53 Y16.99 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X0.72 Y17.08 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X0.74 Y17.15 F3500.00
+G1 X0.75 Y17.05 F3500.00
+G1 X0.72 Y17.08 F3500.00
+G1 X0.72 Y17.08 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X26.64 Y17.05 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X26.79 Y17.05 F3500.00
+G1 X26.73 Y17.02 F3500.00
+G1 X26.64 Y17.05 F3500.00
+G1 X26.64 Y17.05 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X30.39 Y17.05 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X30.51 Y17.05 F3500.00
+G1 X30.45 Y17.02 F3500.00
+G1 X30.39 Y17.05 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X35.73 Y17.04 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X35.82 Y17.05 F3500.00
+G1 X35.79 Y17.02 F3500.00
+G1 X35.73 Y17.04 F3500.00
+G1 X35.73 Y17.04 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X2.55 Y17.21 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X2.57 Y17.30 F3500.00
+G1 X2.57 Y17.12 F3500.00
+G1 X2.55 Y17.21 F3500.00
+G1 X2.55 Y17.21 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X26.96 Y17.10 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X27.14 Y17.10 F3500.00
+G1 X27.05 Y17.07 F3500.00
+G1 X26.96 Y17.10 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X30.68 Y17.10 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X30.80 Y17.10 F3500.00
+G1 X30.74 Y17.07 F3500.00
+G1 X30.68 Y17.10 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X35.92 Y17.09 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X36.02 Y17.10 F3500.00
+G1 X35.99 Y17.07 F3500.00
+G1 X35.92 Y17.09 F3500.00
+G1 X35.92 Y17.09 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X27.28 Y17.14 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X27.43 Y17.15 F3500.00
+G1 X27.37 Y17.12 F3500.00
+G1 X27.28 Y17.14 F3500.00
+G1 X27.28 Y17.14 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X30.98 Y17.14 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X31.10 Y17.14 F3500.00
+G1 X31.04 Y17.12 F3500.00
+G1 X30.98 Y17.14 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X36.14 Y17.14 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X36.27 Y17.14 F3500.00
+G1 X36.21 Y17.12 F3500.00
+G1 X36.14 Y17.14 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-1.94 Y17.23 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-1.91 Y17.30 F3500.00
+G1 X-1.91 Y17.20 F3500.00
+G1 X-1.94 Y17.23 F3500.00
+G1 X-1.94 Y17.23 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X6.53 Y17.44 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X6.44 Y17.74 F3500.00
+G1 X6.57 Y17.48 F3500.00
+G1 X6.65 Y17.18 F3500.00
+G1 X6.53 Y17.44 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X27.63 Y17.19 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X27.78 Y17.20 F3500.00
+G1 X27.71 Y17.17 F3500.00
+G1 X27.63 Y17.19 F3500.00
+G1 X27.63 Y17.19 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X31.22 Y17.19 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X31.37 Y17.20 F3500.00
+G1 X31.31 Y17.17 F3500.00
+G1 X31.22 Y17.19 F3500.00
+G1 X31.22 Y17.19 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X36.37 Y17.19 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X36.46 Y17.20 F3500.00
+G1 X36.43 Y17.17 F3500.00
+G1 X36.37 Y17.19 F3500.00
+G1 X36.37 Y17.19 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-1.78 Y17.36 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-1.76 Y17.44 F3500.00
+G1 X-1.76 Y17.27 F3500.00
+G1 X-1.78 Y17.36 F3500.00
+G1 X-1.78 Y17.36 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X5.15 Y17.28 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X5.17 Y17.35 F3500.00
+G1 X5.18 Y17.25 F3500.00
+G1 X5.15 Y17.28 F3500.00
+G1 X5.15 Y17.28 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X10.31 Y17.27 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X10.68 Y18.28 F3500.00
+G1 X11.44 Y20.04 F3500.00
+G1 X10.90 Y18.71 F3500.00
+G1 X10.84 Y18.54 F3500.00
+G1 X10.76 Y18.32 F3500.00
+G1 X10.53 Y17.71 F3500.00
+G1 X10.46 Y17.59 F3500.00
+G1 X10.41 Y17.43 F3500.00
+G1 X10.36 Y17.26 F3500.00
+G1 X10.31 Y17.27 F3500.00
+G1 X10.31 Y17.27 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X27.97 Y17.24 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X28.12 Y17.24 F3500.00
+G1 X28.06 Y17.22 F3500.00
+G1 X27.97 Y17.24 F3500.00
+G1 X27.97 Y17.24 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X31.52 Y17.24 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X31.64 Y17.24 F3500.00
+G1 X31.58 Y17.22 F3500.00
+G1 X31.52 Y17.24 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X36.56 Y17.24 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X36.66 Y17.24 F3500.00
+G1 X36.63 Y17.21 F3500.00
+G1 X36.56 Y17.24 F3500.00
+G1 X36.56 Y17.24 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-3.82 Y17.76 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-4.07 Y18.26 F3500.00
+G1 X-3.99 Y18.46 F3500.00
+G1 X-3.84 Y18.77 F3500.00
+G1 X-3.89 Y18.57 F3500.00
+G1 X-4.02 Y18.28 F3500.00
+G1 X-3.78 Y17.79 F3500.00
+G1 X-3.48 Y17.39 F3500.00
+G1 X-3.43 Y17.39 F3500.00
+G1 X-3.55 Y17.31 F3500.00
+G1 X-3.82 Y17.76 F3500.00
+G1 X-3.82 Y17.76 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X0.77 Y17.33 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X0.79 Y17.39 F3500.00
+G1 X0.80 Y17.30 F3500.00
+G1 X0.77 Y17.33 F3500.00
+G1 X0.77 Y17.33 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X3.93 Y17.41 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X3.95 Y17.49 F3500.00
+G1 X3.95 Y17.32 F3500.00
+G1 X3.93 Y17.41 F3500.00
+G1 X3.93 Y17.41 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X28.27 Y17.29 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X28.42 Y17.29 F3500.00
+G1 X28.35 Y17.27 F3500.00
+G1 X28.27 Y17.29 F3500.00
+G1 X28.27 Y17.29 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X31.81 Y17.29 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X31.94 Y17.29 F3500.00
+G1 X31.87 Y17.27 F3500.00
+G1 X31.81 Y17.29 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X36.76 Y17.29 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X36.86 Y17.29 F3500.00
+G1 X36.83 Y17.26 F3500.00
+G1 X36.76 Y17.29 F3500.00
+G1 X36.76 Y17.29 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-4.03 Y17.48 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-4.10 Y17.69 F3500.00
+G1 X-4.01 Y17.54 F3500.00
+G1 X-3.92 Y17.33 F3500.00
+G1 X-4.03 Y17.48 F3500.00
+G1 X-4.03 Y17.48 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-1.32 Y17.94 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-1.60 Y18.61 F3500.00
+G1 X-1.30 Y18.03 F3500.00
+G1 X-1.02 Y17.36 F3500.00
+G1 X-1.32 Y17.94 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X28.61 Y17.34 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X28.76 Y17.34 F3500.00
+G1 X28.70 Y17.32 F3500.00
+G1 X28.61 Y17.34 F3500.00
+G1 X28.61 Y17.34 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X32.06 Y17.34 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X32.18 Y17.34 F3500.00
+G1 X32.12 Y17.32 F3500.00
+G1 X32.06 Y17.34 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X36.98 Y17.34 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X37.10 Y17.34 F3500.00
+G1 X37.04 Y17.32 F3500.00
+G1 X36.98 Y17.34 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X28.96 Y17.39 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X29.08 Y17.39 F3500.00
+G1 X29.02 Y17.37 F3500.00
+G1 X28.96 Y17.39 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X32.33 Y17.39 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X32.42 Y17.39 F3500.00
+G1 X32.40 Y17.36 F3500.00
+G1 X32.33 Y17.39 F3500.00
+G1 X32.33 Y17.39 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X37.20 Y17.39 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X37.30 Y17.39 F3500.00
+G1 X37.27 Y17.36 F3500.00
+G1 X37.20 Y17.39 F3500.00
+G1 X37.20 Y17.39 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-1.99 Y17.48 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-1.96 Y17.54 F3500.00
+G1 X-1.96 Y17.45 F3500.00
+G1 X-1.99 Y17.48 F3500.00
+G1 X-1.99 Y17.48 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X3.29 Y17.58 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X3.31 Y17.69 F3500.00
+G1 X3.31 Y17.49 F3500.00
+G1 X3.29 Y17.58 F3500.00
+G1 X3.29 Y17.58 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X29.25 Y17.44 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X29.40 Y17.44 F3500.00
+G1 X29.34 Y17.42 F3500.00
+G1 X29.25 Y17.44 F3500.00
+G1 X29.25 Y17.44 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X32.60 Y17.44 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X32.72 Y17.44 F3500.00
+G1 X32.66 Y17.42 F3500.00
+G1 X32.60 Y17.44 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X37.40 Y17.44 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X37.50 Y17.44 F3500.00
+G1 X37.47 Y17.41 F3500.00
+G1 X37.40 Y17.44 F3500.00
+G1 X37.40 Y17.44 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-1.00 Y17.64 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-1.40 Y18.75 F3500.00
+G1 X-1.21 Y18.29 F3500.00
+G1 X-0.94 Y17.62 F3500.00
+G1 X-0.88 Y17.46 F3500.00
+G1 X-1.00 Y17.64 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X29.60 Y17.49 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X29.72 Y17.49 F3500.00
+G1 X29.66 Y17.46 F3500.00
+G1 X29.60 Y17.49 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X32.87 Y17.49 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X32.97 Y17.49 F3500.00
+G1 X32.94 Y17.46 F3500.00
+G1 X32.87 Y17.49 F3500.00
+G1 X32.87 Y17.49 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X33.49 Y17.49 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X33.40 Y17.56 F3500.00
+G1 X33.45 Y17.58 F3500.00
+G1 X33.64 Y17.51 F3500.00
+G1 X33.67 Y17.47 F3500.00
+G1 X33.49 Y17.49 F3500.00
+G1 X33.49 Y17.49 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-4.71 Y17.54 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-4.57 Y17.54 F3500.00
+G1 X-4.63 Y17.52 F3500.00
+G1 X-4.71 Y17.54 F3500.00
+G1 X-4.71 Y17.54 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-3.42 Y17.58 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-3.39 Y17.64 F3500.00
+G1 X-3.39 Y17.55 F3500.00
+G1 X-3.42 Y17.58 F3500.00
+G1 X-3.42 Y17.58 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-0.73 Y17.60 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-0.63 Y17.88 F3500.00
+G1 X-0.60 Y17.90 F3500.00
+G1 X-0.69 Y17.63 F3500.00
+G1 X-0.73 Y17.60 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X29.92 Y17.54 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X30.01 Y17.54 F3500.00
+G1 X29.98 Y17.51 F3500.00
+G1 X29.92 Y17.54 F3500.00
+G1 X29.92 Y17.54 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X33.12 Y17.54 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X33.21 Y17.54 F3500.00
+G1 X33.18 Y17.51 F3500.00
+G1 X33.12 Y17.54 F3500.00
+G1 X33.12 Y17.54 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X37.75 Y17.58 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X37.67 Y17.79 F3500.00
+G1 X37.65 Y17.87 F3500.00
+G1 X37.78 Y17.57 F3500.00
+G1 X37.75 Y17.58 F3500.00
+G1 X37.75 Y17.58 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-5.11 Y17.59 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-4.98 Y17.59 F3500.00
+G1 X-5.04 Y17.56 F3500.00
+G1 X-5.11 Y17.59 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X2.50 Y17.70 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X2.52 Y17.79 F3500.00
+G1 X2.52 Y17.62 F3500.00
+G1 X2.50 Y17.70 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X5.05 Y17.63 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X5.08 Y17.69 F3500.00
+G1 X5.08 Y17.60 F3500.00
+G1 X5.05 Y17.63 F3500.00
+G1 X5.05 Y17.63 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X19.67 Y17.59 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X19.71 Y17.69 F3500.00
+G1 X19.78 Y17.69 F3500.00
+G1 X19.74 Y17.59 F3500.00
+G1 X19.67 Y17.59 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X30.21 Y17.59 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X30.31 Y17.59 F3500.00
+G1 X30.28 Y17.56 F3500.00
+G1 X30.21 Y17.59 F3500.00
+G1 X30.21 Y17.59 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-5.40 Y17.73 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-5.53 Y17.85 F3500.00
+G1 X-5.81 Y17.93 F3500.00
+G1 X-5.86 Y17.97 F3500.00
+G1 X-5.60 Y17.92 F3500.00
+G1 X-5.48 Y17.99 F3500.00
+G1 X-5.39 Y17.85 F3500.00
+G1 X-5.33 Y17.62 F3500.00
+G1 X-5.40 Y17.73 F3500.00
+G1 X-5.40 Y17.73 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-1.83 Y17.75 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-1.81 Y17.84 F3500.00
+G1 X-1.81 Y17.67 F3500.00
+G1 X-1.83 Y17.75 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-3.22 Y17.72 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-3.19 Y17.79 F3500.00
+G1 X-3.19 Y17.69 F3500.00
+G1 X-3.22 Y17.72 F3500.00
+G1 X-3.22 Y17.72 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-2.04 Y17.72 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-2.01 Y17.79 F3500.00
+G1 X-2.01 Y17.69 F3500.00
+G1 X-2.04 Y17.72 F3500.00
+G1 X-2.04 Y17.72 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X3.87 Y17.75 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X3.90 Y17.81 F3500.00
+G1 X3.90 Y17.69 F3500.00
+G1 X3.87 Y17.75 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X21.03 Y17.69 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X21.18 Y17.69 F3500.00
+G1 X21.12 Y17.66 F3500.00
+G1 X21.03 Y17.69 F3500.00
+G1 X21.03 Y17.69 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X31.05 Y17.68 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X31.15 Y17.69 F3500.00
+G1 X31.12 Y17.66 F3500.00
+G1 X31.05 Y17.68 F3500.00
+G1 X31.05 Y17.68 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X34.69 Y17.68 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X34.79 Y17.69 F3500.00
+G1 X34.76 Y17.66 F3500.00
+G1 X34.69 Y17.68 F3500.00
+G1 X34.69 Y17.68 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X36.51 Y17.76 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X36.55 Y17.92 F3500.00
+G1 X36.65 Y18.05 F3500.00
+G1 X36.57 Y18.12 F3500.00
+G1 X36.60 Y18.16 F3500.00
+G1 X36.88 Y18.42 F3500.00
+G1 X36.91 Y18.69 F3500.00
+G1 X36.90 Y18.72 F3500.00
+G1 X37.06 Y18.85 F3500.00
+G1 X37.07 Y18.75 F3500.00
+G1 X36.92 Y18.40 F3500.00
+G1 X36.91 Y18.23 F3500.00
+G1 X36.89 Y18.20 F3500.00
+G1 X36.54 Y17.75 F3500.00
+G1 X36.51 Y17.76 F3500.00
+G1 X36.51 Y17.76 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-0.31 Y17.75 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-0.27 Y17.92 F3500.00
+G1 X-0.23 Y17.95 F3500.00
+G1 X-0.27 Y17.78 F3500.00
+G1 X-0.31 Y17.75 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X21.52 Y17.74 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X21.67 Y17.74 F3500.00
+G1 X21.61 Y17.71 F3500.00
+G1 X21.52 Y17.74 F3500.00
+G1 X21.52 Y17.74 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X31.35 Y17.73 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X31.44 Y17.74 F3500.00
+G1 X31.41 Y17.71 F3500.00
+G1 X31.35 Y17.73 F3500.00
+G1 X31.35 Y17.73 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X34.91 Y17.74 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X35.04 Y17.74 F3500.00
+G1 X34.98 Y17.71 F3500.00
+G1 X34.91 Y17.74 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-4.23 Y17.95 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-4.30 Y18.18 F3500.00
+G1 X-4.20 Y18.00 F3500.00
+G1 X-4.13 Y17.77 F3500.00
+G1 X-4.23 Y17.95 F3500.00
+G1 X-4.23 Y17.95 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-3.37 Y17.82 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-3.34 Y17.89 F3500.00
+G1 X-3.34 Y17.79 F3500.00
+G1 X-3.37 Y17.82 F3500.00
+G1 X-3.37 Y17.82 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X4.98 Y17.88 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X4.96 Y18.03 F3500.00
+G1 X5.02 Y17.92 F3500.00
+G1 X5.03 Y17.77 F3500.00
+G1 X4.98 Y17.88 F3500.00
+G1 X4.98 Y17.88 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X21.92 Y17.78 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X22.07 Y17.79 F3500.00
+G1 X22.00 Y17.76 F3500.00
+G1 X21.92 Y17.78 F3500.00
+G1 X21.92 Y17.78 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X31.64 Y17.78 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X31.74 Y17.79 F3500.00
+G1 X31.71 Y17.76 F3500.00
+G1 X31.64 Y17.78 F3500.00
+G1 X31.64 Y17.78 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X35.14 Y17.78 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X35.23 Y17.79 F3500.00
+G1 X35.20 Y17.76 F3500.00
+G1 X35.14 Y17.78 F3500.00
+G1 X35.14 Y17.78 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X6.06 Y18.57 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X5.75 Y19.36 F3500.00
+G1 X6.10 Y18.61 F3500.00
+G1 X6.41 Y17.82 F3500.00
+G1 X6.06 Y18.57 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X19.77 Y17.83 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X19.81 Y17.95 F3500.00
+G1 X19.86 Y17.97 F3500.00
+G1 X19.81 Y17.85 F3500.00
+G1 X19.77 Y17.83 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X22.36 Y17.83 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X22.51 Y17.84 F3500.00
+G1 X22.45 Y17.81 F3500.00
+G1 X22.36 Y17.83 F3500.00
+G1 X22.36 Y17.83 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X31.91 Y17.83 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X32.03 Y17.83 F3500.00
+G1 X31.97 Y17.81 F3500.00
+G1 X31.91 Y17.83 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X35.33 Y17.83 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X35.43 Y17.84 F3500.00
+G1 X35.40 Y17.81 F3500.00
+G1 X35.33 Y17.83 F3500.00
+G1 X35.33 Y17.83 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X3.24 Y18.00 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X3.26 Y18.08 F3500.00
+G1 X3.26 Y17.91 F3500.00
+G1 X3.24 Y18.00 F3500.00
+G1 X3.24 Y18.00 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X22.78 Y17.88 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X22.95 Y17.88 F3500.00
+G1 X22.87 Y17.86 F3500.00
+G1 X22.78 Y17.88 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X32.18 Y17.88 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X32.28 Y17.88 F3500.00
+G1 X32.25 Y17.85 F3500.00
+G1 X32.18 Y17.88 F3500.00
+G1 X32.18 Y17.88 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X35.53 Y17.88 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X35.62 Y17.88 F3500.00
+G1 X35.59 Y17.85 F3500.00
+G1 X35.53 Y17.88 F3500.00
+G1 X35.53 Y17.88 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X23.22 Y17.93 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X23.40 Y17.93 F3500.00
+G1 X23.31 Y17.91 F3500.00
+G1 X23.22 Y17.93 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X32.45 Y17.93 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X32.58 Y17.93 F3500.00
+G1 X32.51 Y17.91 F3500.00
+G1 X32.45 Y17.93 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X35.73 Y17.93 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X35.82 Y17.93 F3500.00
+G1 X35.79 Y17.90 F3500.00
+G1 X35.73 Y17.93 F3500.00
+G1 X35.73 Y17.93 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X37.41 Y17.98 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X37.42 Y18.00 F3500.00
+G1 X37.54 Y17.92 F3500.00
+G1 X37.41 Y17.98 F3500.00
+G1 X37.41 Y17.98 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-3.32 Y17.99 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-3.14 Y18.66 F3500.00
+G1 X-3.22 Y18.27 F3500.00
+G1 X-3.32 Y17.99 F3500.00
+G1 X-3.32 Y17.99 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X2.45 Y18.10 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X2.47 Y18.18 F3500.00
+G1 X2.47 Y18.01 F3500.00
+G1 X2.45 Y18.10 F3500.00
+G1 X2.45 Y18.10 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X23.62 Y17.98 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X23.79 Y17.98 F3500.00
+G1 X23.70 Y17.96 F3500.00
+G1 X23.62 Y17.98 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X32.70 Y17.98 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X32.85 Y17.98 F3500.00
+G1 X32.78 Y17.96 F3500.00
+G1 X32.70 Y17.98 F3500.00
+G1 X32.70 Y17.98 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X35.98 Y17.99 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X36.26 Y18.07 F3500.00
+G1 X36.33 Y18.05 F3500.00
+G1 X36.06 Y17.98 F3500.00
+G1 X35.98 Y17.99 F3500.00
+G1 X35.98 Y17.99 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-6.35 Y18.07 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-6.37 Y18.11 F3500.00
+G1 X-6.08 Y18.01 F3500.00
+G1 X-6.35 Y18.07 F3500.00
+G1 X-6.35 Y18.07 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X3.82 Y18.07 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X3.85 Y18.13 F3500.00
+G1 X3.85 Y18.04 F3500.00
+G1 X3.82 Y18.07 F3500.00
+G1 X3.82 Y18.07 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X24.01 Y18.03 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X24.21 Y18.03 F3500.00
+G1 X24.12 Y18.01 F3500.00
+G1 X24.01 Y18.03 F3500.00
+G1 X24.01 Y18.03 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X32.99 Y18.03 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X33.12 Y18.03 F3500.00
+G1 X33.06 Y18.01 F3500.00
+G1 X32.99 Y18.03 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-0.56 Y18.07 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-0.49 Y18.29 F3500.00
+G1 X-0.42 Y18.39 F3500.00
+G1 X-0.49 Y18.17 F3500.00
+G1 X-0.56 Y18.07 F3500.00
+G1 X-0.56 Y18.07 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-0.22 Y18.12 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-0.19 Y18.18 F3500.00
+G1 X-0.19 Y18.09 F3500.00
+G1 X-0.22 Y18.12 F3500.00
+G1 X-0.22 Y18.12 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X0.87 Y18.12 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X0.89 Y18.18 F3500.00
+G1 X0.90 Y18.09 F3500.00
+G1 X0.87 Y18.12 F3500.00
+G1 X0.87 Y18.12 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X19.88 Y18.15 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X20.34 Y19.45 F3500.00
+G1 X19.93 Y18.17 F3500.00
+G1 X19.88 Y18.15 F3500.00
+G1 X19.88 Y18.15 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X24.45 Y18.08 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X24.63 Y18.08 F3500.00
+G1 X24.54 Y18.06 F3500.00
+G1 X24.45 Y18.08 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X33.24 Y18.08 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X33.39 Y18.08 F3500.00
+G1 X33.33 Y18.06 F3500.00
+G1 X33.24 Y18.08 F3500.00
+G1 X33.24 Y18.08 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-2.08 Y18.24 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-2.06 Y18.33 F3500.00
+G1 X-2.06 Y18.16 F3500.00
+G1 X-2.08 Y18.24 F3500.00
+G1 X-2.08 Y18.24 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-1.88 Y18.24 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-1.86 Y18.33 F3500.00
+G1 X-1.86 Y18.16 F3500.00
+G1 X-1.88 Y18.24 F3500.00
+G1 X-1.88 Y18.24 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X24.85 Y18.13 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X25.02 Y18.13 F3500.00
+G1 X24.93 Y18.11 F3500.00
+G1 X24.85 Y18.13 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X33.54 Y18.13 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X33.66 Y18.13 F3500.00
+G1 X33.60 Y18.10 F3500.00
+G1 X33.54 Y18.13 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X37.04 Y18.15 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X37.02 Y18.19 F3500.00
+G1 X37.14 Y18.15 F3500.00
+G1 X37.17 Y18.10 F3500.00
+G1 X37.04 Y18.15 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-6.89 Y18.22 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-6.92 Y18.26 F3500.00
+G1 X-6.62 Y18.15 F3500.00
+G1 X-6.89 Y18.22 F3500.00
+G1 X-6.89 Y18.22 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-5.53 Y18.24 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-5.50 Y18.31 F3500.00
+G1 X-5.50 Y18.18 F3500.00
+G1 X-5.53 Y18.24 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-2.42 Y18.32 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-2.40 Y18.43 F3500.00
+G1 X-2.40 Y18.23 F3500.00
+G1 X-2.42 Y18.32 F3500.00
+G1 X-2.42 Y18.32 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X25.24 Y18.18 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X25.41 Y18.18 F3500.00
+G1 X25.33 Y18.16 F3500.00
+G1 X25.24 Y18.18 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X33.78 Y18.18 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X33.93 Y18.18 F3500.00
+G1 X33.87 Y18.16 F3500.00
+G1 X33.78 Y18.18 F3500.00
+G1 X33.78 Y18.18 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X3.19 Y18.34 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X3.21 Y18.43 F3500.00
+G1 X3.21 Y18.26 F3500.00
+G1 X3.19 Y18.34 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X25.63 Y18.23 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X25.81 Y18.23 F3500.00
+G1 X25.72 Y18.21 F3500.00
+G1 X25.63 Y18.23 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X34.08 Y18.23 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X34.20 Y18.23 F3500.00
+G1 X34.14 Y18.20 F3500.00
+G1 X34.08 Y18.23 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-0.16 Y18.32 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-0.12 Y18.56 F3500.00
+G1 X-0.08 Y18.59 F3500.00
+G1 X-0.12 Y18.34 F3500.00
+G1 X-0.16 Y18.32 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X4.85 Y18.31 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X4.88 Y18.38 F3500.00
+G1 X4.88 Y18.28 F3500.00
+G1 X4.85 Y18.31 F3500.00
+G1 X4.85 Y18.31 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X26.03 Y18.28 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X26.20 Y18.28 F3500.00
+G1 X26.11 Y18.26 F3500.00
+G1 X26.03 Y18.28 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X34.32 Y18.28 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X34.45 Y18.28 F3500.00
+G1 X34.38 Y18.25 F3500.00
+G1 X34.32 Y18.28 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-7.43 Y18.37 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-7.46 Y18.41 F3500.00
+G1 X-7.16 Y18.30 F3500.00
+G1 X-7.43 Y18.37 F3500.00
+G1 X-7.43 Y18.37 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X3.77 Y18.36 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X3.80 Y18.43 F3500.00
+G1 X3.80 Y18.33 F3500.00
+G1 X3.77 Y18.36 F3500.00
+G1 X3.77 Y18.36 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X26.42 Y18.33 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X26.59 Y18.33 F3500.00
+G1 X26.51 Y18.31 F3500.00
+G1 X26.42 Y18.33 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X34.59 Y18.32 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X34.69 Y18.33 F3500.00
+G1 X34.66 Y18.30 F3500.00
+G1 X34.59 Y18.32 F3500.00
+G1 X34.59 Y18.32 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X2.40 Y18.47 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X2.42 Y18.55 F3500.00
+G1 X2.42 Y18.41 F3500.00
+G1 X2.40 Y18.47 F3500.00
+G1 X2.40 Y18.47 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X26.79 Y18.38 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X26.94 Y18.38 F3500.00
+G1 X26.88 Y18.35 F3500.00
+G1 X26.79 Y18.38 F3500.00
+G1 X26.79 Y18.38 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X34.86 Y18.38 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X34.99 Y18.38 F3500.00
+G1 X34.93 Y18.35 F3500.00
+G1 X34.86 Y18.38 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-5.58 Y18.52 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-5.55 Y18.60 F3500.00
+G1 X-5.55 Y18.45 F3500.00
+G1 X-5.58 Y18.52 F3500.00
+G1 X-5.58 Y18.52 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-4.43 Y18.52 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-4.44 Y18.67 F3500.00
+G1 X-4.38 Y18.56 F3500.00
+G1 X-4.37 Y18.41 F3500.00
+G1 X-4.43 Y18.52 F3500.00
+G1 X-4.43 Y18.52 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-2.62 Y18.49 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-2.60 Y18.55 F3500.00
+G1 X-2.60 Y18.43 F3500.00
+G1 X-2.62 Y18.49 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X27.23 Y18.42 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X27.36 Y18.42 F3500.00
+G1 X27.30 Y18.40 F3500.00
+G1 X27.23 Y18.42 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X32.82 Y18.76 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X32.40 Y19.15 F3500.00
+G1 X32.43 Y19.47 F3500.00
+G1 X32.47 Y19.90 F3500.00
+G1 X32.50 Y19.56 F3500.00
+G1 X32.50 Y19.10 F3500.00
+G1 X32.63 Y19.01 F3500.00
+G1 X33.37 Y18.43 F3500.00
+G1 X33.38 Y18.40 F3500.00
+G1 X32.82 Y18.76 F3500.00
+G1 X32.82 Y18.76 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X35.11 Y18.42 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X35.23 Y18.42 F3500.00
+G1 X35.17 Y18.40 F3500.00
+G1 X35.11 Y18.42 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-7.79 Y18.47 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-7.69 Y18.48 F3500.00
+G1 X-7.72 Y18.45 F3500.00
+G1 X-7.79 Y18.47 F3500.00
+G1 X-7.79 Y18.47 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X0.92 Y18.54 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X0.94 Y18.60 F3500.00
+G1 X0.94 Y18.48 F3500.00
+G1 X0.92 Y18.54 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X27.58 Y18.47 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X27.73 Y18.48 F3500.00
+G1 X27.67 Y18.45 F3500.00
+G1 X27.58 Y18.47 F3500.00
+G1 X27.58 Y18.47 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X33.87 Y18.54 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X34.34 Y18.63 F3500.00
+G1 X34.06 Y18.54 F3500.00
+G1 X33.61 Y18.45 F3500.00
+G1 X33.87 Y18.54 F3500.00
+G1 X33.87 Y18.54 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X35.38 Y18.47 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X35.48 Y18.48 F3500.00
+G1 X35.45 Y18.45 F3500.00
+G1 X35.38 Y18.47 F3500.00
+G1 X35.38 Y18.47 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-8.19 Y18.56 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-8.32 Y18.63 F3500.00
+G1 X-8.02 Y18.57 F3500.00
+G1 X-7.90 Y18.50 F3500.00
+G1 X-8.19 Y18.56 F3500.00
+G1 X-8.19 Y18.56 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X27.97 Y18.52 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X28.10 Y18.52 F3500.00
+G1 X28.03 Y18.50 F3500.00
+G1 X27.97 Y18.52 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-2.38 Y18.61 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-2.36 Y18.67 F3500.00
+G1 X-2.35 Y18.58 F3500.00
+G1 X-2.38 Y18.61 F3500.00
+G1 X-2.38 Y18.61 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X3.14 Y18.66 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X3.16 Y18.75 F3500.00
+G1 X3.16 Y18.60 F3500.00
+G1 X3.14 Y18.66 F3500.00
+G1 X3.14 Y18.66 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-0.47 Y18.65 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-0.85 Y19.11 F3500.00
+G1 X-1.23 Y19.49 F3500.00
+G1 X-0.85 Y19.15 F3500.00
+G1 X-0.44 Y18.60 F3500.00
+G1 X-0.47 Y18.65 F3500.00
+G1 X-0.47 Y18.65 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X20.36 Y18.64 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X20.38 Y18.69 F3500.00
+G1 X20.43 Y18.64 F3500.00
+G1 X20.41 Y18.59 F3500.00
+G1 X20.36 Y18.64 F3500.00
+G1 X20.36 Y18.64 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X21.17 Y18.69 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X21.28 Y18.79 F3500.00
+G1 X21.24 Y18.69 F3500.00
+G1 X21.13 Y18.59 F3500.00
+G1 X21.17 Y18.69 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-8.85 Y18.72 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-9.11 Y18.82 F3500.00
+G1 X-8.45 Y18.66 F3500.00
+G1 X-8.85 Y18.72 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-4.65 Y18.71 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-4.62 Y18.77 F3500.00
+G1 X-4.62 Y18.68 F3500.00
+G1 X-4.65 Y18.71 F3500.00
+G1 X-4.65 Y18.71 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-2.58 Y18.69 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-2.43 Y19.15 F3500.00
+G1 X-2.46 Y18.98 F3500.00
+G1 X-2.58 Y18.69 F3500.00
+G1 X-2.58 Y18.69 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X2.35 Y18.76 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X2.37 Y18.85 F3500.00
+G1 X2.37 Y18.70 F3500.00
+G1 X2.35 Y18.76 F3500.00
+G1 X2.35 Y18.76 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X29.35 Y18.67 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X29.47 Y18.67 F3500.00
+G1 X29.41 Y18.65 F3500.00
+G1 X29.35 Y18.67 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X34.55 Y18.67 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X34.64 Y18.67 F3500.00
+G1 X34.61 Y18.64 F3500.00
+G1 X34.55 Y18.67 F3500.00
+G1 X34.55 Y18.67 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X36.61 Y18.67 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X36.71 Y18.67 F3500.00
+G1 X36.68 Y18.64 F3500.00
+G1 X36.61 Y18.67 F3500.00
+G1 X36.61 Y18.67 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-1.64 Y18.76 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-1.62 Y18.82 F3500.00
+G1 X-1.61 Y18.73 F3500.00
+G1 X-1.64 Y18.76 F3500.00
+G1 X-1.64 Y18.76 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X29.70 Y18.72 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X29.82 Y18.72 F3500.00
+G1 X29.76 Y18.70 F3500.00
+G1 X29.70 Y18.72 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X34.79 Y18.72 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X34.89 Y18.72 F3500.00
+G1 X34.86 Y18.69 F3500.00
+G1 X34.79 Y18.72 F3500.00
+G1 X34.79 Y18.72 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-5.62 Y18.91 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-5.60 Y19.02 F3500.00
+G1 X-5.60 Y18.82 F3500.00
+G1 X-5.62 Y18.91 F3500.00
+G1 X-5.62 Y18.91 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-4.50 Y18.84 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-4.47 Y18.90 F3500.00
+G1 X-4.47 Y18.77 F3500.00
+G1 X-4.50 Y18.84 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-4.21 Y18.84 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-4.24 Y19.00 F3500.00
+G1 X-4.21 Y18.98 F3500.00
+G1 X-4.16 Y18.84 F3500.00
+G1 X-4.03 Y18.84 F3500.00
+G1 X-4.00 Y18.82 F3500.00
+G1 X-4.21 Y18.84 F3500.00
+G1 X-4.21 Y18.84 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-3.12 Y18.81 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-3.10 Y18.87 F3500.00
+G1 X-3.09 Y18.78 F3500.00
+G1 X-3.12 Y18.81 F3500.00
+G1 X-3.12 Y18.81 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-2.09 Y18.81 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-2.06 Y18.87 F3500.00
+G1 X-2.06 Y18.78 F3500.00
+G1 X-2.09 Y18.81 F3500.00
+G1 X-2.09 Y18.81 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-0.06 Y18.86 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-0.04 Y18.95 F3500.00
+G1 X-0.04 Y18.80 F3500.00
+G1 X-0.06 Y18.86 F3500.00
+G1 X-0.06 Y18.86 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X30.09 Y18.77 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X30.21 Y18.77 F3500.00
+G1 X30.15 Y18.74 F3500.00
+G1 X30.09 Y18.77 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X20.36 Y18.81 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X20.47 Y19.23 F3500.00
+G1 X20.60 Y19.55 F3500.00
+G1 X20.48 Y19.13 F3500.00
+G1 X20.36 Y18.81 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X30.43 Y18.82 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X30.56 Y18.82 F3500.00
+G1 X30.50 Y18.79 F3500.00
+G1 X30.43 Y18.82 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X35.27 Y18.83 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X35.49 Y18.88 F3500.00
+G1 X35.39 Y18.82 F3500.00
+G1 X35.27 Y18.83 F3500.00
+G1 X35.27 Y18.83 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-9.50 Y18.91 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-9.52 Y18.95 F3500.00
+G1 X-9.23 Y18.84 F3500.00
+G1 X-9.50 Y18.91 F3500.00
+G1 X-9.50 Y18.91 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-4.70 Y18.91 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-4.67 Y18.97 F3500.00
+G1 X-4.67 Y18.88 F3500.00
+G1 X-4.70 Y18.91 F3500.00
+G1 X-4.70 Y18.91 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-1.48 Y18.98 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-1.49 Y19.16 F3500.00
+G1 X-1.43 Y19.03 F3500.00
+G1 X-1.42 Y18.85 F3500.00
+G1 X-1.48 Y18.98 F3500.00
+G1 X-1.48 Y18.98 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X0.97 Y18.98 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X0.99 Y19.07 F3500.00
+G1 X0.99 Y18.90 F3500.00
+G1 X0.97 Y18.98 F3500.00
+G1 X0.97 Y18.98 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X3.09 Y18.96 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X3.11 Y19.05 F3500.00
+G1 X3.11 Y18.90 F3500.00
+G1 X3.09 Y18.96 F3500.00
+G1 X3.09 Y18.96 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X21.29 Y18.91 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X21.32 Y18.97 F3500.00
+G1 X21.32 Y18.88 F3500.00
+G1 X21.29 Y18.91 F3500.00
+G1 X21.29 Y18.91 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X30.73 Y18.87 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X30.88 Y18.87 F3500.00
+G1 X30.82 Y18.84 F3500.00
+G1 X30.73 Y18.87 F3500.00
+G1 X30.73 Y18.87 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-2.29 Y18.91 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-2.22 Y19.06 F3500.00
+G1 X-2.04 Y19.02 F3500.00
+G1 X-2.09 Y19.03 F3500.00
+G1 X-2.23 Y18.96 F3500.00
+G1 X-2.29 Y18.91 F3500.00
+G1 X-2.29 Y18.91 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-1.69 Y18.98 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-1.66 Y19.04 F3500.00
+G1 X-1.66 Y18.92 F3500.00
+G1 X-1.69 Y18.98 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X31.07 Y18.92 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X31.22 Y18.92 F3500.00
+G1 X31.16 Y18.89 F3500.00
+G1 X31.07 Y18.92 F3500.00
+G1 X31.07 Y18.92 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X35.70 Y18.92 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X35.82 Y18.92 F3500.00
+G1 X35.76 Y18.89 F3500.00
+G1 X35.70 Y18.92 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-3.96 Y18.98 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-3.91 Y19.06 F3500.00
+G1 X-3.89 Y19.01 F3500.00
+G1 X-3.96 Y18.98 F3500.00
+G1 X-3.96 Y18.98 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X31.42 Y18.97 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X31.57 Y18.97 F3500.00
+G1 X31.51 Y18.94 F3500.00
+G1 X31.42 Y18.97 F3500.00
+G1 X31.42 Y18.97 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X35.92 Y18.96 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X36.02 Y18.97 F3500.00
+G1 X35.99 Y18.94 F3500.00
+G1 X35.92 Y18.96 F3500.00
+G1 X35.92 Y18.96 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-10.30 Y19.12 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-10.73 Y19.27 F3500.00
+G1 X-9.73 Y19.00 F3500.00
+G1 X-10.30 Y19.12 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-4.54 Y19.08 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-4.52 Y19.14 F3500.00
+G1 X-4.52 Y19.02 F3500.00
+G1 X-4.54 Y19.08 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-0.36 Y19.07 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-0.28 Y19.18 F3500.00
+G1 X-0.27 Y19.12 F3500.00
+G1 X-0.35 Y19.01 F3500.00
+G1 X-0.36 Y19.07 F3500.00
+G1 X-0.36 Y19.07 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X2.30 Y19.08 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X2.32 Y19.14 F3500.00
+G1 X2.32 Y19.02 F3500.00
+G1 X2.30 Y19.08 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X31.76 Y19.02 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X31.91 Y19.02 F3500.00
+G1 X31.85 Y18.99 F3500.00
+G1 X31.76 Y19.02 F3500.00
+G1 X31.76 Y19.02 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X36.29 Y19.08 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X36.50 Y19.22 F3500.00
+G1 X36.67 Y19.49 F3500.00
+G1 X36.81 Y19.74 F3500.00
+G1 X36.84 Y19.77 F3500.00
+G1 X36.90 Y19.85 F3500.00
+G1 X36.94 Y20.01 F3500.00
+G1 X37.08 Y20.38 F3500.00
+G1 X37.24 Y20.65 F3500.00
+G1 X37.17 Y20.41 F3500.00
+G1 X37.12 Y20.07 F3500.00
+G1 X37.10 Y20.01 F3500.00
+G1 X36.88 Y19.70 F3500.00
+G1 X36.18 Y18.98 F3500.00
+G1 X36.29 Y19.08 F3500.00
+G1 X36.29 Y19.08 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-19.75 Y19.06 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-19.66 Y19.07 F3500.00
+G1 X-19.68 Y19.04 F3500.00
+G1 X-19.75 Y19.06 F3500.00
+G1 X-19.75 Y19.06 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-19.09 Y19.08 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-18.65 Y19.35 F3500.00
+G1 X-18.33 Y19.94 F3500.00
+G1 X-18.24 Y20.13 F3500.00
+G1 X-18.63 Y19.31 F3500.00
+G1 X-18.83 Y19.09 F3500.00
+G1 X-18.64 Y19.07 F3500.00
+G1 X-18.85 Y19.05 F3500.00
+G1 X-19.09 Y19.08 F3500.00
+G1 X-19.09 Y19.08 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-4.74 Y19.13 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-4.72 Y19.19 F3500.00
+G1 X-4.72 Y19.07 F3500.00
+G1 X-4.74 Y19.13 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-3.59 Y19.13 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-3.48 Y19.23 F3500.00
+G1 X-3.54 Y19.13 F3500.00
+G1 X-3.66 Y19.03 F3500.00
+G1 X-3.59 Y19.13 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X21.34 Y19.10 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X21.37 Y19.17 F3500.00
+G1 X21.37 Y19.07 F3500.00
+G1 X21.34 Y19.10 F3500.00
+G1 X21.34 Y19.10 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X32.11 Y19.06 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X32.25 Y19.07 F3500.00
+G1 X32.19 Y19.04 F3500.00
+G1 X32.11 Y19.06 F3500.00
+G1 X32.11 Y19.06 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-20.06 Y19.20 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-20.34 Y19.46 F3500.00
+G1 X-20.79 Y20.35 F3500.00
+G1 X-20.62 Y20.04 F3500.00
+G1 X-19.99 Y19.20 F3500.00
+G1 X-19.84 Y19.08 F3500.00
+G1 X-20.06 Y19.20 F3500.00
+G1 X-20.06 Y19.20 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-18.10 Y19.12 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-17.76 Y19.12 F3500.00
+G1 X-17.92 Y19.10 F3500.00
+G1 X-18.10 Y19.12 F3500.00
+G1 X-18.10 Y19.12 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-4.30 Y19.15 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-4.28 Y19.22 F3500.00
+G1 X-4.27 Y19.12 F3500.00
+G1 X-4.30 Y19.15 F3500.00
+G1 X-4.30 Y19.15 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-3.02 Y19.09 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-2.85 Y19.51 F3500.00
+G1 X-2.92 Y19.27 F3500.00
+G1 X-3.02 Y19.09 F3500.00
+G1 X-3.02 Y19.09 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-0.90 Y19.53 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-1.28 Y20.05 F3500.00
+G1 X-1.25 Y20.04 F3500.00
+G1 X-0.89 Y19.57 F3500.00
+G1 X-0.53 Y19.08 F3500.00
+G1 X-0.90 Y19.53 F3500.00
+G1 X-0.90 Y19.53 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-17.24 Y19.17 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-16.99 Y19.17 F3500.00
+G1 X-17.13 Y19.14 F3500.00
+G1 X-17.24 Y19.17 F3500.00
+G1 X-17.24 Y19.17 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-5.88 Y19.20 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-6.00 Y19.27 F3500.00
+G1 X-5.81 Y19.23 F3500.00
+G1 X-5.67 Y19.34 F3500.00
+G1 X-5.66 Y19.50 F3500.00
+G1 X-5.63 Y19.32 F3500.00
+G1 X-5.88 Y19.20 F3500.00
+G1 X-5.88 Y19.20 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-1.81 Y19.22 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-1.80 Y19.31 F3500.00
+G1 X-1.75 Y19.33 F3500.00
+G1 X-1.70 Y19.25 F3500.00
+G1 X-1.74 Y19.20 F3500.00
+G1 X-1.81 Y19.19 F3500.00
+G1 X-1.81 Y19.22 F3500.00
+G1 X-1.81 Y19.22 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-0.02 Y19.23 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X0.01 Y19.29 F3500.00
+G1 X0.01 Y19.17 F3500.00
+G1 X-0.02 Y19.23 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X3.04 Y19.23 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X3.06 Y19.29 F3500.00
+G1 X3.06 Y19.17 F3500.00
+G1 X3.04 Y19.23 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-16.62 Y19.21 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-16.40 Y19.21 F3500.00
+G1 X-16.51 Y19.19 F3500.00
+G1 X-16.62 Y19.21 F3500.00
+G1 X-16.62 Y19.21 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-16.18 Y19.26 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-15.96 Y19.26 F3500.00
+G1 X-16.07 Y19.24 F3500.00
+G1 X-16.18 Y19.26 F3500.00
+G1 X-16.18 Y19.26 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-4.59 Y19.38 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-4.57 Y19.46 F3500.00
+G1 X-4.57 Y19.29 F3500.00
+G1 X-4.59 Y19.38 F3500.00
+G1 X-4.59 Y19.38 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-2.53 Y19.28 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-2.52 Y19.33 F3500.00
+G1 X-2.44 Y19.28 F3500.00
+G1 X-2.53 Y19.28 F3500.00
+G1 X-2.53 Y19.28 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-1.54 Y19.45 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-1.51 Y19.56 F3500.00
+G1 X-1.51 Y19.31 F3500.00
+G1 X-1.54 Y19.45 F3500.00
+G1 X-1.54 Y19.45 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X21.40 Y19.28 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X21.44 Y19.45 F3500.00
+G1 X21.48 Y19.48 F3500.00
+G1 X21.44 Y19.30 F3500.00
+G1 X21.40 Y19.28 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-15.59 Y19.33 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-15.16 Y19.50 F3500.00
+G1 X-14.62 Y20.10 F3500.00
+G1 X-14.57 Y20.16 F3500.00
+G1 X-14.81 Y19.73 F3500.00
+G1 X-15.65 Y19.28 F3500.00
+G1 X-15.59 Y19.33 F3500.00
+G1 X-15.59 Y19.33 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-10.94 Y19.31 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-10.84 Y19.31 F3500.00
+G1 X-10.87 Y19.28 F3500.00
+G1 X-10.94 Y19.31 F3500.00
+G1 X-10.94 Y19.31 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-6.37 Y19.35 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-6.47 Y19.42 F3500.00
+G1 X-6.23 Y19.35 F3500.00
+G1 X-6.13 Y19.29 F3500.00
+G1 X-6.37 Y19.35 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-4.79 Y19.38 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-4.77 Y19.44 F3500.00
+G1 X-4.77 Y19.32 F3500.00
+G1 X-4.79 Y19.38 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-4.35 Y19.35 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-4.33 Y19.41 F3500.00
+G1 X-4.32 Y19.32 F3500.00
+G1 X-4.35 Y19.35 F3500.00
+G1 X-4.35 Y19.35 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X2.25 Y19.38 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X2.27 Y19.44 F3500.00
+G1 X2.27 Y19.32 F3500.00
+G1 X2.25 Y19.38 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-11.14 Y19.36 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-11.04 Y19.36 F3500.00
+G1 X-11.07 Y19.33 F3500.00
+G1 X-11.14 Y19.36 F3500.00
+G1 X-11.14 Y19.36 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-0.26 Y19.43 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-0.24 Y19.49 F3500.00
+G1 X-0.24 Y19.36 F3500.00
+G1 X-0.26 Y19.43 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-11.33 Y19.41 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-11.24 Y19.41 F3500.00
+G1 X-11.27 Y19.38 F3500.00
+G1 X-11.33 Y19.41 F3500.00
+G1 X-11.33 Y19.41 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X2.99 Y19.50 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X3.01 Y19.59 F3500.00
+G1 X3.01 Y19.44 F3500.00
+G1 X2.99 Y19.50 F3500.00
+G1 X2.99 Y19.50 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-11.69 Y19.48 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-11.71 Y19.51 F3500.00
+G1 X-11.49 Y19.48 F3500.00
+G1 X-11.47 Y19.44 F3500.00
+G1 X-11.69 Y19.48 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-6.89 Y19.50 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-6.92 Y19.54 F3500.00
+G1 X-6.62 Y19.43 F3500.00
+G1 X-6.89 Y19.50 F3500.00
+G1 X-6.89 Y19.50 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X0.04 Y19.65 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X0.06 Y19.76 F3500.00
+G1 X0.06 Y19.51 F3500.00
+G1 X0.04 Y19.65 F3500.00
+G1 X0.04 Y19.65 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X1.02 Y19.65 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X1.05 Y19.76 F3500.00
+G1 X1.04 Y19.51 F3500.00
+G1 X1.02 Y19.65 F3500.00
+G1 X1.02 Y19.65 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X5.44 Y20.03 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X4.84 Y21.42 F3500.00
+G1 X3.83 Y23.56 F3500.00
+G1 X3.78 Y23.59 F3500.00
+G1 X3.97 Y23.57 F3500.00
+G1 X4.05 Y23.52 F3500.00
+G1 X4.03 Y23.38 F3500.00
+G1 X4.64 Y21.99 F3500.00
+G1 X5.46 Y20.10 F3500.00
+G1 X5.72 Y19.44 F3500.00
+G1 X5.44 Y20.03 F3500.00
+G1 X5.44 Y20.03 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-4.40 Y19.57 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-4.37 Y19.64 F3500.00
+G1 X-4.37 Y19.51 F3500.00
+G1 X-4.40 Y19.57 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X37.15 Y19.62 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X37.18 Y19.71 F3500.00
+G1 X37.18 Y19.54 F3500.00
+G1 X37.15 Y19.62 F3500.00
+G1 X37.15 Y19.62 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-12.13 Y19.57 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-12.16 Y19.61 F3500.00
+G1 X-11.94 Y19.57 F3500.00
+G1 X-11.91 Y19.53 F3500.00
+G1 X-12.13 Y19.57 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X20.36 Y19.59 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X20.39 Y19.66 F3500.00
+G1 X20.39 Y19.56 F3500.00
+G1 X20.36 Y19.59 F3500.00
+G1 X20.36 Y19.59 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-7.33 Y19.62 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-7.36 Y19.67 F3500.00
+G1 X-7.19 Y19.62 F3500.00
+G1 X-7.16 Y19.58 F3500.00
+G1 X-7.33 Y19.62 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-5.72 Y19.70 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-5.70 Y19.78 F3500.00
+G1 X-5.70 Y19.64 F3500.00
+G1 X-5.72 Y19.70 F3500.00
+G1 X-5.72 Y19.70 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-4.84 Y19.67 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-4.82 Y19.73 F3500.00
+G1 X-4.82 Y19.61 F3500.00
+G1 X-4.84 Y19.67 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X2.20 Y19.67 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X2.22 Y19.73 F3500.00
+G1 X2.22 Y19.61 F3500.00
+G1 X2.20 Y19.67 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X21.50 Y19.67 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X21.52 Y19.73 F3500.00
+G1 X21.52 Y19.61 F3500.00
+G1 X21.50 Y19.67 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-12.41 Y19.65 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-12.32 Y19.66 F3500.00
+G1 X-12.35 Y19.63 F3500.00
+G1 X-12.41 Y19.65 F3500.00
+G1 X-12.41 Y19.65 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X20.60 Y19.68 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X21.12 Y19.86 F3500.00
+G1 X21.51 Y19.85 F3500.00
+G1 X21.14 Y19.83 F3500.00
+G1 X20.69 Y19.71 F3500.00
+G1 X20.60 Y19.68 F3500.00
+G1 X20.60 Y19.68 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-12.64 Y19.70 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-12.51 Y19.70 F3500.00
+G1 X-12.58 Y19.68 F3500.00
+G1 X-12.64 Y19.70 F3500.00
+G1 X-12.64 Y19.70 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-8.01 Y19.81 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-8.42 Y19.95 F3500.00
+G1 X-7.46 Y19.69 F3500.00
+G1 X-8.01 Y19.81 F3500.00
+G1 X-8.01 Y19.81 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-4.99 Y19.74 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-4.97 Y19.81 F3500.00
+G1 X-4.96 Y19.71 F3500.00
+G1 X-4.99 Y19.74 F3500.00
+G1 X-4.99 Y19.74 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-3.47 Y19.75 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-3.38 Y19.82 F3500.00
+G1 X-3.42 Y19.75 F3500.00
+G1 X-3.51 Y19.67 F3500.00
+G1 X-3.47 Y19.75 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X2.94 Y19.77 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X2.96 Y19.83 F3500.00
+G1 X2.96 Y19.71 F3500.00
+G1 X2.94 Y19.77 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-12.86 Y19.75 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-12.76 Y19.76 F3500.00
+G1 X-12.79 Y19.73 F3500.00
+G1 X-12.86 Y19.75 F3500.00
+G1 X-12.86 Y19.75 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-4.64 Y19.89 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-4.62 Y20.01 F3500.00
+G1 X-4.62 Y19.81 F3500.00
+G1 X-4.64 Y19.89 F3500.00
+G1 X-4.64 Y19.89 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-4.44 Y19.87 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-4.42 Y19.96 F3500.00
+G1 X-4.42 Y19.78 F3500.00
+G1 X-4.44 Y19.87 F3500.00
+G1 X-4.44 Y19.87 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-1.50 Y19.77 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-1.45 Y19.82 F3500.00
+G1 X-1.40 Y19.80 F3500.00
+G1 X-1.45 Y19.75 F3500.00
+G1 X-1.50 Y19.77 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-13.08 Y19.80 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-12.96 Y19.80 F3500.00
+G1 X-13.02 Y19.78 F3500.00
+G1 X-13.08 Y19.80 F3500.00
+G1 X-13.08 Y19.80 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-1.96 Y19.80 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-1.83 Y19.80 F3500.00
+G1 X-1.89 Y19.78 F3500.00
+G1 X-1.96 Y19.80 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-13.41 Y19.87 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-13.44 Y19.91 F3500.00
+G1 X-13.24 Y19.87 F3500.00
+G1 X-13.41 Y19.87 F3500.00
+G1 X-13.41 Y19.87 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-0.23 Y20.20 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-0.37 Y20.64 F3500.00
+G1 X-0.41 Y20.71 F3500.00
+G1 X-0.17 Y20.19 F3500.00
+G1 X-0.19 Y19.82 F3500.00
+G1 X-0.23 Y20.20 F3500.00
+G1 X-0.23 Y20.20 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X2.15 Y19.92 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X2.17 Y19.98 F3500.00
+G1 X2.17 Y19.86 F3500.00
+G1 X2.15 Y19.92 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X3.48 Y19.94 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X3.50 Y20.00 F3500.00
+G1 X3.51 Y19.91 F3500.00
+G1 X3.48 Y19.94 F3500.00
+G1 X3.48 Y19.94 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-13.72 Y19.95 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-13.60 Y19.95 F3500.00
+G1 X-13.66 Y19.93 F3500.00
+G1 X-13.72 Y19.95 F3500.00
+G1 X-13.72 Y19.95 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-5.04 Y19.99 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-5.01 Y20.05 F3500.00
+G1 X-5.01 Y19.96 F3500.00
+G1 X-5.04 Y19.99 F3500.00
+G1 X-5.04 Y19.99 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-1.76 Y20.05 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-1.98 Y20.44 F3500.00
+G1 X-1.90 Y20.32 F3500.00
+G1 X-1.71 Y20.06 F3500.00
+G1 X-1.52 Y20.03 F3500.00
+G1 X-1.37 Y21.28 F3500.00
+G1 X-1.36 Y21.74 F3500.00
+G1 X-1.34 Y21.56 F3500.00
+G1 X-1.31 Y21.47 F3500.00
+G1 X-1.26 Y21.36 F3500.00
+G1 X-1.04 Y21.10 F3500.00
+G1 X-0.79 Y21.02 F3500.00
+G1 X-1.17 Y21.08 F3500.00
+G1 X-1.30 Y20.93 F3500.00
+G1 X-1.30 Y20.76 F3500.00
+G1 X-1.00 Y20.75 F3500.00
+G1 X-0.69 Y20.74 F3500.00
+G1 X-0.98 Y20.71 F3500.00
+G1 X-1.27 Y20.68 F3500.00
+G1 X-1.36 Y20.37 F3500.00
+G1 X-1.60 Y19.92 F3500.00
+G1 X-1.76 Y20.05 F3500.00
+G1 X-1.76 Y20.05 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X2.88 Y19.99 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X2.91 Y20.05 F3500.00
+G1 X2.91 Y19.96 F3500.00
+G1 X2.88 Y19.99 F3500.00
+G1 X2.88 Y19.99 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X20.47 Y20.18 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X20.53 Y20.35 F3500.00
+G1 X20.93 Y20.21 F3500.00
+G1 X21.27 Y20.18 F3500.00
+G1 X20.91 Y20.17 F3500.00
+G1 X20.51 Y20.03 F3500.00
+G1 X20.47 Y20.18 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-14.10 Y20.02 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-14.13 Y20.06 F3500.00
+G1 X-13.91 Y20.02 F3500.00
+G1 X-13.88 Y19.98 F3500.00
+G1 X-14.10 Y20.02 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-8.71 Y20.02 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-8.74 Y20.06 F3500.00
+G1 X-8.56 Y20.02 F3500.00
+G1 X-8.54 Y19.97 F3500.00
+G1 X-8.71 Y20.02 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-5.77 Y20.09 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-5.75 Y20.18 F3500.00
+G1 X-5.75 Y20.03 F3500.00
+G1 X-5.77 Y20.09 F3500.00
+G1 X-5.77 Y20.09 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-2.36 Y20.23 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-2.48 Y20.56 F3500.00
+G1 X-2.41 Y20.46 F3500.00
+G1 X-2.27 Y20.12 F3500.00
+G1 X-2.22 Y19.97 F3500.00
+G1 X-2.36 Y20.23 F3500.00
+G1 X-2.36 Y20.23 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-20.09 Y20.16 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-20.63 Y20.85 F3500.00
+G1 X-20.94 Y21.76 F3500.00
+G1 X-20.80 Y21.42 F3500.00
+G1 X-20.03 Y20.19 F3500.00
+G1 X-19.53 Y20.20 F3500.00
+G1 X-19.12 Y20.66 F3500.00
+G1 X-18.99 Y20.88 F3500.00
+G1 X-19.43 Y20.21 F3500.00
+G1 X-20.09 Y20.16 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-14.41 Y20.10 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-14.29 Y20.10 F3500.00
+G1 X-14.35 Y20.07 F3500.00
+G1 X-14.41 Y20.10 F3500.00
+G1 X-14.41 Y20.10 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-9.06 Y20.12 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-9.08 Y20.16 F3500.00
+G1 X-8.91 Y20.12 F3500.00
+G1 X-8.88 Y20.07 F3500.00
+G1 X-9.06 Y20.12 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X3.43 Y20.14 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X3.45 Y20.20 F3500.00
+G1 X3.46 Y20.11 F3500.00
+G1 X3.43 Y20.14 F3500.00
+G1 X3.43 Y20.14 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X32.46 Y20.14 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X32.54 Y20.17 F3500.00
+G1 X32.51 Y20.09 F3500.00
+G1 X32.46 Y20.14 F3500.00
+G1 X32.46 Y20.14 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-4.45 Y20.16 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-4.24 Y20.36 F3500.00
+G1 X-4.34 Y20.23 F3500.00
+G1 X-4.45 Y20.16 F3500.00
+G1 X-4.45 Y20.16 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X2.10 Y20.18 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X2.12 Y20.25 F3500.00
+G1 X2.13 Y20.16 F3500.00
+G1 X2.10 Y20.18 F3500.00
+G1 X2.10 Y20.18 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-14.85 Y20.20 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-14.73 Y20.20 F3500.00
+G1 X-14.79 Y20.17 F3500.00
+G1 X-14.85 Y20.20 F3500.00
+G1 X-14.85 Y20.20 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-9.40 Y20.21 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-9.43 Y20.26 F3500.00
+G1 X-9.25 Y20.21 F3500.00
+G1 X-9.23 Y20.17 F3500.00
+G1 X-9.40 Y20.21 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-5.09 Y20.26 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-5.06 Y20.32 F3500.00
+G1 X-5.06 Y20.20 F3500.00
+G1 X-5.09 Y20.26 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X2.84 Y20.23 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X2.86 Y20.30 F3500.00
+G1 X2.87 Y20.20 F3500.00
+G1 X2.84 Y20.23 F3500.00
+G1 X2.84 Y20.23 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-15.10 Y20.25 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-14.98 Y20.25 F3500.00
+G1 X-15.04 Y20.22 F3500.00
+G1 X-15.10 Y20.25 F3500.00
+G1 X-15.10 Y20.25 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-4.69 Y20.41 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-4.67 Y20.52 F3500.00
+G1 X-4.67 Y20.30 F3500.00
+G1 X-4.69 Y20.41 F3500.00
+G1 X-4.69 Y20.41 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X21.45 Y20.25 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X21.65 Y20.25 F3500.00
+G1 X21.56 Y20.23 F3500.00
+G1 X21.45 Y20.25 F3500.00
+G1 X21.45 Y20.25 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-18.23 Y20.33 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-18.21 Y20.40 F3500.00
+G1 X-18.20 Y20.30 F3500.00
+G1 X-18.23 Y20.33 F3500.00
+G1 X-18.23 Y20.33 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-15.32 Y20.29 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-15.22 Y20.30 F3500.00
+G1 X-15.25 Y20.27 F3500.00
+G1 X-15.32 Y20.29 F3500.00
+G1 X-15.32 Y20.29 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-9.75 Y20.31 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-9.77 Y20.35 F3500.00
+G1 X-9.60 Y20.31 F3500.00
+G1 X-9.57 Y20.27 F3500.00
+G1 X-9.75 Y20.31 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-3.03 Y20.30 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-3.12 Y20.46 F3500.00
+G1 X-3.18 Y20.56 F3500.00
+G1 X-3.00 Y20.28 F3500.00
+G1 X-3.03 Y20.30 F3500.00
+G1 X-3.03 Y20.30 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X0.09 Y20.58 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X0.11 Y20.77 F3500.00
+G1 X0.11 Y20.42 F3500.00
+G1 X0.09 Y20.58 F3500.00
+G1 X0.09 Y20.58 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X3.38 Y20.33 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X3.40 Y20.40 F3500.00
+G1 X3.41 Y20.30 F3500.00
+G1 X3.38 Y20.33 F3500.00
+G1 X3.38 Y20.33 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X22.12 Y20.30 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X22.34 Y20.30 F3500.00
+G1 X22.23 Y20.28 F3500.00
+G1 X22.12 Y20.30 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X32.46 Y20.77 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X32.35 Y21.30 F3500.00
+G1 X32.24 Y21.31 F3500.00
+G1 X32.36 Y21.33 F3500.00
+G1 X32.50 Y21.43 F3500.00
+G1 X32.70 Y21.59 F3500.00
+G1 X32.76 Y21.69 F3500.00
+G1 X32.83 Y21.74 F3500.00
+G1 X33.89 Y22.20 F3500.00
+G1 X37.49 Y23.81 F3500.00
+G1 X37.53 Y23.65 F3500.00
+G1 X37.50 Y23.62 F3500.00
+G1 X37.46 Y23.76 F3500.00
+G1 X36.68 Y23.41 F3500.00
+G1 X36.56 Y23.36 F3500.00
+G1 X35.67 Y22.96 F3500.00
+G1 X34.05 Y22.22 F3500.00
+G1 X34.01 Y22.19 F3500.00
+G1 X33.87 Y22.13 F3500.00
+G1 X33.80 Y22.10 F3500.00
+G1 X33.19 Y21.76 F3500.00
+G1 X32.57 Y21.42 F3500.00
+G1 X32.53 Y20.84 F3500.00
+G1 X32.49 Y20.29 F3500.00
+G1 X32.46 Y20.77 F3500.00
+G1 X32.46 Y20.77 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-15.57 Y20.34 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-15.47 Y20.35 F3500.00
+G1 X-15.50 Y20.32 F3500.00
+G1 X-15.57 Y20.34 F3500.00
+G1 X-15.57 Y20.34 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X22.66 Y20.34 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X22.80 Y20.35 F3500.00
+G1 X22.74 Y20.32 F3500.00
+G1 X22.66 Y20.34 F3500.00
+G1 X22.66 Y20.34 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-15.81 Y20.39 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-15.72 Y20.40 F3500.00
+G1 X-15.75 Y20.37 F3500.00
+G1 X-15.81 Y20.39 F3500.00
+G1 X-15.81 Y20.39 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-10.38 Y20.47 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-10.74 Y20.59 F3500.00
+G1 X-9.87 Y20.38 F3500.00
+G1 X-10.38 Y20.47 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X1.08 Y20.90 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X1.10 Y21.19 F3500.00
+G1 X1.10 Y20.62 F3500.00
+G1 X1.08 Y20.90 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X2.05 Y20.46 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X2.08 Y20.52 F3500.00
+G1 X2.08 Y20.40 F3500.00
+G1 X2.05 Y20.46 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X2.79 Y20.43 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X2.81 Y20.50 F3500.00
+G1 X2.82 Y20.40 F3500.00
+G1 X2.79 Y20.43 F3500.00
+G1 X2.79 Y20.43 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X4.21 Y20.39 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X4.18 Y20.54 F3500.00
+G1 X4.21 Y20.54 F3500.00
+G1 X4.24 Y20.40 F3500.00
+G1 X4.21 Y20.39 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X23.15 Y20.39 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X23.30 Y20.40 F3500.00
+G1 X23.24 Y20.37 F3500.00
+G1 X23.15 Y20.39 F3500.00
+G1 X23.15 Y20.39 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-20.94 Y20.71 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-21.02 Y21.04 F3500.00
+G1 X-20.90 Y20.75 F3500.00
+G1 X-20.82 Y20.42 F3500.00
+G1 X-20.94 Y20.71 F3500.00
+G1 X-20.94 Y20.71 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-19.70 Y20.46 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-19.61 Y20.67 F3500.00
+G1 X-19.58 Y20.74 F3500.00
+G1 X-19.70 Y20.41 F3500.00
+G1 X-19.70 Y20.46 F3500.00
+G1 X-19.70 Y20.46 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-16.06 Y20.44 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-15.96 Y20.44 F3500.00
+G1 X-15.99 Y20.41 F3500.00
+G1 X-16.06 Y20.44 F3500.00
+G1 X-16.06 Y20.44 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-5.83 Y20.48 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-5.80 Y20.54 F3500.00
+G1 X-5.80 Y20.45 F3500.00
+G1 X-5.83 Y20.48 F3500.00
+G1 X-5.83 Y20.48 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X23.64 Y20.44 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X23.79 Y20.44 F3500.00
+G1 X23.73 Y20.42 F3500.00
+G1 X23.64 Y20.44 F3500.00
+G1 X23.64 Y20.44 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-18.18 Y20.56 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-18.16 Y20.62 F3500.00
+G1 X-18.16 Y20.50 F3500.00
+G1 X-18.18 Y20.56 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-5.14 Y20.56 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-5.11 Y20.62 F3500.00
+G1 X-5.11 Y20.50 F3500.00
+G1 X-5.14 Y20.56 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X3.33 Y20.53 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X3.35 Y20.59 F3500.00
+G1 X3.36 Y20.50 F3500.00
+G1 X3.33 Y20.53 F3500.00
+G1 X3.33 Y20.53 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X24.16 Y20.49 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X24.25 Y20.49 F3500.00
+G1 X24.22 Y20.46 F3500.00
+G1 X24.16 Y20.49 F3500.00
+G1 X24.16 Y20.49 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-8.62 Y20.65 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-9.23 Y20.85 F3500.00
+G1 X-9.45 Y20.96 F3500.00
+G1 X-9.53 Y20.98 F3500.00
+G1 X-9.77 Y21.00 F3500.00
+G1 X-9.70 Y21.02 F3500.00
+G1 X-10.24 Y21.36 F3500.00
+G1 X-11.66 Y22.16 F3500.00
+G1 X-12.34 Y22.59 F3500.00
+G1 X-12.46 Y22.47 F3500.00
+G1 X-12.65 Y22.21 F3500.00
+G1 X-12.72 Y22.14 F3500.00
+G1 X-12.41 Y22.59 F3500.00
+G1 X-12.38 Y22.64 F3500.00
+G1 X-13.12 Y23.25 F3500.00
+G1 X-12.81 Y23.03 F3500.00
+G1 X-12.42 Y22.72 F3500.00
+G1 X-12.88 Y24.16 F3500.00
+G1 X-13.36 Y25.68 F3500.00
+G1 X-12.85 Y24.23 F3500.00
+G1 X-12.29 Y22.72 F3500.00
+G1 X-11.49 Y22.10 F3500.00
+G1 X-8.81 Y20.78 F3500.00
+G1 X-8.20 Y20.53 F3500.00
+G1 X-8.62 Y20.65 F3500.00
+G1 X-8.62 Y20.65 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X20.54 Y20.55 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X20.18 Y20.62 F3500.00
+G1 X21.09 Y20.56 F3500.00
+G1 X21.36 Y20.52 F3500.00
+G1 X21.12 Y20.52 F3500.00
+G1 X20.54 Y20.55 F3500.00
+G1 X20.54 Y20.55 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-20.30 Y20.72 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-20.40 Y21.01 F3500.00
+G1 X-20.36 Y20.98 F3500.00
+G1 X-20.12 Y20.61 F3500.00
+G1 X-20.04 Y20.72 F3500.00
+G1 X-20.03 Y20.71 F3500.00
+G1 X-20.30 Y20.72 F3500.00
+G1 X-20.30 Y20.72 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-16.93 Y20.64 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-16.99 Y20.76 F3500.00
+G1 X-16.88 Y20.66 F3500.00
+G1 X-16.93 Y20.64 F3500.00
+G1 X-16.93 Y20.64 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-4.25 Y20.60 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-3.39 Y20.94 F3500.00
+G1 X-3.80 Y20.75 F3500.00
+G1 X-4.25 Y20.60 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-2.17 Y20.63 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-2.44 Y21.12 F3500.00
+G1 X-2.29 Y21.54 F3500.00
+G1 X-2.32 Y21.39 F3500.00
+G1 X-2.27 Y20.76 F3500.00
+G1 X-2.08 Y20.75 F3500.00
+G1 X-2.01 Y20.74 F3500.00
+G1 X-1.98 Y20.64 F3500.00
+G1 X-1.97 Y20.60 F3500.00
+G1 X-2.17 Y20.63 F3500.00
+G1 X-2.17 Y20.63 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X21.65 Y20.59 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X21.84 Y20.59 F3500.00
+G1 X21.76 Y20.57 F3500.00
+G1 X21.65 Y20.59 F3500.00
+G1 X21.65 Y20.59 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X25.51 Y20.59 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X25.66 Y20.59 F3500.00
+G1 X25.60 Y20.57 F3500.00
+G1 X25.51 Y20.59 F3500.00
+G1 X25.51 Y20.59 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-19.49 Y20.67 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-19.50 Y20.84 F3500.00
+G1 X-19.47 Y20.82 F3500.00
+G1 X-19.27 Y20.87 F3500.00
+G1 X-19.17 Y20.95 F3500.00
+G1 X-19.32 Y20.73 F3500.00
+G1 X-19.49 Y20.67 F3500.00
+G1 X-19.49 Y20.67 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-10.94 Y20.64 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-10.84 Y20.64 F3500.00
+G1 X-10.87 Y20.61 F3500.00
+G1 X-10.94 Y20.64 F3500.00
+G1 X-10.94 Y20.64 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-1.66 Y20.74 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-1.61 Y20.79 F3500.00
+G1 X-1.64 Y20.65 F3500.00
+G1 X-1.66 Y20.74 F3500.00
+G1 X-1.66 Y20.74 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X2.00 Y20.68 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X2.02 Y20.74 F3500.00
+G1 X2.03 Y20.65 F3500.00
+G1 X2.00 Y20.68 F3500.00
+G1 X2.00 Y20.68 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X2.74 Y20.71 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X2.77 Y20.77 F3500.00
+G1 X2.77 Y20.64 F3500.00
+G1 X2.74 Y20.71 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X19.75 Y20.67 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X19.88 Y20.71 F3500.00
+G1 X20.06 Y20.66 F3500.00
+G1 X19.75 Y20.67 F3500.00
+G1 X19.75 Y20.67 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X22.34 Y20.64 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X22.53 Y20.64 F3500.00
+G1 X22.45 Y20.62 F3500.00
+G1 X22.34 Y20.64 F3500.00
+G1 X22.34 Y20.64 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X26.00 Y20.64 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X26.15 Y20.64 F3500.00
+G1 X26.09 Y20.62 F3500.00
+G1 X26.00 Y20.64 F3500.00
+G1 X26.00 Y20.64 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-19.94 Y20.95 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-19.92 Y21.11 F3500.00
+G1 X-19.92 Y20.79 F3500.00
+G1 X-19.94 Y20.95 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-11.14 Y20.69 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-11.04 Y20.69 F3500.00
+G1 X-11.07 Y20.66 F3500.00
+G1 X-11.14 Y20.69 F3500.00
+G1 X-11.14 Y20.69 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-4.54 Y20.76 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-4.52 Y20.82 F3500.00
+G1 X-4.52 Y20.69 F3500.00
+G1 X-4.54 Y20.76 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-2.53 Y20.76 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-2.50 Y20.82 F3500.00
+G1 X-2.50 Y20.69 F3500.00
+G1 X-2.53 Y20.76 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X3.28 Y20.73 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X3.30 Y20.79 F3500.00
+G1 X3.31 Y20.70 F3500.00
+G1 X3.28 Y20.73 F3500.00
+G1 X3.28 Y20.73 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X19.22 Y20.73 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X19.05 Y20.79 F3500.00
+G1 X19.59 Y20.70 F3500.00
+G1 X19.22 Y20.73 F3500.00
+G1 X19.22 Y20.73 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X22.88 Y20.69 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X23.07 Y20.69 F3500.00
+G1 X22.99 Y20.67 F3500.00
+G1 X22.88 Y20.69 F3500.00
+G1 X22.88 Y20.69 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X26.52 Y20.69 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X26.69 Y20.69 F3500.00
+G1 X26.61 Y20.67 F3500.00
+G1 X26.52 Y20.69 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-11.52 Y20.78 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-11.54 Y20.82 F3500.00
+G1 X-11.25 Y20.71 F3500.00
+G1 X-11.52 Y20.78 F3500.00
+G1 X-11.52 Y20.78 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X23.47 Y20.74 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X23.67 Y20.74 F3500.00
+G1 X23.58 Y20.72 F3500.00
+G1 X23.47 Y20.74 F3500.00
+G1 X23.47 Y20.74 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X26.96 Y20.74 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X27.14 Y20.74 F3500.00
+G1 X27.05 Y20.72 F3500.00
+G1 X26.96 Y20.74 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X37.31 Y21.02 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X37.43 Y21.32 F3500.00
+G1 X37.24 Y20.71 F3500.00
+G1 X37.31 Y21.02 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-18.13 Y20.85 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-18.11 Y20.92 F3500.00
+G1 X-18.11 Y20.79 F3500.00
+G1 X-18.13 Y20.85 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-5.18 Y20.90 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-5.16 Y20.99 F3500.00
+G1 X-5.16 Y20.82 F3500.00
+G1 X-5.18 Y20.90 F3500.00
+G1 X-5.18 Y20.90 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X11.86 Y21.01 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X12.29 Y21.39 F3500.00
+G1 X12.20 Y21.32 F3500.00
+G1 X11.92 Y21.00 F3500.00
+G1 X11.77 Y20.76 F3500.00
+G1 X11.86 Y21.01 F3500.00
+G1 X11.86 Y21.01 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X24.08 Y20.79 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X24.31 Y20.79 F3500.00
+G1 X24.20 Y20.77 F3500.00
+G1 X24.08 Y20.79 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X27.41 Y20.79 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X27.58 Y20.79 F3500.00
+G1 X27.49 Y20.77 F3500.00
+G1 X27.41 Y20.79 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-17.05 Y20.93 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-17.02 Y21.01 F3500.00
+G1 X-17.02 Y20.87 F3500.00
+G1 X-17.05 Y20.93 F3500.00
+G1 X-17.05 Y20.93 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X4.07 Y20.84 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X4.03 Y20.98 F3500.00
+G1 X4.06 Y20.99 F3500.00
+G1 X4.09 Y20.84 F3500.00
+G1 X4.07 Y20.84 F3500.00
+G1 X4.07 Y20.84 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X18.55 Y20.84 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X18.74 Y20.84 F3500.00
+G1 X18.66 Y20.82 F3500.00
+G1 X18.55 Y20.84 F3500.00
+G1 X18.55 Y20.84 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X24.63 Y20.84 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X24.85 Y20.84 F3500.00
+G1 X24.74 Y20.82 F3500.00
+G1 X24.63 Y20.84 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X27.85 Y20.84 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X28.02 Y20.84 F3500.00
+G1 X27.94 Y20.82 F3500.00
+G1 X27.85 Y20.84 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-11.87 Y20.88 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-11.78 Y20.89 F3500.00
+G1 X-11.81 Y20.86 F3500.00
+G1 X-11.87 Y20.88 F3500.00
+G1 X-11.87 Y20.88 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X2.69 Y20.92 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X2.71 Y20.99 F3500.00
+G1 X2.72 Y20.89 F3500.00
+G1 X2.69 Y20.92 F3500.00
+G1 X2.69 Y20.92 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X18.23 Y20.89 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X18.35 Y20.89 F3500.00
+G1 X18.29 Y20.86 F3500.00
+G1 X18.23 Y20.89 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X25.17 Y20.89 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X25.39 Y20.89 F3500.00
+G1 X25.28 Y20.87 F3500.00
+G1 X25.17 Y20.89 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X28.29 Y20.89 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X28.47 Y20.89 F3500.00
+G1 X28.38 Y20.87 F3500.00
+G1 X28.29 Y20.89 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-19.65 Y21.05 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-19.63 Y21.14 F3500.00
+G1 X-19.63 Y20.96 F3500.00
+G1 X-19.65 Y21.05 F3500.00
+G1 X-19.65 Y21.05 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-12.35 Y20.99 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-12.58 Y21.10 F3500.00
+G1 X-12.64 Y21.47 F3500.00
+G1 X-12.76 Y21.81 F3500.00
+G1 X-13.34 Y22.02 F3500.00
+G1 X-13.88 Y22.23 F3500.00
+G1 X-13.31 Y22.06 F3500.00
+G1 X-12.79 Y21.89 F3500.00
+G1 X-12.76 Y21.97 F3500.00
+G1 X-12.73 Y21.95 F3500.00
+G1 X-12.64 Y21.84 F3500.00
+G1 X-12.48 Y21.79 F3500.00
+G1 X-12.54 Y21.77 F3500.00
+G1 X-12.56 Y21.37 F3500.00
+G1 X-12.18 Y21.00 F3500.00
+G1 X-11.99 Y20.91 F3500.00
+G1 X-12.35 Y20.99 F3500.00
+G1 X-12.35 Y20.99 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-4.73 Y21.20 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-4.71 Y21.36 F3500.00
+G1 X-4.71 Y21.04 F3500.00
+G1 X-4.73 Y21.20 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-1.59 Y21.05 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-1.56 Y21.14 F3500.00
+G1 X-1.56 Y20.96 F3500.00
+G1 X-1.59 Y21.05 F3500.00
+G1 X-1.59 Y21.05 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X17.71 Y20.94 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X17.91 Y20.94 F3500.00
+G1 X17.82 Y20.92 F3500.00
+G1 X17.71 Y20.94 F3500.00
+G1 X17.71 Y20.94 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X25.66 Y20.94 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X25.88 Y20.94 F3500.00
+G1 X25.77 Y20.92 F3500.00
+G1 X25.66 Y20.94 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X28.74 Y20.94 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X28.93 Y20.94 F3500.00
+G1 X28.85 Y20.92 F3500.00
+G1 X28.74 Y20.94 F3500.00
+G1 X28.74 Y20.94 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-2.57 Y21.27 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-2.55 Y21.46 F3500.00
+G1 X-2.55 Y21.11 F3500.00
+G1 X-2.57 Y21.27 F3500.00
+G1 X-2.57 Y21.27 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-0.52 Y20.99 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-0.25 Y21.07 F3500.00
+G1 X-0.23 Y21.05 F3500.00
+G1 X-0.50 Y20.97 F3500.00
+G1 X-0.74 Y20.97 F3500.00
+G1 X-0.52 Y20.99 F3500.00
+G1 X-0.52 Y20.99 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X17.22 Y20.99 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X17.46 Y20.99 F3500.00
+G1 X17.33 Y20.97 F3500.00
+G1 X17.22 Y20.99 F3500.00
+G1 X17.22 Y20.99 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X26.15 Y20.99 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X26.37 Y20.99 F3500.00
+G1 X26.26 Y20.97 F3500.00
+G1 X26.15 Y20.99 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X29.23 Y20.99 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X29.42 Y20.99 F3500.00
+G1 X29.34 Y20.96 F3500.00
+G1 X29.23 Y20.99 F3500.00
+G1 X29.23 Y20.99 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-4.58 Y21.37 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-4.57 Y21.55 F3500.00
+G1 X-4.57 Y21.16 F3500.00
+G1 X-4.58 Y21.37 F3500.00
+G1 X-4.58 Y21.37 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X3.18 Y21.07 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X3.21 Y21.14 F3500.00
+G1 X3.21 Y21.04 F3500.00
+G1 X3.18 Y21.07 F3500.00
+G1 X3.18 Y21.07 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X16.34 Y21.05 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X16.59 Y21.07 F3500.00
+G1 X17.05 Y21.02 F3500.00
+G1 X16.34 Y21.05 F3500.00
+G1 X16.34 Y21.05 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X26.67 Y21.04 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X26.84 Y21.04 F3500.00
+G1 X26.75 Y21.01 F3500.00
+G1 X26.67 Y21.04 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X29.67 Y21.04 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X29.87 Y21.04 F3500.00
+G1 X29.78 Y21.01 F3500.00
+G1 X29.67 Y21.04 F3500.00
+G1 X29.67 Y21.04 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-19.55 Y21.25 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-19.53 Y21.36 F3500.00
+G1 X-19.53 Y21.14 F3500.00
+G1 X-19.55 Y21.25 F3500.00
+G1 X-19.55 Y21.25 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-10.05 Y21.08 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-9.96 Y21.08 F3500.00
+G1 X-9.99 Y21.05 F3500.00
+G1 X-10.05 Y21.08 F3500.00
+G1 X-10.05 Y21.08 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X1.90 Y21.12 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X1.93 Y21.18 F3500.00
+G1 X1.93 Y21.09 F3500.00
+G1 X1.90 Y21.12 F3500.00
+G1 X1.90 Y21.12 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X2.64 Y21.12 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X2.66 Y21.18 F3500.00
+G1 X2.67 Y21.09 F3500.00
+G1 X2.64 Y21.12 F3500.00
+G1 X2.64 Y21.12 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X15.75 Y21.10 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X15.56 Y21.14 F3500.00
+G1 X15.79 Y21.14 F3500.00
+G1 X16.02 Y21.13 F3500.00
+G1 X15.75 Y21.10 F3500.00
+G1 X15.75 Y21.10 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X27.11 Y21.08 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X27.28 Y21.08 F3500.00
+G1 X27.20 Y21.06 F3500.00
+G1 X27.11 Y21.08 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X30.16 Y21.08 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X30.34 Y21.08 F3500.00
+G1 X30.25 Y21.06 F3500.00
+G1 X30.16 Y21.08 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-21.09 Y21.17 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-21.06 Y21.23 F3500.00
+G1 X-21.06 Y21.14 F3500.00
+G1 X-21.09 Y21.17 F3500.00
+G1 X-21.09 Y21.17 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-18.92 Y21.17 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-18.90 Y21.23 F3500.00
+G1 X-18.89 Y21.14 F3500.00
+G1 X-18.92 Y21.17 F3500.00
+G1 X-18.92 Y21.17 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-18.08 Y21.20 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-18.06 Y21.26 F3500.00
+G1 X-18.06 Y21.14 F3500.00
+G1 X-18.08 Y21.20 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-13.08 Y21.18 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-13.35 Y21.28 F3500.00
+G1 X-12.68 Y21.12 F3500.00
+G1 X-13.08 Y21.18 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-10.25 Y21.13 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-10.15 Y21.13 F3500.00
+G1 X-10.18 Y21.10 F3500.00
+G1 X-10.25 Y21.13 F3500.00
+G1 X-10.25 Y21.13 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-3.14 Y21.22 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-3.53 Y21.53 F3500.00
+G1 X-4.06 Y21.84 F3500.00
+G1 X-4.16 Y21.94 F3500.00
+G1 X-3.97 Y21.81 F3500.00
+G1 X-3.46 Y21.56 F3500.00
+G1 X-3.09 Y21.16 F3500.00
+G1 X-3.14 Y21.22 F3500.00
+G1 X-3.14 Y21.22 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X15.04 Y21.15 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X15.21 Y21.20 F3500.00
+G1 X15.38 Y21.15 F3500.00
+G1 X15.21 Y21.10 F3500.00
+G1 X15.04 Y21.15 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X27.55 Y21.13 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X27.73 Y21.13 F3500.00
+G1 X27.64 Y21.11 F3500.00
+G1 X27.55 Y21.13 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X30.56 Y21.13 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X30.75 Y21.13 F3500.00
+G1 X30.67 Y21.11 F3500.00
+G1 X30.56 Y21.13 F3500.00
+G1 X30.56 Y21.13 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-20.35 Y21.22 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-20.32 Y21.28 F3500.00
+G1 X-20.32 Y21.19 F3500.00
+G1 X-20.35 Y21.22 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-5.23 Y21.32 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-5.21 Y21.43 F3500.00
+G1 X-5.21 Y21.24 F3500.00
+G1 X-5.23 Y21.32 F3500.00
+G1 X-5.23 Y21.32 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X14.35 Y21.20 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X14.55 Y21.25 F3500.00
+G1 X14.74 Y21.20 F3500.00
+G1 X14.55 Y21.15 F3500.00
+G1 X14.35 Y21.20 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X27.95 Y21.18 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X28.14 Y21.18 F3500.00
+G1 X28.06 Y21.16 F3500.00
+G1 X27.95 Y21.18 F3500.00
+G1 X27.95 Y21.18 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X31.00 Y21.18 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X31.17 Y21.18 F3500.00
+G1 X31.09 Y21.16 F3500.00
+G1 X31.00 Y21.18 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-20.58 Y21.25 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-20.58 Y21.33 F3500.00
+G1 X-20.55 Y21.30 F3500.00
+G1 X-20.44 Y21.31 F3500.00
+G1 X-20.42 Y21.30 F3500.00
+G1 X-20.58 Y21.25 F3500.00
+G1 X-20.58 Y21.25 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-17.09 Y21.37 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-17.07 Y21.48 F3500.00
+G1 X-17.07 Y21.28 F3500.00
+G1 X-17.09 Y21.37 F3500.00
+G1 X-17.09 Y21.37 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-10.59 Y21.23 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-10.50 Y21.23 F3500.00
+G1 X-10.53 Y21.20 F3500.00
+G1 X-10.59 Y21.23 F3500.00
+G1 X-10.59 Y21.23 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X3.11 Y21.32 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X3.09 Y21.48 F3500.00
+G1 X3.15 Y21.37 F3500.00
+G1 X3.16 Y21.21 F3500.00
+G1 X3.11 Y21.32 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X13.78 Y21.25 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X13.88 Y21.29 F3500.00
+G1 X14.10 Y21.25 F3500.00
+G1 X14.01 Y21.21 F3500.00
+G1 X13.78 Y21.25 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X28.44 Y21.23 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X28.61 Y21.23 F3500.00
+G1 X28.53 Y21.21 F3500.00
+G1 X28.44 Y21.23 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X31.42 Y21.23 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X31.57 Y21.23 F3500.00
+G1 X31.51 Y21.21 F3500.00
+G1 X31.42 Y21.23 F3500.00
+G1 X31.42 Y21.23 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-19.70 Y21.40 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-19.68 Y21.48 F3500.00
+G1 X-19.68 Y21.31 F3500.00
+G1 X-19.70 Y21.40 F3500.00
+G1 X-19.70 Y21.40 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X1.85 Y21.32 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X1.88 Y21.38 F3500.00
+G1 X1.88 Y21.29 F3500.00
+G1 X1.85 Y21.32 F3500.00
+G1 X1.85 Y21.32 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X2.59 Y21.32 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X2.62 Y21.38 F3500.00
+G1 X2.62 Y21.29 F3500.00
+G1 X2.59 Y21.32 F3500.00
+G1 X2.59 Y21.32 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X28.91 Y21.28 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X29.06 Y21.28 F3500.00
+G1 X28.99 Y21.26 F3500.00
+G1 X28.91 Y21.28 F3500.00
+G1 X28.91 Y21.28 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X31.86 Y21.28 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X32.01 Y21.28 F3500.00
+G1 X31.95 Y21.26 F3500.00
+G1 X31.86 Y21.28 F3500.00
+G1 X31.86 Y21.28 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-13.55 Y21.33 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-13.45 Y21.33 F3500.00
+G1 X-13.48 Y21.30 F3500.00
+G1 X-13.55 Y21.33 F3500.00
+G1 X-13.55 Y21.33 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-10.94 Y21.33 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-10.84 Y21.33 F3500.00
+G1 X-10.87 Y21.30 F3500.00
+G1 X-10.94 Y21.33 F3500.00
+G1 X-10.94 Y21.33 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-2.07 Y21.41 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-2.07 Y21.58 F3500.00
+G1 X-2.01 Y21.30 F3500.00
+G1 X-2.07 Y21.41 F3500.00
+G1 X-2.07 Y21.41 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-0.26 Y21.49 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-0.23 Y21.60 F3500.00
+G1 X-0.23 Y21.38 F3500.00
+G1 X-0.26 Y21.49 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X13.18 Y21.33 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X13.38 Y21.33 F3500.00
+G1 X13.29 Y21.31 F3500.00
+G1 X13.18 Y21.33 F3500.00
+G1 X13.18 Y21.33 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X29.35 Y21.33 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X29.50 Y21.33 F3500.00
+G1 X29.44 Y21.31 F3500.00
+G1 X29.35 Y21.33 F3500.00
+G1 X29.35 Y21.33 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-20.04 Y21.64 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-20.02 Y21.80 F3500.00
+G1 X-20.02 Y21.48 F3500.00
+G1 X-20.04 Y21.64 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-13.74 Y21.38 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-13.65 Y21.38 F3500.00
+G1 X-13.68 Y21.35 F3500.00
+G1 X-13.74 Y21.38 F3500.00
+G1 X-13.74 Y21.38 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-11.14 Y21.38 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-11.04 Y21.38 F3500.00
+G1 X-11.07 Y21.35 F3500.00
+G1 X-11.14 Y21.38 F3500.00
+G1 X-11.14 Y21.38 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X0.04 Y21.49 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X0.06 Y21.58 F3500.00
+G1 X0.06 Y21.41 F3500.00
+G1 X0.04 Y21.49 F3500.00
+G1 X0.04 Y21.49 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X12.44 Y21.38 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X12.61 Y21.38 F3500.00
+G1 X12.53 Y21.36 F3500.00
+G1 X12.44 Y21.38 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X29.79 Y21.38 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X29.94 Y21.38 F3500.00
+G1 X29.88 Y21.36 F3500.00
+G1 X29.79 Y21.38 F3500.00
+G1 X29.79 Y21.38 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-20.30 Y21.46 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-20.27 Y21.53 F3500.00
+G1 X-20.27 Y21.44 F3500.00
+G1 X-20.30 Y21.46 F3500.00
+G1 X-20.30 Y21.46 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-19.31 Y21.55 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-19.37 Y21.76 F3500.00
+G1 X-19.29 Y21.62 F3500.00
+G1 X-19.24 Y21.41 F3500.00
+G1 X-19.31 Y21.55 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-14.10 Y21.44 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-14.13 Y21.48 F3500.00
+G1 X-13.91 Y21.44 F3500.00
+G1 X-13.88 Y21.40 F3500.00
+G1 X-14.10 Y21.44 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X37.47 Y21.67 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X37.51 Y22.68 F3500.00
+G1 X37.54 Y23.37 F3500.00
+G1 X37.55 Y21.81 F3500.00
+G1 X37.45 Y21.41 F3500.00
+G1 X37.47 Y21.67 F3500.00
+G1 X37.47 Y21.67 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-19.24 Y21.73 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-19.32 Y22.09 F3500.00
+G1 X-19.22 Y21.82 F3500.00
+G1 X-19.14 Y21.46 F3500.00
+G1 X-19.24 Y21.73 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-18.97 Y21.62 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-18.90 Y21.86 F3500.00
+G1 X-18.91 Y21.72 F3500.00
+G1 X-18.98 Y21.47 F3500.00
+G1 X-18.97 Y21.62 F3500.00
+G1 X-18.97 Y21.62 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-18.03 Y21.59 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-18.01 Y21.68 F3500.00
+G1 X-18.01 Y21.51 F3500.00
+G1 X-18.03 Y21.59 F3500.00
+G1 X-18.03 Y21.59 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-11.51 Y21.48 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-11.38 Y21.48 F3500.00
+G1 X-11.44 Y21.45 F3500.00
+G1 X-11.51 Y21.48 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-1.75 Y21.49 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-1.73 Y21.54 F3500.00
+G1 X-1.65 Y21.49 F3500.00
+G1 X-1.75 Y21.49 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X1.80 Y21.51 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X1.83 Y21.58 F3500.00
+G1 X1.83 Y21.48 F3500.00
+G1 X1.80 Y21.51 F3500.00
+G1 X1.80 Y21.51 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-18.82 Y21.56 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-18.80 Y21.63 F3500.00
+G1 X-18.79 Y21.53 F3500.00
+G1 X-18.82 Y21.56 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-14.38 Y21.52 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-14.29 Y21.53 F3500.00
+G1 X-14.32 Y21.50 F3500.00
+G1 X-14.38 Y21.52 F3500.00
+G1 X-14.38 Y21.52 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-20.39 Y21.64 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-20.37 Y21.70 F3500.00
+G1 X-20.37 Y21.58 F3500.00
+G1 X-20.39 Y21.64 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-14.58 Y21.57 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-14.49 Y21.58 F3500.00
+G1 X-14.52 Y21.55 F3500.00
+G1 X-14.58 Y21.57 F3500.00
+G1 X-14.58 Y21.57 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X3.01 Y21.67 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X3.00 Y21.82 F3500.00
+G1 X3.05 Y21.71 F3500.00
+G1 X3.06 Y21.56 F3500.00
+G1 X3.01 Y21.67 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X31.64 Y21.57 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X31.74 Y21.58 F3500.00
+G1 X31.71 Y21.55 F3500.00
+G1 X31.64 Y21.57 F3500.00
+G1 X31.64 Y21.57 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-19.60 Y21.79 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-19.58 Y21.90 F3500.00
+G1 X-19.58 Y21.68 F3500.00
+G1 X-19.60 Y21.79 F3500.00
+G1 X-19.60 Y21.79 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-14.78 Y21.62 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-14.68 Y21.63 F3500.00
+G1 X-14.71 Y21.60 F3500.00
+G1 X-14.78 Y21.62 F3500.00
+G1 X-14.78 Y21.62 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X2.49 Y21.66 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X2.52 Y21.73 F3500.00
+G1 X2.52 Y21.63 F3500.00
+G1 X2.49 Y21.66 F3500.00
+G1 X2.49 Y21.66 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X32.01 Y21.62 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X32.13 Y21.62 F3500.00
+G1 X32.07 Y21.60 F3500.00
+G1 X32.01 Y21.62 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-19.77 Y22.04 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-19.75 Y22.46 F3500.00
+G1 X-19.71 Y22.06 F3500.00
+G1 X-19.73 Y21.64 F3500.00
+G1 X-19.77 Y22.04 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-14.97 Y21.67 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-14.88 Y21.67 F3500.00
+G1 X-14.91 Y21.65 F3500.00
+G1 X-14.97 Y21.67 F3500.00
+G1 X-14.97 Y21.67 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-12.31 Y21.69 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-12.33 Y21.73 F3500.00
+G1 X-12.16 Y21.69 F3500.00
+G1 X-12.13 Y21.65 F3500.00
+G1 X-12.31 Y21.69 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-5.27 Y21.99 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-5.25 Y22.17 F3500.00
+G1 X-5.25 Y21.80 F3500.00
+G1 X-5.27 Y21.99 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-2.53 Y21.74 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-2.50 Y21.80 F3500.00
+G1 X-2.50 Y21.68 F3500.00
+G1 X-2.53 Y21.74 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X32.33 Y21.68 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X32.50 Y21.68 F3500.00
+G1 X32.42 Y21.65 F3500.00
+G1 X32.33 Y21.68 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-20.74 Y21.81 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-20.15 Y22.92 F3500.00
+G1 X-20.13 Y22.57 F3500.00
+G1 X-20.18 Y22.53 F3500.00
+G1 X-20.16 Y22.86 F3500.00
+G1 X-20.71 Y21.81 F3500.00
+G1 X-20.73 Y21.67 F3500.00
+G1 X-20.74 Y21.81 F3500.00
+G1 X-20.74 Y21.81 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-15.17 Y21.72 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-15.08 Y21.72 F3500.00
+G1 X-15.11 Y21.69 F3500.00
+G1 X-15.17 Y21.72 F3500.00
+G1 X-15.17 Y21.72 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X1.75 Y21.76 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X1.78 Y21.82 F3500.00
+G1 X1.78 Y21.73 F3500.00
+G1 X1.75 Y21.76 F3500.00
+G1 X1.75 Y21.76 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-21.24 Y21.81 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-21.21 Y21.87 F3500.00
+G1 X-21.21 Y21.78 F3500.00
+G1 X-21.24 Y21.81 F3500.00
+G1 X-21.24 Y21.81 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-19.91 Y21.99 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-19.96 Y22.16 F3500.00
+G1 X-19.95 Y22.33 F3500.00
+G1 X-19.93 Y22.51 F3500.00
+G1 X-20.03 Y22.40 F3500.00
+G1 X-20.05 Y22.45 F3500.00
+G1 X-19.88 Y22.53 F3500.00
+G1 X-19.86 Y22.01 F3500.00
+G1 X-19.90 Y21.72 F3500.00
+G1 X-19.91 Y21.99 F3500.00
+G1 X-19.91 Y21.99 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-15.37 Y21.77 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-15.27 Y21.77 F3500.00
+G1 X-15.30 Y21.74 F3500.00
+G1 X-15.37 Y21.77 F3500.00
+G1 X-15.37 Y21.77 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X11.57 Y21.97 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X11.44 Y22.11 F3500.00
+G1 X11.73 Y21.87 F3500.00
+G1 X11.86 Y21.74 F3500.00
+G1 X11.57 Y21.97 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X12.32 Y21.78 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X12.74 Y21.78 F3500.00
+G1 X12.53 Y21.76 F3500.00
+G1 X12.32 Y21.78 F3500.00
+G1 X12.32 Y21.78 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-18.77 Y21.89 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-18.75 Y21.95 F3500.00
+G1 X-18.75 Y21.83 F3500.00
+G1 X-18.77 Y21.89 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-17.14 Y21.91 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-17.12 Y22.00 F3500.00
+G1 X-17.12 Y21.85 F3500.00
+G1 X-17.14 Y21.91 F3500.00
+G1 X-17.14 Y21.91 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-15.57 Y21.82 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-15.47 Y21.82 F3500.00
+G1 X-15.50 Y21.79 F3500.00
+G1 X-15.57 Y21.82 F3500.00
+G1 X-15.57 Y21.82 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X13.40 Y21.82 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X13.84 Y21.83 F3500.00
+G1 X13.64 Y21.81 F3500.00
+G1 X13.40 Y21.82 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-20.99 Y21.91 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-20.96 Y21.97 F3500.00
+G1 X-20.96 Y21.88 F3500.00
+G1 X-20.99 Y21.91 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-19.44 Y21.96 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-19.45 Y22.12 F3500.00
+G1 X-19.40 Y22.01 F3500.00
+G1 X-19.39 Y21.85 F3500.00
+G1 X-19.44 Y21.96 F3500.00
+G1 X-19.44 Y21.96 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-17.98 Y22.04 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-17.96 Y22.15 F3500.00
+G1 X-17.96 Y21.92 F3500.00
+G1 X-17.98 Y22.04 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-15.76 Y21.87 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-15.67 Y21.87 F3500.00
+G1 X-15.70 Y21.84 F3500.00
+G1 X-15.76 Y21.87 F3500.00
+G1 X-15.76 Y21.87 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-5.92 Y22.01 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-5.90 Y22.12 F3500.00
+G1 X-5.90 Y21.92 F3500.00
+G1 X-5.92 Y22.01 F3500.00
+G1 X-5.92 Y22.01 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-3.25 Y21.88 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-3.07 Y22.04 F3500.00
+G1 X-3.03 Y22.06 F3500.00
+G1 X-3.27 Y21.84 F3500.00
+G1 X-3.25 Y21.88 F3500.00
+G1 X-3.25 Y21.88 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-1.52 Y22.05 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-1.82 Y22.37 F3500.00
+G1 X-1.96 Y22.48 F3500.00
+G1 X-1.73 Y22.36 F3500.00
+G1 X-1.49 Y22.23 F3500.00
+G1 X-0.65 Y22.88 F3500.00
+G1 X-0.56 Y23.11 F3500.00
+G1 X-0.53 Y23.18 F3500.00
+G1 X-0.87 Y22.62 F3500.00
+G1 X-1.43 Y21.98 F3500.00
+G1 X-1.42 Y21.85 F3500.00
+G1 X-1.52 Y22.05 F3500.00
+G1 X-1.52 Y22.05 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-0.31 Y21.96 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-0.29 Y22.05 F3500.00
+G1 X-0.28 Y21.90 F3500.00
+G1 X-0.31 Y21.96 F3500.00
+G1 X-0.31 Y21.96 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X3.70 Y21.96 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X3.68 Y22.12 F3500.00
+G1 X3.74 Y22.01 F3500.00
+G1 X3.75 Y21.85 F3500.00
+G1 X3.70 Y21.96 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X14.49 Y21.87 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X14.88 Y21.87 F3500.00
+G1 X14.67 Y21.86 F3500.00
+G1 X14.49 Y21.87 F3500.00
+G1 X14.49 Y21.87 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-15.96 Y21.92 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-15.86 Y21.92 F3500.00
+G1 X-15.89 Y21.89 F3500.00
+G1 X-15.96 Y21.92 F3500.00
+G1 X-15.96 Y21.92 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-4.55 Y21.98 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-4.34 Y22.09 F3500.00
+G1 X-4.39 Y22.07 F3500.00
+G1 X-4.52 Y21.98 F3500.00
+G1 X-4.54 Y21.86 F3500.00
+G1 X-4.55 Y21.98 F3500.00
+G1 X-4.55 Y21.98 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-3.62 Y21.94 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-3.49 Y21.94 F3500.00
+G1 X-3.47 Y21.89 F3500.00
+G1 X-3.62 Y21.94 F3500.00
+G1 X-3.62 Y21.94 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-2.48 Y21.93 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-2.21 Y22.40 F3500.00
+G1 X-2.22 Y22.32 F3500.00
+G1 X-2.41 Y22.03 F3500.00
+G1 X-2.48 Y21.93 F3500.00
+G1 X-2.48 Y21.93 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-0.01 Y22.04 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X0.01 Y22.12 F3500.00
+G1 X0.01 Y21.95 F3500.00
+G1 X-0.01 Y22.04 F3500.00
+G1 X-0.01 Y22.04 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X2.91 Y22.01 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X2.90 Y22.17 F3500.00
+G1 X2.95 Y22.06 F3500.00
+G1 X2.96 Y21.90 F3500.00
+G1 X2.91 Y22.01 F3500.00
+G1 X2.91 Y22.01 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X15.45 Y21.92 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X15.81 Y21.92 F3500.00
+G1 X15.63 Y21.90 F3500.00
+G1 X15.45 Y21.92 F3500.00
+G1 X15.45 Y21.92 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-18.87 Y22.04 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-18.84 Y22.10 F3500.00
+G1 X-18.84 Y21.97 F3500.00
+G1 X-18.87 Y22.04 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-16.27 Y21.99 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-16.29 Y22.03 F3500.00
+G1 X-16.10 Y21.99 F3500.00
+G1 X-16.27 Y21.99 F3500.00
+G1 X-16.27 Y21.99 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X2.37 Y22.06 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X2.36 Y22.22 F3500.00
+G1 X2.41 Y22.11 F3500.00
+G1 X2.42 Y21.95 F3500.00
+G1 X2.37 Y22.06 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X16.33 Y21.97 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X16.70 Y21.97 F3500.00
+G1 X16.52 Y21.95 F3500.00
+G1 X16.33 Y21.97 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-21.28 Y22.06 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-21.26 Y22.12 F3500.00
+G1 X-21.26 Y22.03 F3500.00
+G1 X-21.28 Y22.06 F3500.00
+G1 X-21.28 Y22.06 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-4.11 Y22.16 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-4.38 Y22.33 F3500.00
+G1 X-4.01 Y22.16 F3500.00
+G1 X-3.74 Y21.99 F3500.00
+G1 X-4.11 Y22.16 F3500.00
+G1 X-4.11 Y22.16 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X1.02 Y22.16 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X1.04 Y22.27 F3500.00
+G1 X1.05 Y22.07 F3500.00
+G1 X1.02 Y22.16 F3500.00
+G1 X1.02 Y22.16 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X17.22 Y22.02 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X17.59 Y22.02 F3500.00
+G1 X17.40 Y22.00 F3500.00
+G1 X17.22 Y22.02 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-21.03 Y22.13 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-21.01 Y22.20 F3500.00
+G1 X-21.01 Y22.07 F3500.00
+G1 X-21.03 Y22.13 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-20.30 Y22.10 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-20.27 Y22.17 F3500.00
+G1 X-20.27 Y22.08 F3500.00
+G1 X-20.30 Y22.10 F3500.00
+G1 X-20.30 Y22.10 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X1.58 Y22.32 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X1.33 Y23.06 F3500.00
+G1 X1.18 Y23.55 F3500.00
+G1 X1.37 Y23.08 F3500.00
+G1 X1.69 Y22.06 F3500.00
+G1 X1.58 Y22.32 F3500.00
+G1 X1.58 Y22.32 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X17.98 Y22.07 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X18.30 Y22.07 F3500.00
+G1 X18.14 Y22.05 F3500.00
+G1 X17.98 Y22.07 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-16.70 Y22.11 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-16.60 Y22.12 F3500.00
+G1 X-16.63 Y22.09 F3500.00
+G1 X-16.70 Y22.11 F3500.00
+G1 X-16.70 Y22.11 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X18.77 Y22.12 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X19.09 Y22.12 F3500.00
+G1 X18.93 Y22.10 F3500.00
+G1 X18.77 Y22.12 F3500.00
+G1 X18.77 Y22.12 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-18.72 Y22.33 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-18.69 Y22.44 F3500.00
+G1 X-18.69 Y22.22 F3500.00
+G1 X-18.72 Y22.33 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-17.18 Y22.29 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-17.18 Y22.47 F3500.00
+G1 X-17.15 Y22.39 F3500.00
+G1 X-17.07 Y22.24 F3500.00
+G1 X-17.07 Y22.17 F3500.00
+G1 X-17.18 Y22.29 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-16.89 Y22.16 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-16.80 Y22.17 F3500.00
+G1 X-16.83 Y22.14 F3500.00
+G1 X-16.89 Y22.16 F3500.00
+G1 X-16.89 Y22.16 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-0.36 Y22.23 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-0.34 Y22.29 F3500.00
+G1 X-0.34 Y22.17 F3500.00
+G1 X-0.36 Y22.23 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X19.56 Y22.17 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X19.88 Y22.17 F3500.00
+G1 X19.72 Y22.15 F3500.00
+G1 X19.56 Y22.17 F3500.00
+G1 X19.56 Y22.17 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-20.85 Y22.23 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-20.80 Y22.28 F3500.00
+G1 X-20.51 Y22.71 F3500.00
+G1 X-20.34 Y23.42 F3500.00
+G1 X-20.36 Y23.45 F3500.00
+G1 X-20.23 Y23.39 F3500.00
+G1 X-20.51 Y22.61 F3500.00
+G1 X-20.85 Y22.23 F3500.00
+G1 X-20.85 Y22.23 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-19.51 Y22.31 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-19.57 Y22.38 F3500.00
+G1 X-19.61 Y22.39 F3500.00
+G1 X-19.49 Y22.46 F3500.00
+G1 X-19.48 Y22.27 F3500.00
+G1 X-19.51 Y22.31 F3500.00
+G1 X-19.51 Y22.31 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-19.37 Y22.25 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-19.34 Y22.32 F3500.00
+G1 X-19.34 Y22.22 F3500.00
+G1 X-19.37 Y22.25 F3500.00
+G1 X-19.37 Y22.25 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X3.60 Y22.26 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X3.57 Y22.40 F3500.00
+G1 X3.62 Y22.34 F3500.00
+G1 X3.65 Y22.20 F3500.00
+G1 X3.60 Y22.26 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X20.34 Y22.22 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X20.69 Y22.22 F3500.00
+G1 X20.53 Y22.20 F3500.00
+G1 X20.34 Y22.22 F3500.00
+G1 X20.34 Y22.22 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-21.33 Y22.33 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-21.31 Y22.39 F3500.00
+G1 X-21.31 Y22.27 F3500.00
+G1 X-21.33 Y22.33 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-20.25 Y22.30 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-20.23 Y22.37 F3500.00
+G1 X-20.22 Y22.27 F3500.00
+G1 X-20.25 Y22.30 F3500.00
+G1 X-20.25 Y22.30 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-4.73 Y22.55 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-4.71 Y22.74 F3500.00
+G1 X-4.71 Y22.39 F3500.00
+G1 X-4.73 Y22.55 F3500.00
+G1 X-4.73 Y22.55 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X2.81 Y22.36 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X2.80 Y22.51 F3500.00
+G1 X2.85 Y22.40 F3500.00
+G1 X2.86 Y22.25 F3500.00
+G1 X2.81 Y22.36 F3500.00
+G1 X2.81 Y22.36 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X21.28 Y22.27 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X21.50 Y22.27 F3500.00
+G1 X21.39 Y22.25 F3500.00
+G1 X21.28 Y22.27 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-21.09 Y22.35 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-21.06 Y22.42 F3500.00
+G1 X-21.06 Y22.32 F3500.00
+G1 X-21.09 Y22.35 F3500.00
+G1 X-21.09 Y22.35 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-1.54 Y22.38 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-1.52 Y22.44 F3500.00
+G1 X-1.52 Y22.32 F3500.00
+G1 X-1.54 Y22.38 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X21.97 Y22.32 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X22.19 Y22.32 F3500.00
+G1 X22.08 Y22.29 F3500.00
+G1 X21.97 Y22.32 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-20.89 Y22.43 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-20.86 Y22.49 F3500.00
+G1 X-20.86 Y22.37 F3500.00
+G1 X-20.89 Y22.43 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-14.47 Y22.38 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-14.50 Y22.42 F3500.00
+G1 X-14.32 Y22.38 F3500.00
+G1 X-14.30 Y22.34 F3500.00
+G1 X-14.47 Y22.38 F3500.00
+G1 X-14.47 Y22.38 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-3.49 Y22.61 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-4.11 Y23.69 F3500.00
+G1 X-3.88 Y23.31 F3500.00
+G1 X-3.44 Y22.61 F3500.00
+G1 X-3.25 Y22.33 F3500.00
+G1 X-3.49 Y22.61 F3500.00
+G1 X-3.49 Y22.61 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-0.07 Y22.40 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-0.04 Y22.46 F3500.00
+G1 X-0.04 Y22.37 F3500.00
+G1 X-0.07 Y22.40 F3500.00
+G1 X-0.07 Y22.40 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X22.68 Y22.36 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X22.88 Y22.37 F3500.00
+G1 X22.79 Y22.34 F3500.00
+G1 X22.68 Y22.36 F3500.00
+G1 X22.68 Y22.36 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-19.03 Y22.52 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-19.15 Y22.65 F3500.00
+G1 X-19.01 Y22.53 F3500.00
+G1 X-18.89 Y22.38 F3500.00
+G1 X-19.03 Y22.52 F3500.00
+G1 X-19.03 Y22.52 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-0.42 Y22.44 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-0.50 Y22.57 F3500.00
+G1 X-0.51 Y22.62 F3500.00
+G1 X-0.39 Y22.39 F3500.00
+G1 X-0.42 Y22.44 F3500.00
+G1 X-0.42 Y22.44 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X23.25 Y22.41 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X23.39 Y22.41 F3500.00
+G1 X23.33 Y22.39 F3500.00
+G1 X23.25 Y22.41 F3500.00
+G1 X23.25 Y22.41 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-19.41 Y22.58 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-19.38 Y22.66 F3500.00
+G1 X-19.38 Y22.49 F3500.00
+G1 X-19.41 Y22.58 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-17.92 Y23.27 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-17.92 Y23.75 F3500.00
+G1 X-17.90 Y23.70 F3500.00
+G1 X-17.90 Y22.83 F3500.00
+G1 X-17.92 Y22.78 F3500.00
+G1 X-17.92 Y23.27 F3500.00
+G1 X-17.92 Y23.27 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-15.55 Y22.73 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-16.47 Y23.06 F3500.00
+G1 X-16.28 Y23.08 F3500.00
+G1 X-16.12 Y23.02 F3500.00
+G1 X-15.40 Y22.72 F3500.00
+G1 X-14.60 Y22.45 F3500.00
+G1 X-15.55 Y22.73 F3500.00
+G1 X-15.55 Y22.73 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X2.13 Y22.83 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X2.02 Y23.25 F3500.00
+G1 X2.17 Y22.87 F3500.00
+G1 X2.28 Y22.45 F3500.00
+G1 X2.13 Y22.83 F3500.00
+G1 X2.13 Y22.83 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X3.40 Y22.88 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X3.17 Y23.52 F3500.00
+G1 X3.16 Y23.76 F3500.00
+G1 X3.20 Y23.71 F3500.00
+G1 X3.37 Y23.09 F3500.00
+G1 X3.55 Y22.49 F3500.00
+G1 X3.40 Y22.88 F3500.00
+G1 X3.40 Y22.88 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X24.82 Y22.51 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X24.97 Y22.51 F3500.00
+G1 X24.91 Y22.49 F3500.00
+G1 X24.82 Y22.51 F3500.00
+G1 X24.82 Y22.51 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-21.38 Y22.65 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-21.35 Y22.74 F3500.00
+G1 X-21.35 Y22.59 F3500.00
+G1 X-21.38 Y22.65 F3500.00
+G1 X-21.38 Y22.65 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-3.07 Y22.61 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-3.82 Y23.51 F3500.00
+G1 X-4.16 Y24.19 F3500.00
+G1 X-3.83 Y25.07 F3500.00
+G1 X-3.96 Y24.71 F3500.00
+G1 X-4.10 Y24.15 F3500.00
+G1 X-3.80 Y23.56 F3500.00
+G1 X-2.97 Y22.63 F3500.00
+G1 X-3.10 Y23.26 F3500.00
+G1 X-3.26 Y23.68 F3500.00
+G1 X-3.06 Y23.28 F3500.00
+G1 X-2.86 Y22.64 F3500.00
+G1 X-3.07 Y22.61 F3500.00
+G1 X-3.07 Y22.61 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X0.97 Y22.63 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X0.99 Y22.69 F3500.00
+G1 X0.99 Y22.56 F3500.00
+G1 X0.97 Y22.63 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X25.41 Y22.56 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X25.63 Y22.56 F3500.00
+G1 X25.52 Y22.54 F3500.00
+G1 X25.41 Y22.56 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X37.65 Y22.70 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X37.67 Y22.81 F3500.00
+G1 X37.67 Y22.61 F3500.00
+G1 X37.65 Y22.70 F3500.00
+G1 X37.65 Y22.70 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-20.93 Y22.70 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-20.91 Y22.79 F3500.00
+G1 X-20.91 Y22.64 F3500.00
+G1 X-20.93 Y22.70 F3500.00
+G1 X-20.93 Y22.70 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-18.78 Y22.98 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-18.75 Y23.39 F3500.00
+G1 X-18.74 Y23.02 F3500.00
+G1 X-18.76 Y22.62 F3500.00
+G1 X-18.78 Y22.98 F3500.00
+G1 X-18.78 Y22.98 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-5.96 Y22.85 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-5.94 Y23.01 F3500.00
+G1 X-5.94 Y22.71 F3500.00
+G1 X-5.96 Y22.85 F3500.00
+G1 X-5.96 Y22.85 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X2.71 Y22.70 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X2.70 Y22.86 F3500.00
+G1 X2.75 Y22.75 F3500.00
+G1 X2.77 Y22.59 F3500.00
+G1 X2.71 Y22.70 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X26.03 Y22.61 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X26.20 Y22.61 F3500.00
+G1 X26.11 Y22.59 F3500.00
+G1 X26.03 Y22.61 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-17.24 Y22.72 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-17.22 Y22.79 F3500.00
+G1 X-17.22 Y22.66 F3500.00
+G1 X-17.24 Y22.72 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X26.55 Y22.66 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X26.77 Y22.66 F3500.00
+G1 X26.66 Y22.64 F3500.00
+G1 X26.55 Y22.66 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-4.49 Y22.87 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-4.47 Y22.98 F3500.00
+G1 X-4.47 Y22.76 F3500.00
+G1 X-4.49 Y22.87 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X27.06 Y22.71 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X27.26 Y22.71 F3500.00
+G1 X27.17 Y22.69 F3500.00
+G1 X27.06 Y22.71 F3500.00
+G1 X27.06 Y22.71 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X27.58 Y22.76 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X27.80 Y22.76 F3500.00
+G1 X27.69 Y22.74 F3500.00
+G1 X27.58 Y22.76 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-19.19 Y22.93 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-19.37 Y23.01 F3500.00
+G1 X-19.71 Y23.08 F3500.00
+G1 X-19.81 Y23.29 F3500.00
+G1 X-19.71 Y23.15 F3500.00
+G1 X-19.49 Y22.98 F3500.00
+G1 X-19.36 Y23.32 F3500.00
+G1 X-19.33 Y23.55 F3500.00
+G1 X-19.57 Y23.57 F3500.00
+G1 X-19.83 Y23.49 F3500.00
+G1 X-19.85 Y23.66 F3500.00
+G1 X-19.83 Y23.82 F3500.00
+G1 X-19.61 Y23.66 F3500.00
+G1 X-19.57 Y23.67 F3500.00
+G1 X-19.45 Y23.61 F3500.00
+G1 X-19.30 Y23.75 F3500.00
+G1 X-19.28 Y23.50 F3500.00
+G1 X-19.15 Y22.95 F3500.00
+G1 X-19.05 Y22.78 F3500.00
+G1 X-19.19 Y22.93 F3500.00
+G1 X-19.19 Y22.93 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-1.87 Y22.83 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-1.88 Y22.90 F3500.00
+G1 X-1.75 Y22.82 F3500.00
+G1 X-1.87 Y22.83 F3500.00
+G1 X-1.87 Y22.83 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-1.55 Y22.88 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-1.50 Y23.07 F3500.00
+G1 X-1.48 Y22.97 F3500.00
+G1 X-1.55 Y22.88 F3500.00
+G1 X-1.55 Y22.88 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X28.07 Y22.81 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X28.29 Y22.81 F3500.00
+G1 X28.18 Y22.79 F3500.00
+G1 X28.07 Y22.81 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-18.66 Y23.41 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-18.64 Y23.72 F3500.00
+G1 X-18.64 Y23.11 F3500.00
+G1 X-18.66 Y23.41 F3500.00
+G1 X-18.66 Y23.41 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-14.84 Y22.89 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-14.88 Y23.15 F3500.00
+G1 X-15.42 Y24.53 F3500.00
+G1 X-15.33 Y24.36 F3500.00
+G1 X-15.00 Y23.55 F3500.00
+G1 X-14.85 Y22.82 F3500.00
+G1 X-14.84 Y22.89 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X28.54 Y22.86 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X28.74 Y22.86 F3500.00
+G1 X28.65 Y22.84 F3500.00
+G1 X28.54 Y22.86 F3500.00
+G1 X28.54 Y22.86 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-21.43 Y23.02 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-21.40 Y23.11 F3500.00
+G1 X-21.40 Y22.93 F3500.00
+G1 X-21.43 Y23.02 F3500.00
+G1 X-21.43 Y23.02 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-15.22 Y22.91 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-15.05 Y22.91 F3500.00
+G1 X-15.14 Y22.88 F3500.00
+G1 X-15.22 Y22.91 F3500.00
+G1 X-15.22 Y22.91 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-5.27 Y23.22 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-5.25 Y23.40 F3500.00
+G1 X-5.25 Y23.03 F3500.00
+G1 X-5.27 Y23.22 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X0.92 Y22.99 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X0.94 Y23.08 F3500.00
+G1 X0.95 Y22.93 F3500.00
+G1 X0.92 Y22.99 F3500.00
+G1 X0.92 Y22.99 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X28.98 Y22.91 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X29.18 Y22.91 F3500.00
+G1 X29.09 Y22.88 F3500.00
+G1 X28.98 Y22.91 F3500.00
+G1 X28.98 Y22.91 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-15.57 Y22.96 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-15.39 Y22.96 F3500.00
+G1 X-15.48 Y22.93 F3500.00
+G1 X-15.57 Y22.96 F3500.00
+G1 X-15.57 Y22.96 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X2.61 Y23.05 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X2.60 Y23.20 F3500.00
+G1 X2.66 Y23.09 F3500.00
+G1 X2.67 Y22.94 F3500.00
+G1 X2.61 Y23.05 F3500.00
+G1 X2.61 Y23.05 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X29.42 Y22.95 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X29.62 Y22.96 F3500.00
+G1 X29.54 Y22.93 F3500.00
+G1 X29.42 Y22.96 F3500.00
+G1 X29.42 Y22.95 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-15.96 Y23.00 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-15.79 Y23.00 F3500.00
+G1 X-15.87 Y22.98 F3500.00
+G1 X-15.96 Y23.00 F3500.00
+G1 X-15.96 Y23.00 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X29.87 Y23.00 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X30.06 Y23.01 F3500.00
+G1 X29.98 Y22.98 F3500.00
+G1 X29.87 Y23.00 F3500.00
+G1 X29.87 Y23.00 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-2.74 Y23.11 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-3.05 Y23.71 F3500.00
+G1 X-2.89 Y23.46 F3500.00
+G1 X-2.60 Y23.10 F3500.00
+G1 X-2.51 Y23.06 F3500.00
+G1 X-2.74 Y23.11 F3500.00
+G1 X-2.74 Y23.11 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-1.80 Y23.04 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-1.17 Y24.43 F3500.00
+G1 X-1.47 Y23.70 F3500.00
+G1 X-1.80 Y23.04 F3500.00
+G1 X-1.80 Y23.04 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X30.31 Y23.05 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X30.48 Y23.05 F3500.00
+G1 X30.40 Y23.03 F3500.00
+G1 X30.31 Y23.05 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X37.70 Y23.49 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X37.72 Y23.75 F3500.00
+G1 X37.72 Y23.26 F3500.00
+G1 X37.70 Y23.49 F3500.00
+G1 X37.70 Y23.49 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-4.69 Y23.19 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-4.67 Y23.28 F3500.00
+G1 X-4.67 Y23.13 F3500.00
+G1 X-4.69 Y23.19 F3500.00
+G1 X-4.69 Y23.19 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X30.71 Y23.10 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X30.88 Y23.10 F3500.00
+G1 X30.79 Y23.08 F3500.00
+G1 X30.71 Y23.10 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-21.18 Y23.24 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-21.16 Y23.33 F3500.00
+G1 X-21.16 Y23.18 F3500.00
+G1 X-21.18 Y23.24 F3500.00
+G1 X-21.18 Y23.24 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-14.66 Y23.23 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-16.04 Y27.14 F3500.00
+G1 X-16.54 Y29.40 F3500.00
+G1 X-15.82 Y29.24 F3500.00
+G1 X-15.23 Y28.89 F3500.00
+G1 X-14.99 Y27.83 F3500.00
+G1 X-14.05 Y24.65 F3500.00
+G1 X-13.81 Y23.98 F3500.00
+G1 X-13.70 Y23.81 F3500.00
+G1 X-13.69 Y23.77 F3500.00
+G1 X-14.15 Y23.49 F3500.00
+G1 X-14.55 Y23.12 F3500.00
+G1 X-14.66 Y23.23 F3500.00
+G1 X-14.66 Y23.23 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-4.45 Y23.22 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-4.31 Y23.68 F3500.00
+G1 X-4.38 Y23.36 F3500.00
+G1 X-4.45 Y23.22 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X31.15 Y23.15 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X31.32 Y23.15 F3500.00
+G1 X31.23 Y23.13 F3500.00
+G1 X31.15 Y23.15 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-20.94 Y23.19 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-20.62 Y23.35 F3500.00
+G1 X-20.77 Y23.25 F3500.00
+G1 X-20.94 Y23.19 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-2.60 Y23.24 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-2.58 Y23.30 F3500.00
+G1 X-2.55 Y23.19 F3500.00
+G1 X-2.60 Y23.24 F3500.00
+G1 X-2.60 Y23.24 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-2.43 Y23.44 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-2.53 Y23.80 F3500.00
+G1 X-2.41 Y23.54 F3500.00
+G1 X-2.31 Y23.19 F3500.00
+G1 X-2.43 Y23.44 F3500.00
+G1 X-2.43 Y23.44 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-1.97 Y23.63 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-1.96 Y23.89 F3500.00
+G1 X-1.96 Y23.40 F3500.00
+G1 X-1.97 Y23.63 F3500.00
+G1 X-1.97 Y23.63 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-1.42 Y23.27 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-1.32 Y23.54 F3500.00
+G1 X-1.29 Y23.56 F3500.00
+G1 X-1.38 Y23.29 F3500.00
+G1 X-1.42 Y23.27 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X0.87 Y23.24 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X0.89 Y23.30 F3500.00
+G1 X0.90 Y23.21 F3500.00
+G1 X0.87 Y23.24 F3500.00
+G1 X0.87 Y23.24 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X31.57 Y23.20 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X31.71 Y23.20 F3500.00
+G1 X31.65 Y23.18 F3500.00
+G1 X31.57 Y23.20 F3500.00
+G1 X31.57 Y23.20 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X32.01 Y23.25 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X32.13 Y23.25 F3500.00
+G1 X32.07 Y23.22 F3500.00
+G1 X32.01 Y23.25 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-2.17 Y23.63 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-2.15 Y23.82 F3500.00
+G1 X-2.15 Y23.42 F3500.00
+G1 X-2.17 Y23.63 F3500.00
+G1 X-2.17 Y23.63 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X2.46 Y23.52 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X2.35 Y23.84 F3500.00
+G1 X2.44 Y23.90 F3500.00
+G1 X2.48 Y23.87 F3500.00
+G1 X2.49 Y23.57 F3500.00
+G1 X2.57 Y23.28 F3500.00
+G1 X2.46 Y23.52 F3500.00
+G1 X2.46 Y23.52 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X32.40 Y23.30 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X32.53 Y23.30 F3500.00
+G1 X32.46 Y23.27 F3500.00
+G1 X32.40 Y23.30 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-21.47 Y23.56 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-21.45 Y23.70 F3500.00
+G1 X-21.45 Y23.43 F3500.00
+G1 X-21.47 Y23.56 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-13.42 Y23.50 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-13.59 Y23.68 F3500.00
+G1 X-13.40 Y23.51 F3500.00
+G1 X-13.23 Y23.31 F3500.00
+G1 X-13.42 Y23.50 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-0.27 Y23.38 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-0.24 Y23.45 F3500.00
+G1 X-0.24 Y23.35 F3500.00
+G1 X-0.27 Y23.38 F3500.00
+G1 X-0.27 Y23.38 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X1.95 Y23.35 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X1.92 Y23.50 F3500.00
+G1 X1.95 Y23.50 F3500.00
+G1 X1.98 Y23.35 F3500.00
+G1 X1.95 Y23.35 F3500.00
+G1 X1.95 Y23.35 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X32.82 Y23.34 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X32.92 Y23.35 F3500.00
+G1 X32.89 Y23.32 F3500.00
+G1 X32.82 Y23.34 F3500.00
+G1 X32.82 Y23.34 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-20.96 Y23.41 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-20.62 Y23.61 F3500.00
+G1 X-20.28 Y23.75 F3500.00
+G1 X-20.96 Y23.41 F3500.00
+G1 X-20.96 Y23.41 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X9.87 Y23.43 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X8.91 Y23.75 F3500.00
+G1 X9.43 Y23.61 F3500.00
+G1 X9.98 Y23.50 F3500.00
+G1 X8.47 Y24.75 F3500.00
+G1 X2.17 Y28.96 F3500.00
+G1 X1.72 Y29.22 F3500.00
+G1 X8.74 Y24.60 F3500.00
+G1 X10.04 Y23.51 F3500.00
+G1 X10.10 Y23.42 F3500.00
+G1 X9.87 Y23.43 F3500.00
+G1 X9.87 Y23.43 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-4.84 Y23.48 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-4.82 Y23.55 F3500.00
+G1 X-4.81 Y23.45 F3500.00
+G1 X-4.84 Y23.48 F3500.00
+G1 X-4.84 Y23.48 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-4.64 Y23.54 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-4.62 Y23.62 F3500.00
+G1 X-4.62 Y23.48 F3500.00
+G1 X-4.64 Y23.54 F3500.00
+G1 X-4.64 Y23.54 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X0.79 Y23.62 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X0.78 Y23.84 F3500.00
+G1 X0.84 Y23.66 F3500.00
+G1 X0.85 Y23.43 F3500.00
+G1 X0.79 Y23.62 F3500.00
+G1 X0.79 Y23.62 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X10.44 Y23.50 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X9.98 Y24.01 F3500.00
+G1 X6.68 Y26.63 F3500.00
+G1 X5.98 Y27.19 F3500.00
+G1 X6.04 Y27.17 F3500.00
+G1 X7.04 Y26.41 F3500.00
+G1 X8.76 Y25.08 F3500.00
+G1 X9.55 Y24.45 F3500.00
+G1 X10.73 Y24.44 F3500.00
+G1 X11.91 Y24.43 F3500.00
+G1 X10.77 Y24.40 F3500.00
+G1 X9.63 Y24.37 F3500.00
+G1 X9.93 Y24.13 F3500.00
+G1 X10.40 Y23.68 F3500.00
+G1 X10.58 Y23.49 F3500.00
+G1 X11.08 Y23.46 F3500.00
+G1 X11.57 Y23.43 F3500.00
+G1 X11.00 Y23.42 F3500.00
+G1 X10.44 Y23.50 F3500.00
+G1 X10.44 Y23.50 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X4.22 Y23.49 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X4.32 Y23.50 F3500.00
+G1 X4.29 Y23.47 F3500.00
+G1 X4.22 Y23.49 F3500.00
+G1 X4.22 Y23.49 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X12.42 Y23.50 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X12.86 Y23.50 F3500.00
+G1 X12.65 Y23.48 F3500.00
+G1 X12.42 Y23.50 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X33.96 Y23.49 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X34.05 Y23.50 F3500.00
+G1 X34.02 Y23.47 F3500.00
+G1 X33.96 Y23.49 F3500.00
+G1 X33.96 Y23.49 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-18.83 Y23.58 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-19.04 Y23.67 F3500.00
+G1 X-19.25 Y23.69 F3500.00
+G1 X-19.01 Y23.70 F3500.00
+G1 X-18.78 Y23.61 F3500.00
+G1 X-18.80 Y23.51 F3500.00
+G1 X-18.83 Y23.58 F3500.00
+G1 X-18.83 Y23.58 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X13.75 Y23.55 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X14.09 Y23.55 F3500.00
+G1 X13.93 Y23.53 F3500.00
+G1 X13.75 Y23.55 F3500.00
+G1 X13.75 Y23.55 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X34.22 Y23.54 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X34.35 Y23.54 F3500.00
+G1 X34.29 Y23.52 F3500.00
+G1 X34.22 Y23.54 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-2.73 Y23.63 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-2.70 Y23.70 F3500.00
+G1 X-2.70 Y23.60 F3500.00
+G1 X-2.73 Y23.63 F3500.00
+G1 X-2.73 Y23.63 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X4.37 Y23.59 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X4.47 Y23.59 F3500.00
+G1 X4.44 Y23.56 F3500.00
+G1 X4.37 Y23.59 F3500.00
+G1 X4.37 Y23.59 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X14.76 Y23.60 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X15.05 Y23.60 F3500.00
+G1 X14.92 Y23.58 F3500.00
+G1 X14.76 Y23.60 F3500.00
+G1 X14.76 Y23.60 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X34.52 Y23.59 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X34.64 Y23.59 F3500.00
+G1 X34.58 Y23.57 F3500.00
+G1 X34.52 Y23.59 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-21.03 Y23.76 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-21.01 Y23.84 F3500.00
+G1 X-21.01 Y23.67 F3500.00
+G1 X-21.03 Y23.76 F3500.00
+G1 X-21.03 Y23.76 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X0.95 Y24.04 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X0.49 Y25.01 F3500.00
+G1 X0.57 Y24.67 F3500.00
+G1 X0.66 Y24.33 F3500.00
+G1 X0.43 Y24.94 F3500.00
+G1 X-0.74 Y26.79 F3500.00
+G1 X-1.96 Y27.56 F3500.00
+G1 X-2.04 Y27.58 F3500.00
+G1 X-1.90 Y27.65 F3500.00
+G1 X-1.84 Y27.67 F3500.00
+G1 X-0.07 Y26.08 F3500.00
+G1 X0.30 Y25.68 F3500.00
+G1 X0.33 Y25.64 F3500.00
+G1 X0.52 Y25.11 F3500.00
+G1 X1.14 Y23.62 F3500.00
+G1 X0.95 Y24.04 F3500.00
+G1 X0.95 Y24.04 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X1.79 Y23.84 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X1.73 Y24.11 F3500.00
+G1 X1.91 Y24.15 F3500.00
+G1 X2.07 Y24.14 F3500.00
+G1 X1.90 Y24.10 F3500.00
+G1 X1.82 Y24.06 F3500.00
+G1 X1.86 Y24.01 F3500.00
+G1 X1.85 Y23.81 F3500.00
+G1 X1.89 Y23.64 F3500.00
+G1 X1.79 Y23.84 F3500.00
+G1 X1.79 Y23.84 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X3.53 Y23.64 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X3.63 Y23.64 F3500.00
+G1 X3.60 Y23.61 F3500.00
+G1 X3.53 Y23.64 F3500.00
+G1 X3.53 Y23.64 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X4.12 Y23.64 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X4.22 Y23.64 F3500.00
+G1 X4.19 Y23.61 F3500.00
+G1 X4.12 Y23.64 F3500.00
+G1 X4.12 Y23.64 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X15.42 Y23.65 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X15.87 Y23.67 F3500.00
+G1 X16.48 Y23.64 F3500.00
+G1 X16.04 Y23.62 F3500.00
+G1 X15.42 Y23.65 F3500.00
+G1 X15.42 Y23.65 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X34.82 Y23.64 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X34.94 Y23.64 F3500.00
+G1 X34.88 Y23.62 F3500.00
+G1 X34.82 Y23.64 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-5.23 Y23.81 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-5.21 Y23.89 F3500.00
+G1 X-5.21 Y23.72 F3500.00
+G1 X-5.23 Y23.81 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X3.31 Y23.69 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X3.43 Y23.69 F3500.00
+G1 X3.37 Y23.67 F3500.00
+G1 X3.31 Y23.69 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X3.93 Y23.69 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X4.02 Y23.69 F3500.00
+G1 X3.99 Y23.66 F3500.00
+G1 X3.93 Y23.69 F3500.00
+G1 X3.93 Y23.69 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X17.09 Y23.70 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X17.51 Y23.70 F3500.00
+G1 X17.30 Y23.68 F3500.00
+G1 X17.09 Y23.70 F3500.00
+G1 X17.09 Y23.70 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X35.11 Y23.69 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X35.26 Y23.69 F3500.00
+G1 X35.20 Y23.67 F3500.00
+G1 X35.11 Y23.69 F3500.00
+G1 X35.11 Y23.69 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-21.22 Y24.15 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-21.20 Y24.39 F3500.00
+G1 X-21.20 Y23.92 F3500.00
+G1 X-21.22 Y24.15 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-4.79 Y23.78 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-4.77 Y23.84 F3500.00
+G1 X-4.76 Y23.75 F3500.00
+G1 X-4.79 Y23.78 F3500.00
+G1 X-4.79 Y23.78 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-4.59 Y23.81 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-4.57 Y23.87 F3500.00
+G1 X-4.57 Y23.75 F3500.00
+G1 X-4.59 Y23.81 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-0.83 Y23.97 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-1.06 Y24.17 F3500.00
+G1 X-1.16 Y23.93 F3500.00
+G1 X-1.18 Y23.95 F3500.00
+G1 X-0.96 Y24.32 F3500.00
+G1 X-0.73 Y23.74 F3500.00
+G1 X-0.83 Y23.97 F3500.00
+G1 X-0.83 Y23.97 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X3.68 Y23.74 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X3.78 Y23.74 F3500.00
+G1 X3.75 Y23.71 F3500.00
+G1 X3.68 Y23.74 F3500.00
+G1 X3.68 Y23.74 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X18.18 Y23.74 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X18.60 Y23.74 F3500.00
+G1 X18.39 Y23.73 F3500.00
+G1 X18.18 Y23.74 F3500.00
+G1 X18.18 Y23.74 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X35.46 Y23.74 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X35.58 Y23.74 F3500.00
+G1 X35.52 Y23.72 F3500.00
+G1 X35.46 Y23.74 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-19.58 Y23.92 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-19.82 Y24.05 F3500.00
+G1 X-19.86 Y24.06 F3500.00
+G1 X-19.54 Y24.20 F3500.00
+G1 X-19.37 Y24.41 F3500.00
+G1 X-19.34 Y24.58 F3500.00
+G1 X-19.16 Y24.77 F3500.00
+G1 X-18.95 Y24.98 F3500.00
+G1 X-18.85 Y24.82 F3500.00
+G1 X-18.86 Y24.80 F3500.00
+G1 X-19.06 Y24.83 F3500.00
+G1 X-19.27 Y24.25 F3500.00
+G1 X-18.99 Y23.96 F3500.00
+G1 X-18.83 Y23.95 F3500.00
+G1 X-18.82 Y24.24 F3500.00
+G1 X-18.78 Y24.74 F3500.00
+G1 X-18.74 Y24.90 F3500.00
+G1 X-18.76 Y24.69 F3500.00
+G1 X-18.78 Y24.16 F3500.00
+G1 X-18.78 Y23.91 F3500.00
+G1 X-18.94 Y23.91 F3500.00
+G1 X-19.35 Y24.06 F3500.00
+G1 X-19.47 Y24.15 F3500.00
+G1 X-19.53 Y23.95 F3500.00
+G1 X-19.53 Y23.76 F3500.00
+G1 X-19.58 Y23.92 F3500.00
+G1 X-19.58 Y23.92 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-17.40 Y23.83 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-17.37 Y23.89 F3500.00
+G1 X-17.37 Y23.80 F3500.00
+G1 X-17.40 Y23.83 F3500.00
+G1 X-17.40 Y23.83 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-4.31 Y23.82 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-4.16 Y23.81 F3500.00
+G1 X-4.20 Y23.77 F3500.00
+G1 X-4.31 Y23.82 F3500.00
+G1 X-4.31 Y23.82 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X2.87 Y23.79 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X2.99 Y23.79 F3500.00
+G1 X2.93 Y23.77 F3500.00
+G1 X2.87 Y23.79 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X3.46 Y23.79 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X3.58 Y23.79 F3500.00
+G1 X3.52 Y23.77 F3500.00
+G1 X3.46 Y23.79 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X8.62 Y23.81 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X8.59 Y23.85 F3500.00
+G1 X8.76 Y23.81 F3500.00
+G1 X8.79 Y23.76 F3500.00
+G1 X8.62 Y23.81 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X14.77 Y24.11 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X14.28 Y24.45 F3500.00
+G1 X13.86 Y24.46 F3500.00
+G1 X13.44 Y24.47 F3500.00
+G1 X13.80 Y24.48 F3500.00
+G1 X14.15 Y24.50 F3500.00
+G1 X13.99 Y24.64 F3500.00
+G1 X11.08 Y26.53 F3500.00
+G1 X6.28 Y29.08 F3500.00
+G1 X6.14 Y29.17 F3500.00
+G1 X11.35 Y26.42 F3500.00
+G1 X15.28 Y23.76 F3500.00
+G1 X14.77 Y24.11 F3500.00
+G1 X14.77 Y24.11 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X19.04 Y23.79 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X19.41 Y23.79 F3500.00
+G1 X19.22 Y23.77 F3500.00
+G1 X19.04 Y23.79 F3500.00
+G1 X19.04 Y23.79 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X35.75 Y23.79 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X35.90 Y23.79 F3500.00
+G1 X35.84 Y23.77 F3500.00
+G1 X35.75 Y23.79 F3500.00
+G1 X35.75 Y23.79 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-6.01 Y24.15 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-5.99 Y24.34 F3500.00
+G1 X-5.99 Y23.97 F3500.00
+G1 X-6.01 Y24.15 F3500.00
+G1 X-6.01 Y24.15 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-2.77 Y23.93 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-2.75 Y24.02 F3500.00
+G1 X-2.75 Y23.87 F3500.00
+G1 X-2.77 Y23.93 F3500.00
+G1 X-2.77 Y23.93 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X2.62 Y23.84 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X2.75 Y23.84 F3500.00
+G1 X2.68 Y23.81 F3500.00
+G1 X2.62 Y23.84 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X3.24 Y23.84 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X3.33 Y23.84 F3500.00
+G1 X3.30 Y23.81 F3500.00
+G1 X3.24 Y23.84 F3500.00
+G1 X3.24 Y23.84 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X19.97 Y23.84 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X20.34 Y23.84 F3500.00
+G1 X20.16 Y23.82 F3500.00
+G1 X19.97 Y23.84 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X36.05 Y23.84 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X36.19 Y23.84 F3500.00
+G1 X36.13 Y23.82 F3500.00
+G1 X36.05 Y23.84 F3500.00
+G1 X36.05 Y23.84 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-20.25 Y23.93 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-20.23 Y23.99 F3500.00
+G1 X-20.22 Y23.90 F3500.00
+G1 X-20.25 Y23.93 F3500.00
+G1 X-20.25 Y23.93 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X3.02 Y23.89 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X3.14 Y23.89 F3500.00
+G1 X3.08 Y23.86 F3500.00
+G1 X3.02 Y23.89 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X8.17 Y23.93 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X8.15 Y23.97 F3500.00
+G1 X8.44 Y23.86 F3500.00
+G1 X8.17 Y23.93 F3500.00
+G1 X8.17 Y23.93 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X20.88 Y23.89 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X21.30 Y23.89 F3500.00
+G1 X21.09 Y23.87 F3500.00
+G1 X20.88 Y23.89 F3500.00
+G1 X20.88 Y23.89 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X36.34 Y23.89 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X36.49 Y23.89 F3500.00
+G1 X36.43 Y23.87 F3500.00
+G1 X36.34 Y23.89 F3500.00
+G1 X36.34 Y23.89 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-2.57 Y24.05 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-2.55 Y24.14 F3500.00
+G1 X-2.55 Y23.97 F3500.00
+G1 X-2.57 Y24.05 F3500.00
+G1 X-2.57 Y24.05 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X0.70 Y24.06 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X0.69 Y24.23 F3500.00
+G1 X0.74 Y24.10 F3500.00
+G1 X0.75 Y23.92 F3500.00
+G1 X0.70 Y24.06 F3500.00
+G1 X0.70 Y24.06 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X2.16 Y23.94 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X2.25 Y23.94 F3500.00
+G1 X2.22 Y23.91 F3500.00
+G1 X2.16 Y23.94 F3500.00
+G1 X2.16 Y23.94 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X2.77 Y23.94 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X2.89 Y23.94 F3500.00
+G1 X2.83 Y23.91 F3500.00
+G1 X2.77 Y23.94 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X21.79 Y23.94 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X22.09 Y23.94 F3500.00
+G1 X21.96 Y23.92 F3500.00
+G1 X21.79 Y23.94 F3500.00
+G1 X21.79 Y23.94 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X36.64 Y23.94 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X36.78 Y23.94 F3500.00
+G1 X36.72 Y23.92 F3500.00
+G1 X36.64 Y23.94 F3500.00
+G1 X36.64 Y23.94 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-4.54 Y24.03 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-4.41 Y24.47 F3500.00
+G1 X-4.47 Y24.18 F3500.00
+G1 X-4.54 Y24.03 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-0.49 Y24.03 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-0.46 Y24.09 F3500.00
+G1 X-0.43 Y23.97 F3500.00
+G1 X-0.49 Y24.03 F3500.00
+G1 X-0.49 Y24.03 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X1.96 Y23.98 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X2.05 Y23.99 F3500.00
+G1 X2.02 Y23.96 F3500.00
+G1 X1.96 Y23.98 F3500.00
+G1 X1.96 Y23.98 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X2.55 Y23.98 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X2.64 Y23.99 F3500.00
+G1 X2.61 Y23.96 F3500.00
+G1 X2.55 Y23.98 F3500.00
+G1 X2.55 Y23.98 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X22.53 Y23.99 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X22.83 Y23.99 F3500.00
+G1 X22.69 Y23.97 F3500.00
+G1 X22.53 Y23.99 F3500.00
+G1 X22.53 Y23.99 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X36.98 Y23.99 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X37.10 Y23.99 F3500.00
+G1 X37.04 Y23.96 F3500.00
+G1 X36.98 Y23.99 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-4.75 Y24.07 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-4.72 Y24.14 F3500.00
+G1 X-4.72 Y24.04 F3500.00
+G1 X-4.75 Y24.07 F3500.00
+G1 X-4.75 Y24.07 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X2.33 Y24.04 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X2.45 Y24.04 F3500.00
+G1 X2.39 Y24.01 F3500.00
+G1 X2.33 Y24.04 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X7.73 Y24.05 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X7.70 Y24.10 F3500.00
+G1 X7.88 Y24.05 F3500.00
+G1 X7.90 Y24.01 F3500.00
+G1 X7.73 Y24.05 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X23.27 Y24.04 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X23.57 Y24.04 F3500.00
+G1 X23.43 Y24.02 F3500.00
+G1 X23.27 Y24.04 F3500.00
+G1 X23.27 Y24.04 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X37.28 Y24.04 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X37.40 Y24.04 F3500.00
+G1 X37.34 Y24.01 F3500.00
+G1 X37.28 Y24.04 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X37.60 Y24.04 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X37.61 Y24.14 F3500.00
+G1 X37.68 Y24.10 F3500.00
+G1 X37.60 Y24.04 F3500.00
+G1 X37.60 Y24.04 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-21.03 Y24.23 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-21.01 Y24.34 F3500.00
+G1 X-21.01 Y24.14 F3500.00
+G1 X-21.03 Y24.23 F3500.00
+G1 X-21.03 Y24.23 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-20.63 Y24.27 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-20.97 Y24.49 F3500.00
+G1 X-20.28 Y24.10 F3500.00
+G1 X-20.63 Y24.27 F3500.00
+G1 X-20.63 Y24.27 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-17.45 Y24.12 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-17.42 Y24.19 F3500.00
+G1 X-17.42 Y24.09 F3500.00
+G1 X-17.45 Y24.12 F3500.00
+G1 X-17.45 Y24.12 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-3.42 Y24.12 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-3.39 Y24.19 F3500.00
+G1 X-3.39 Y24.09 F3500.00
+G1 X-3.42 Y24.12 F3500.00
+G1 X-3.42 Y24.12 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X2.11 Y24.08 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X2.20 Y24.09 F3500.00
+G1 X2.17 Y24.06 F3500.00
+G1 X2.11 Y24.08 F3500.00
+G1 X2.11 Y24.08 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X23.96 Y24.09 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X24.16 Y24.09 F3500.00
+G1 X24.07 Y24.07 F3500.00
+G1 X23.96 Y24.09 F3500.00
+G1 X23.96 Y24.09 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-5.18 Y24.20 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-5.16 Y24.26 F3500.00
+G1 X-5.16 Y24.14 F3500.00
+G1 X-5.18 Y24.20 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X7.20 Y24.19 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X6.93 Y24.28 F3500.00
+G1 X7.60 Y24.12 F3500.00
+G1 X7.20 Y24.19 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X24.55 Y24.14 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X24.80 Y24.14 F3500.00
+G1 X24.66 Y24.12 F3500.00
+G1 X24.55 Y24.14 F3500.00
+G1 X24.55 Y24.14 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-18.72 Y24.32 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-18.70 Y24.44 F3500.00
+G1 X-18.69 Y24.24 F3500.00
+G1 X-18.72 Y24.32 F3500.00
+G1 X-18.72 Y24.32 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-3.32 Y24.50 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-3.41 Y24.87 F3500.00
+G1 X-3.28 Y24.54 F3500.00
+G1 X-3.19 Y24.17 F3500.00
+G1 X-3.32 Y24.50 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X25.19 Y24.19 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X25.39 Y24.19 F3500.00
+G1 X25.30 Y24.16 F3500.00
+G1 X25.19 Y24.19 F3500.00
+G1 X25.19 Y24.19 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-4.69 Y24.30 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-4.67 Y24.36 F3500.00
+G1 X-4.67 Y24.24 F3500.00
+G1 X-4.69 Y24.30 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-2.13 Y24.35 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-2.11 Y24.43 F3500.00
+G1 X-2.11 Y24.26 F3500.00
+G1 X-2.13 Y24.35 F3500.00
+G1 X-2.13 Y24.35 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-0.87 Y24.89 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-1.64 Y26.02 F3500.00
+G1 X-2.63 Y26.32 F3500.00
+G1 X-3.36 Y26.07 F3500.00
+G1 X-4.31 Y24.77 F3500.00
+G1 X-4.38 Y24.67 F3500.00
+G1 X-3.81 Y25.74 F3500.00
+G1 X-3.31 Y26.17 F3500.00
+G1 X-2.64 Y26.37 F3500.00
+G1 X-1.98 Y26.27 F3500.00
+G1 X-1.46 Y25.89 F3500.00
+G1 X-0.83 Y24.92 F3500.00
+G1 X-0.52 Y24.23 F3500.00
+G1 X-0.87 Y24.89 F3500.00
+G1 X-0.87 Y24.89 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X25.78 Y24.23 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X25.98 Y24.24 F3500.00
+G1 X25.89 Y24.21 F3500.00
+G1 X25.78 Y24.23 F3500.00
+G1 X25.78 Y24.23 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-3.49 Y24.40 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-3.51 Y24.58 F3500.00
+G1 X-3.45 Y24.44 F3500.00
+G1 X-3.44 Y24.27 F3500.00
+G1 X-3.49 Y24.40 F3500.00
+G1 X-3.49 Y24.40 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X26.35 Y24.28 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X26.50 Y24.28 F3500.00
+G1 X26.43 Y24.26 F3500.00
+G1 X26.35 Y24.28 F3500.00
+G1 X26.35 Y24.28 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-17.98 Y24.50 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-17.96 Y24.61 F3500.00
+G1 X-17.96 Y24.39 F3500.00
+G1 X-17.98 Y24.50 F3500.00
+G1 X-17.98 Y24.50 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X6.04 Y24.49 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X5.41 Y24.68 F3500.00
+G1 X6.86 Y24.32 F3500.00
+G1 X6.04 Y24.49 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X26.84 Y24.33 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X26.96 Y24.33 F3500.00
+G1 X26.90 Y24.31 F3500.00
+G1 X26.84 Y24.33 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-20.71 Y24.49 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-20.96 Y24.72 F3500.00
+G1 X-20.86 Y24.68 F3500.00
+G1 X-20.52 Y24.45 F3500.00
+G1 X-20.41 Y24.35 F3500.00
+G1 X-20.71 Y24.49 F3500.00
+G1 X-20.71 Y24.49 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-20.27 Y24.40 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-20.29 Y24.71 F3500.00
+G1 X-20.38 Y24.82 F3500.00
+G1 X-20.27 Y24.72 F3500.00
+G1 X-20.26 Y24.36 F3500.00
+G1 X-20.27 Y24.40 F3500.00
+G1 X-20.27 Y24.40 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-19.86 Y24.43 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-19.81 Y24.59 F3500.00
+G1 X-19.79 Y24.52 F3500.00
+G1 X-19.86 Y24.43 F3500.00
+G1 X-19.86 Y24.43 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-17.49 Y24.45 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-17.47 Y24.51 F3500.00
+G1 X-17.47 Y24.39 F3500.00
+G1 X-17.49 Y24.45 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-5.14 Y24.47 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-5.11 Y24.53 F3500.00
+G1 X-5.11 Y24.44 F3500.00
+G1 X-5.14 Y24.47 F3500.00
+G1 X-5.14 Y24.47 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-2.81 Y24.77 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-2.79 Y24.95 F3500.00
+G1 X-2.79 Y24.56 F3500.00
+G1 X-2.81 Y24.77 F3500.00
+G1 X-2.81 Y24.77 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-2.62 Y24.72 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-2.60 Y24.90 F3500.00
+G1 X-2.60 Y24.56 F3500.00
+G1 X-2.62 Y24.72 F3500.00
+G1 X-2.62 Y24.72 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-1.93 Y24.55 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-1.91 Y24.63 F3500.00
+G1 X-1.91 Y24.46 F3500.00
+G1 X-1.93 Y24.55 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X28.12 Y24.43 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X28.24 Y24.43 F3500.00
+G1 X28.18 Y24.41 F3500.00
+G1 X28.12 Y24.43 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X37.25 Y24.93 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X36.86 Y25.57 F3500.00
+G1 X36.77 Y25.68 F3500.00
+G1 X36.40 Y25.58 F3500.00
+G1 X35.89 Y25.46 F3500.00
+G1 X36.10 Y25.54 F3500.00
+G1 X36.45 Y25.68 F3500.00
+G1 X35.78 Y26.53 F3500.00
+G1 X35.59 Y26.49 F3500.00
+G1 X35.60 Y26.52 F3500.00
+G1 X35.76 Y26.63 F3500.00
+G1 X35.68 Y26.64 F3500.00
+G1 X35.45 Y26.55 F3500.00
+G1 X35.37 Y26.47 F3500.00
+G1 X34.87 Y26.28 F3500.00
+G1 X34.28 Y26.09 F3500.00
+G1 X34.39 Y25.81 F3500.00
+G1 X34.52 Y25.55 F3500.00
+G1 X34.31 Y25.86 F3500.00
+G1 X33.07 Y27.65 F3500.00
+G1 X32.88 Y27.92 F3500.00
+G1 X33.18 Y27.75 F3500.00
+G1 X33.26 Y27.89 F3500.00
+G1 X33.29 Y27.90 F3500.00
+G1 X33.23 Y27.72 F3500.00
+G1 X33.35 Y27.35 F3500.00
+G1 X33.59 Y27.11 F3500.00
+G1 X33.74 Y27.23 F3500.00
+G1 X33.72 Y28.04 F3500.00
+G1 X33.09 Y28.66 F3500.00
+G1 X33.01 Y28.74 F3500.00
+G1 X32.87 Y28.78 F3500.00
+G1 X32.68 Y28.82 F3500.00
+G1 X32.65 Y28.89 F3500.00
+G1 X32.74 Y28.89 F3500.00
+G1 X33.57 Y28.40 F3500.00
+G1 X33.88 Y27.71 F3500.00
+G1 X33.75 Y27.19 F3500.00
+G1 X33.60 Y27.03 F3500.00
+G1 X33.90 Y26.59 F3500.00
+G1 X34.30 Y26.19 F3500.00
+G1 X35.50 Y26.61 F3500.00
+G1 X35.66 Y26.73 F3500.00
+G1 X33.28 Y29.03 F3500.00
+G1 X32.04 Y29.95 F3500.00
+G1 X32.29 Y29.72 F3500.00
+G1 X32.56 Y29.38 F3500.00
+G1 X32.53 Y29.36 F3500.00
+G1 X31.90 Y29.88 F3500.00
+G1 X31.61 Y29.91 F3500.00
+G1 X31.75 Y29.71 F3500.00
+G1 X31.66 Y29.19 F3500.00
+G1 X31.62 Y29.30 F3500.00
+G1 X31.61 Y29.75 F3500.00
+G1 X31.35 Y29.91 F3500.00
+G1 X31.33 Y29.68 F3500.00
+G1 X31.45 Y29.51 F3500.00
+G1 X31.49 Y29.38 F3500.00
+G1 X31.47 Y29.36 F3500.00
+G1 X31.39 Y29.51 F3500.00
+G1 X31.34 Y29.60 F3500.00
+G1 X31.31 Y29.56 F3500.00
+G1 X31.30 Y29.53 F3500.00
+G1 X31.26 Y29.63 F3500.00
+G1 X31.19 Y29.67 F3500.00
+G1 X30.97 Y29.80 F3500.00
+G1 X30.49 Y30.20 F3500.00
+G1 X30.14 Y30.71 F3500.00
+G1 X30.17 Y30.66 F3500.00
+G1 X30.65 Y30.13 F3500.00
+G1 X30.92 Y30.05 F3500.00
+G1 X31.81 Y30.03 F3500.00
+G1 X32.00 Y29.98 F3500.00
+G1 X31.87 Y30.09 F3500.00
+G1 X31.12 Y30.54 F3500.00
+G1 X30.44 Y30.91 F3500.00
+G1 X30.35 Y30.95 F3500.00
+G1 X29.09 Y31.57 F3500.00
+G1 X28.74 Y31.72 F3500.00
+G1 X29.22 Y31.61 F3500.00
+G1 X29.84 Y31.40 F3500.00
+G1 X29.93 Y31.32 F3500.00
+G1 X29.84 Y31.31 F3500.00
+G1 X30.30 Y31.06 F3500.00
+G1 X32.75 Y29.51 F3500.00
+G1 X34.80 Y27.73 F3500.00
+G1 X36.30 Y25.99 F3500.00
+G1 X36.61 Y25.68 F3500.00
+G1 X36.66 Y25.84 F3500.00
+G1 X36.46 Y26.10 F3500.00
+G1 X36.44 Y26.18 F3500.00
+G1 X37.58 Y24.43 F3500.00
+G1 X37.25 Y24.93 F3500.00
+G1 X37.25 Y24.93 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X31.12 Y29.93 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X31.07 Y30.06 F3500.00
+G1 X30.91 Y29.92 F3500.00
+G1 X31.12 Y29.93 F3500.00
+G1 X31.12 Y29.93 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-4.65 Y24.52 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-4.62 Y24.58 F3500.00
+G1 X-4.62 Y24.49 F3500.00
+G1 X-4.65 Y24.52 F3500.00
+G1 X-4.65 Y24.52 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X28.56 Y24.48 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X28.71 Y24.48 F3500.00
+G1 X28.65 Y24.46 F3500.00
+G1 X28.56 Y24.48 F3500.00
+G1 X28.56 Y24.48 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-1.15 Y24.62 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-1.12 Y24.71 F3500.00
+G1 X-1.12 Y24.56 F3500.00
+G1 X-1.15 Y24.62 F3500.00
+G1 X-1.15 Y24.62 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X29.03 Y24.53 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X29.20 Y24.53 F3500.00
+G1 X29.12 Y24.51 F3500.00
+G1 X29.03 Y24.53 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X9.01 Y24.99 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X4.83 Y28.17 F3500.00
+G1 X2.67 Y29.42 F3500.00
+G1 X3.03 Y29.11 F3500.00
+G1 X5.91 Y27.24 F3500.00
+G1 X5.32 Y27.60 F3500.00
+G1 X1.40 Y29.92 F3500.00
+G1 X0.88 Y30.14 F3500.00
+G1 X1.98 Y29.71 F3500.00
+G1 X2.87 Y29.46 F3500.00
+G1 X3.10 Y29.43 F3500.00
+G1 X3.39 Y29.14 F3500.00
+G1 X3.82 Y28.88 F3500.00
+G1 X4.00 Y28.98 F3500.00
+G1 X4.23 Y29.07 F3500.00
+G1 X4.11 Y28.99 F3500.00
+G1 X3.93 Y28.85 F3500.00
+G1 X4.39 Y28.49 F3500.00
+G1 X4.90 Y28.25 F3500.00
+G1 X4.95 Y28.23 F3500.00
+G1 X5.24 Y28.01 F3500.00
+G1 X5.22 Y28.62 F3500.00
+G1 X5.16 Y28.80 F3500.00
+G1 X5.10 Y28.87 F3500.00
+G1 X5.07 Y28.83 F3500.00
+G1 X5.01 Y28.82 F3500.00
+G1 X4.58 Y28.83 F3500.00
+G1 X4.50 Y28.78 F3500.00
+G1 X4.49 Y28.84 F3500.00
+G1 X4.44 Y28.83 F3500.00
+G1 X4.41 Y28.75 F3500.00
+G1 X4.46 Y28.71 F3500.00
+G1 X4.68 Y28.55 F3500.00
+G1 X4.93 Y28.43 F3500.00
+G1 X4.30 Y28.68 F3500.00
+G1 X4.16 Y28.79 F3500.00
+G1 X4.21 Y28.80 F3500.00
+G1 X4.47 Y29.00 F3500.00
+G1 X4.48 Y29.02 F3500.00
+G1 X4.62 Y29.05 F3500.00
+G1 X4.62 Y29.13 F3500.00
+G1 X4.70 Y29.15 F3500.00
+G1 X5.18 Y29.10 F3500.00
+G1 X6.46 Y28.55 F3500.00
+G1 X6.74 Y28.26 F3500.00
+G1 X6.70 Y27.88 F3500.00
+G1 X6.66 Y27.68 F3500.00
+G1 X6.58 Y27.65 F3500.00
+G1 X6.55 Y27.76 F3500.00
+G1 X6.54 Y28.41 F3500.00
+G1 X5.00 Y29.04 F3500.00
+G1 X4.86 Y29.02 F3500.00
+G1 X4.97 Y28.92 F3500.00
+G1 X5.03 Y28.90 F3500.00
+G1 X5.27 Y28.77 F3500.00
+G1 X5.32 Y28.68 F3500.00
+G1 X5.27 Y28.66 F3500.00
+G1 X5.41 Y27.96 F3500.00
+G1 X5.94 Y27.74 F3500.00
+G1 X6.30 Y27.73 F3500.00
+G1 X5.99 Y27.70 F3500.00
+G1 X5.67 Y27.67 F3500.00
+G1 X5.95 Y27.46 F3500.00
+G1 X6.41 Y27.13 F3500.00
+G1 X6.59 Y27.00 F3500.00
+G1 X6.77 Y27.17 F3500.00
+G1 X6.81 Y27.18 F3500.00
+G1 X6.76 Y26.84 F3500.00
+G1 X7.03 Y26.93 F3500.00
+G1 X7.26 Y27.11 F3500.00
+G1 X7.16 Y26.99 F3500.00
+G1 X7.03 Y26.70 F3500.00
+G1 X7.84 Y26.01 F3500.00
+G1 X8.10 Y26.21 F3500.00
+G1 X8.13 Y26.23 F3500.00
+G1 X8.07 Y26.05 F3500.00
+G1 X8.02 Y25.89 F3500.00
+G1 X8.41 Y25.54 F3500.00
+G1 X8.78 Y25.24 F3500.00
+G1 X8.93 Y25.41 F3500.00
+G1 X9.08 Y25.73 F3500.00
+G1 X9.14 Y25.90 F3500.00
+G1 X8.98 Y25.40 F3500.00
+G1 X8.84 Y25.19 F3500.00
+G1 X9.24 Y24.87 F3500.00
+G1 X9.59 Y24.55 F3500.00
+G1 X9.01 Y24.99 F3500.00
+G1 X9.01 Y24.99 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X5.39 Y28.08 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X5.34 Y28.09 F3500.00
+G1 X5.34 Y27.97 F3500.00
+G1 X5.39 Y28.08 F3500.00
+G1 X5.39 Y28.08 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X4.81 Y28.96 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X4.72 Y28.96 F3500.00
+G1 X4.78 Y28.93 F3500.00
+G1 X4.81 Y28.96 F3500.00
+G1 X4.81 Y28.96 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X12.91 Y24.58 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X13.35 Y24.58 F3500.00
+G1 X13.14 Y24.56 F3500.00
+G1 X12.91 Y24.58 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X29.52 Y24.58 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X29.70 Y24.58 F3500.00
+G1 X29.61 Y24.56 F3500.00
+G1 X29.52 Y24.58 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X30.02 Y24.63 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X30.19 Y24.63 F3500.00
+G1 X30.10 Y24.61 F3500.00
+G1 X30.02 Y24.63 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-19.41 Y24.71 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-19.71 Y24.73 F3500.00
+G1 X-19.72 Y24.75 F3500.00
+G1 X-19.54 Y24.84 F3500.00
+G1 X-19.41 Y24.93 F3500.00
+G1 X-19.36 Y24.91 F3500.00
+G1 X-19.37 Y24.72 F3500.00
+G1 X-19.41 Y24.71 F3500.00
+G1 X-19.41 Y24.71 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-17.54 Y24.74 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-17.52 Y24.80 F3500.00
+G1 X-17.52 Y24.68 F3500.00
+G1 X-17.54 Y24.74 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-5.09 Y24.71 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-5.06 Y24.78 F3500.00
+G1 X-5.06 Y24.68 F3500.00
+G1 X-5.09 Y24.71 F3500.00
+G1 X-5.09 Y24.71 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-4.59 Y24.69 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-4.55 Y24.87 F3500.00
+G1 X-4.51 Y24.89 F3500.00
+G1 X-4.55 Y24.72 F3500.00
+G1 X-4.59 Y24.69 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-3.56 Y24.74 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-3.54 Y24.80 F3500.00
+G1 X-3.54 Y24.68 F3500.00
+G1 X-3.56 Y24.74 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X30.46 Y24.68 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X30.63 Y24.68 F3500.00
+G1 X30.55 Y24.66 F3500.00
+G1 X30.46 Y24.68 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X2.36 Y24.74 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X3.04 Y24.93 F3500.00
+G1 X3.36 Y25.17 F3500.00
+G1 X3.52 Y25.20 F3500.00
+G1 X2.94 Y24.83 F3500.00
+G1 X2.32 Y24.70 F3500.00
+G1 X1.97 Y24.71 F3500.00
+G1 X2.36 Y24.74 F3500.00
+G1 X2.36 Y24.74 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X5.02 Y24.77 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X5.00 Y24.81 F3500.00
+G1 X5.29 Y24.70 F3500.00
+G1 X5.02 Y24.77 F3500.00
+G1 X5.02 Y24.77 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X30.85 Y24.73 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X31.03 Y24.73 F3500.00
+G1 X30.94 Y24.70 F3500.00
+G1 X30.85 Y24.73 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-2.09 Y24.81 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-2.06 Y24.88 F3500.00
+G1 X-2.06 Y24.78 F3500.00
+G1 X-2.09 Y24.81 F3500.00
+G1 X-2.09 Y24.81 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X1.74 Y24.78 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X1.86 Y24.78 F3500.00
+G1 X1.80 Y24.75 F3500.00
+G1 X1.74 Y24.78 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X31.25 Y24.78 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X31.42 Y24.78 F3500.00
+G1 X31.33 Y24.75 F3500.00
+G1 X31.25 Y24.78 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-21.47 Y25.04 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-21.45 Y25.17 F3500.00
+G1 X-21.45 Y24.90 F3500.00
+G1 X-21.47 Y25.04 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-18.03 Y24.96 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-18.01 Y25.08 F3500.00
+G1 X-18.01 Y24.88 F3500.00
+G1 X-18.03 Y24.96 F3500.00
+G1 X-18.03 Y24.96 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-1.23 Y24.88 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-1.39 Y25.17 F3500.00
+G1 X-1.43 Y25.29 F3500.00
+G1 X-1.17 Y24.81 F3500.00
+G1 X-1.23 Y24.88 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X1.47 Y24.82 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X1.56 Y24.83 F3500.00
+G1 X1.53 Y24.80 F3500.00
+G1 X1.47 Y24.82 F3500.00
+G1 X1.47 Y24.82 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X31.64 Y24.83 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X31.81 Y24.83 F3500.00
+G1 X31.73 Y24.80 F3500.00
+G1 X31.64 Y24.83 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-20.60 Y25.14 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-20.82 Y25.54 F3500.00
+G1 X-20.90 Y25.60 F3500.00
+G1 X-20.94 Y25.65 F3500.00
+G1 X-20.78 Y25.57 F3500.00
+G1 X-20.52 Y25.11 F3500.00
+G1 X-20.38 Y24.84 F3500.00
+G1 X-20.60 Y25.14 F3500.00
+G1 X-20.60 Y25.14 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-19.22 Y24.91 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-19.14 Y24.99 F3500.00
+G1 X-19.17 Y24.91 F3500.00
+G1 X-19.26 Y24.84 F3500.00
+G1 X-19.22 Y24.91 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X1.31 Y24.90 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X0.96 Y25.66 F3500.00
+G1 X0.83 Y25.74 F3500.00
+G1 X0.96 Y25.76 F3500.00
+G1 X1.12 Y25.74 F3500.00
+G1 X1.20 Y25.21 F3500.00
+G1 X1.31 Y24.90 F3500.00
+G1 X1.31 Y24.90 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X4.39 Y24.93 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X4.13 Y25.02 F3500.00
+G1 X4.80 Y24.86 F3500.00
+G1 X4.39 Y24.93 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X32.03 Y24.87 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X32.21 Y24.87 F3500.00
+G1 X32.12 Y24.85 F3500.00
+G1 X32.03 Y24.87 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-20.17 Y24.95 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-20.21 Y25.19 F3500.00
+G1 X-20.30 Y25.42 F3500.00
+G1 X-20.18 Y25.22 F3500.00
+G1 X-20.17 Y24.89 F3500.00
+G1 X-20.17 Y24.95 F3500.00
+G1 X-20.17 Y24.95 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-17.59 Y24.96 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-17.57 Y25.02 F3500.00
+G1 X-17.56 Y24.93 F3500.00
+G1 X-17.59 Y24.96 F3500.00
+G1 X-17.59 Y24.96 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-15.72 Y25.34 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-15.87 Y25.85 F3500.00
+G1 X-15.70 Y25.41 F3500.00
+G1 X-15.55 Y24.90 F3500.00
+G1 X-15.72 Y25.34 F3500.00
+G1 X-15.72 Y25.34 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-3.61 Y24.97 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-3.70 Y25.13 F3500.00
+G1 X-3.73 Y25.18 F3500.00
+G1 X-3.58 Y24.95 F3500.00
+G1 X-3.61 Y24.97 F3500.00
+G1 X-3.61 Y24.97 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X32.40 Y24.92 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X32.55 Y24.92 F3500.00
+G1 X32.49 Y24.90 F3500.00
+G1 X32.40 Y24.92 F3500.00
+G1 X32.40 Y24.92 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-3.49 Y25.05 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-3.51 Y25.31 F3500.00
+G1 X-3.47 Y25.21 F3500.00
+G1 X-3.49 Y25.05 F3500.00
+G1 X-3.49 Y25.05 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-1.88 Y25.06 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-1.86 Y25.15 F3500.00
+G1 X-1.86 Y25.00 F3500.00
+G1 X-1.88 Y25.06 F3500.00
+G1 X-1.88 Y25.06 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X32.75 Y24.97 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X32.89 Y24.97 F3500.00
+G1 X32.83 Y24.95 F3500.00
+G1 X32.75 Y24.97 F3500.00
+G1 X32.75 Y24.97 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-21.18 Y25.14 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-21.16 Y25.22 F3500.00
+G1 X-21.16 Y25.05 F3500.00
+G1 X-21.18 Y25.14 F3500.00
+G1 X-21.18 Y25.14 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-4.50 Y25.02 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-4.02 Y26.17 F3500.00
+G1 X-3.31 Y27.12 F3500.00
+G1 X-3.10 Y27.23 F3500.00
+G1 X-4.29 Y25.48 F3500.00
+G1 X-4.50 Y25.02 F3500.00
+G1 X-4.50 Y25.02 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X33.12 Y25.02 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X33.29 Y25.02 F3500.00
+G1 X33.20 Y25.00 F3500.00
+G1 X33.12 Y25.02 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-19.06 Y25.14 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-18.96 Y25.55 F3500.00
+G1 X-18.98 Y25.75 F3500.00
+G1 X-19.00 Y25.84 F3500.00
+G1 X-19.03 Y26.00 F3500.00
+G1 X-19.05 Y26.07 F3500.00
+G1 X-19.19 Y26.17 F3500.00
+G1 X-19.20 Y26.22 F3500.00
+G1 X-19.10 Y26.24 F3500.00
+G1 X-19.10 Y26.47 F3500.00
+G1 X-19.46 Y27.29 F3500.00
+G1 X-19.92 Y27.65 F3500.00
+G1 X-19.95 Y27.69 F3500.00
+G1 X-19.42 Y27.31 F3500.00
+G1 X-19.00 Y26.24 F3500.00
+G1 X-18.86 Y25.55 F3500.00
+G1 X-18.87 Y25.46 F3500.00
+G1 X-18.91 Y25.60 F3500.00
+G1 X-18.92 Y25.42 F3500.00
+G1 X-19.03 Y25.13 F3500.00
+G1 X-19.13 Y25.01 F3500.00
+G1 X-19.06 Y25.14 F3500.00
+G1 X-19.06 Y25.14 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-18.82 Y25.16 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-18.80 Y25.25 F3500.00
+G1 X-18.79 Y25.10 F3500.00
+G1 X-18.82 Y25.16 F3500.00
+G1 X-18.82 Y25.16 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X3.93 Y25.07 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X4.02 Y25.07 F3500.00
+G1 X3.99 Y25.04 F3500.00
+G1 X3.93 Y25.07 F3500.00
+G1 X3.93 Y25.07 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X33.49 Y25.07 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X33.61 Y25.07 F3500.00
+G1 X33.55 Y25.05 F3500.00
+G1 X33.49 Y25.07 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-17.64 Y25.19 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-17.61 Y25.25 F3500.00
+G1 X-17.61 Y25.12 F3500.00
+G1 X-17.64 Y25.19 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X3.73 Y25.12 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X3.83 Y25.12 F3500.00
+G1 X3.80 Y25.09 F3500.00
+G1 X3.73 Y25.12 F3500.00
+G1 X3.73 Y25.12 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X33.78 Y25.12 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X33.90 Y25.12 F3500.00
+G1 X33.84 Y25.09 F3500.00
+G1 X33.78 Y25.12 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-6.06 Y26.54 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-6.05 Y27.33 F3500.00
+G1 X-6.04 Y27.24 F3500.00
+G1 X-6.04 Y25.81 F3500.00
+G1 X-6.05 Y25.74 F3500.00
+G1 X-6.06 Y26.54 F3500.00
+G1 X-6.06 Y26.54 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X34.08 Y25.17 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X34.20 Y25.17 F3500.00
+G1 X34.14 Y25.14 F3500.00
+G1 X34.08 Y25.17 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X34.45 Y25.22 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X34.54 Y25.37 F3500.00
+G1 X34.54 Y25.51 F3500.00
+G1 X34.58 Y25.38 F3500.00
+G1 X34.47 Y25.19 F3500.00
+G1 X34.45 Y25.22 F3500.00
+G1 X34.45 Y25.22 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-20.13 Y25.38 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-20.20 Y25.56 F3500.00
+G1 X-20.10 Y25.44 F3500.00
+G1 X-19.98 Y25.30 F3500.00
+G1 X-20.03 Y25.50 F3500.00
+G1 X-20.10 Y25.71 F3500.00
+G1 X-20.01 Y25.54 F3500.00
+G1 X-20.01 Y25.23 F3500.00
+G1 X-20.13 Y25.38 F3500.00
+G1 X-20.13 Y25.38 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-19.66 Y25.31 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-19.65 Y25.38 F3500.00
+G1 X-19.60 Y25.31 F3500.00
+G1 X-19.62 Y25.23 F3500.00
+G1 X-19.66 Y25.31 F3500.00
+G1 X-19.66 Y25.31 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-18.08 Y25.36 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-18.06 Y25.44 F3500.00
+G1 X-18.06 Y25.30 F3500.00
+G1 X-18.08 Y25.36 F3500.00
+G1 X-18.08 Y25.36 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-2.67 Y25.55 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-2.65 Y25.74 F3500.00
+G1 X-2.65 Y25.40 F3500.00
+G1 X-2.67 Y25.55 F3500.00
+G1 X-2.67 Y25.55 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X3.19 Y25.26 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X3.28 Y25.27 F3500.00
+G1 X3.25 Y25.24 F3500.00
+G1 X3.19 Y25.26 F3500.00
+G1 X3.19 Y25.26 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X34.72 Y25.27 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X34.84 Y25.27 F3500.00
+G1 X34.78 Y25.24 F3500.00
+G1 X34.72 Y25.27 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-20.98 Y25.41 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-20.96 Y25.49 F3500.00
+G1 X-20.96 Y25.35 F3500.00
+G1 X-20.98 Y25.41 F3500.00
+G1 X-20.98 Y25.41 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-19.41 Y25.38 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-19.39 Y25.44 F3500.00
+G1 X-19.39 Y25.32 F3500.00
+G1 X-19.41 Y25.38 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X2.99 Y25.31 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X3.09 Y25.32 F3500.00
+G1 X3.06 Y25.29 F3500.00
+G1 X2.99 Y25.31 F3500.00
+G1 X2.99 Y25.31 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-20.66 Y25.56 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-20.74 Y25.80 F3500.00
+G1 X-20.61 Y25.58 F3500.00
+G1 X-20.53 Y25.33 F3500.00
+G1 X-20.66 Y25.56 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-19.89 Y25.46 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-19.95 Y25.61 F3500.00
+G1 X-19.89 Y25.53 F3500.00
+G1 X-19.81 Y25.46 F3500.00
+G1 X-19.76 Y25.41 F3500.00
+G1 X-19.89 Y25.46 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-19.56 Y25.43 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-19.53 Y25.49 F3500.00
+G1 X-19.53 Y25.37 F3500.00
+G1 X-19.56 Y25.43 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-17.72 Y25.46 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-17.73 Y25.61 F3500.00
+G1 X-17.67 Y25.50 F3500.00
+G1 X-17.66 Y25.35 F3500.00
+G1 X-17.72 Y25.46 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-1.84 Y25.40 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-1.64 Y25.49 F3500.00
+G1 X-1.69 Y25.46 F3500.00
+G1 X-1.81 Y25.40 F3500.00
+G1 X-1.84 Y25.40 F3500.00
+G1 X-1.84 Y25.40 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X2.80 Y25.36 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X2.89 Y25.37 F3500.00
+G1 X2.86 Y25.34 F3500.00
+G1 X2.80 Y25.36 F3500.00
+G1 X2.80 Y25.36 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X35.44 Y25.38 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X35.64 Y25.42 F3500.00
+G1 X35.62 Y25.38 F3500.00
+G1 X35.44 Y25.38 F3500.00
+G1 X35.44 Y25.38 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-21.43 Y25.53 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-21.40 Y25.62 F3500.00
+G1 X-21.40 Y25.44 F3500.00
+G1 X-21.43 Y25.53 F3500.00
+G1 X-21.43 Y25.53 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X2.60 Y25.41 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X2.69 Y25.42 F3500.00
+G1 X2.66 Y25.39 F3500.00
+G1 X2.60 Y25.41 F3500.00
+G1 X2.60 Y25.41 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X2.24 Y25.48 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X2.22 Y25.52 F3500.00
+G1 X2.41 Y25.48 F3500.00
+G1 X2.24 Y25.48 F3500.00
+G1 X2.24 Y25.48 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-20.37 Y25.56 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-20.40 Y25.69 F3500.00
+G1 X-20.35 Y25.63 F3500.00
+G1 X-20.32 Y25.50 F3500.00
+G1 X-20.37 Y25.56 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-3.28 Y25.68 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-2.85 Y25.78 F3500.00
+G1 X-2.87 Y25.76 F3500.00
+G1 X-3.28 Y25.65 F3500.00
+G1 X-3.49 Y25.47 F3500.00
+G1 X-3.28 Y25.68 F3500.00
+G1 X-3.28 Y25.68 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-2.00 Y25.59 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-2.21 Y25.81 F3500.00
+G1 X-2.36 Y25.92 F3500.00
+G1 X-2.16 Y25.84 F3500.00
+G1 X-1.96 Y25.50 F3500.00
+G1 X-2.00 Y25.59 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-19.36 Y25.63 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-19.34 Y25.69 F3500.00
+G1 X-19.34 Y25.57 F3500.00
+G1 X-19.36 Y25.63 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X1.96 Y25.56 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X2.05 Y25.56 F3500.00
+G1 X2.02 Y25.53 F3500.00
+G1 X1.96 Y25.56 F3500.00
+G1 X1.96 Y25.56 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-19.85 Y25.87 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-19.83 Y26.03 F3500.00
+G1 X-19.83 Y25.71 F3500.00
+G1 X-19.85 Y25.87 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-19.70 Y25.78 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-19.68 Y25.89 F3500.00
+G1 X-19.68 Y25.67 F3500.00
+G1 X-19.70 Y25.78 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-19.51 Y25.63 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-19.47 Y25.80 F3500.00
+G1 X-19.43 Y25.83 F3500.00
+G1 X-19.47 Y25.65 F3500.00
+G1 X-19.51 Y25.63 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-18.13 Y25.68 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-18.11 Y25.74 F3500.00
+G1 X-18.11 Y25.62 F3500.00
+G1 X-18.13 Y25.68 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X1.74 Y25.61 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X1.86 Y25.61 F3500.00
+G1 X1.80 Y25.59 F3500.00
+G1 X1.74 Y25.61 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X1.52 Y25.66 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X1.61 Y25.66 F3500.00
+G1 X1.58 Y25.63 F3500.00
+G1 X1.52 Y25.66 F3500.00
+G1 X1.52 Y25.66 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-20.01 Y25.75 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-19.98 Y25.81 F3500.00
+G1 X-19.98 Y25.72 F3500.00
+G1 X-20.01 Y25.75 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-17.81 Y25.80 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-17.83 Y25.96 F3500.00
+G1 X-17.77 Y25.85 F3500.00
+G1 X-17.76 Y25.69 F3500.00
+G1 X-17.81 Y25.80 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X0.46 Y25.71 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X0.60 Y25.71 F3500.00
+G1 X0.54 Y25.69 F3500.00
+G1 X0.46 Y25.71 F3500.00
+G1 X0.46 Y25.71 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X1.29 Y25.71 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X1.42 Y25.71 F3500.00
+G1 X1.35 Y25.69 F3500.00
+G1 X1.29 Y25.71 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-21.38 Y25.85 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-21.35 Y25.94 F3500.00
+G1 X-21.35 Y25.79 F3500.00
+G1 X-21.38 Y25.85 F3500.00
+G1 X-21.38 Y25.85 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X14.82 Y26.22 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X11.06 Y30.22 F3500.00
+G1 X10.22 Y30.71 F3500.00
+G1 X9.94 Y30.72 F3500.00
+G1 X10.19 Y30.74 F3500.00
+G1 X10.60 Y30.67 F3500.00
+G1 X10.97 Y30.67 F3500.00
+G1 X11.62 Y30.74 F3500.00
+G1 X12.06 Y30.73 F3500.00
+G1 X11.66 Y30.71 F3500.00
+G1 X11.25 Y30.68 F3500.00
+G1 X11.61 Y30.30 F3500.00
+G1 X11.96 Y29.95 F3500.00
+G1 X11.55 Y30.32 F3500.00
+G1 X10.99 Y30.62 F3500.00
+G1 X10.82 Y30.52 F3500.00
+G1 X11.28 Y30.09 F3500.00
+G1 X14.32 Y26.94 F3500.00
+G1 X14.52 Y26.76 F3500.00
+G1 X14.13 Y27.35 F3500.00
+G1 X13.76 Y27.92 F3500.00
+G1 X14.69 Y26.59 F3500.00
+G1 X14.64 Y26.59 F3500.00
+G1 X14.62 Y26.57 F3500.00
+G1 X14.69 Y26.54 F3500.00
+G1 X15.18 Y25.84 F3500.00
+G1 X15.19 Y25.77 F3500.00
+G1 X14.82 Y26.22 F3500.00
+G1 X14.82 Y26.22 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-20.45 Y25.85 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-20.42 Y25.91 F3500.00
+G1 X-20.42 Y25.82 F3500.00
+G1 X-20.45 Y25.85 F3500.00
+G1 X-20.45 Y25.85 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-20.30 Y25.85 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-20.27 Y25.91 F3500.00
+G1 X-20.27 Y25.82 F3500.00
+G1 X-20.30 Y25.85 F3500.00
+G1 X-20.30 Y25.85 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-19.32 Y25.85 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-19.29 Y25.91 F3500.00
+G1 X-19.29 Y25.82 F3500.00
+G1 X-19.32 Y25.85 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-13.43 Y25.90 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-13.45 Y26.05 F3500.00
+G1 X-13.39 Y25.94 F3500.00
+G1 X-13.38 Y25.79 F3500.00
+G1 X-13.43 Y25.90 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-21.08 Y25.97 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-21.06 Y26.03 F3500.00
+G1 X-21.06 Y25.91 F3500.00
+G1 X-21.08 Y25.97 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-20.79 Y25.94 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-20.77 Y26.01 F3500.00
+G1 X-20.76 Y25.91 F3500.00
+G1 X-20.79 Y25.94 F3500.00
+G1 X-20.79 Y25.94 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-18.18 Y25.94 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-18.16 Y26.01 F3500.00
+G1 X-18.15 Y25.91 F3500.00
+G1 X-18.18 Y25.94 F3500.00
+G1 X-18.18 Y25.94 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-2.57 Y25.95 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-2.48 Y25.96 F3500.00
+G1 X-2.51 Y25.93 F3500.00
+G1 X-2.57 Y25.95 F3500.00
+G1 X-2.57 Y25.95 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-20.50 Y26.04 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-20.47 Y26.11 F3500.00
+G1 X-20.47 Y26.01 F3500.00
+G1 X-20.50 Y26.04 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-19.27 Y26.04 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-19.24 Y26.11 F3500.00
+G1 X-19.24 Y26.01 F3500.00
+G1 X-19.27 Y26.04 F3500.00
+G1 X-19.27 Y26.04 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X9.06 Y26.10 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X8.83 Y26.54 F3500.00
+G1 X8.79 Y26.66 F3500.00
+G1 X9.12 Y26.01 F3500.00
+G1 X9.06 Y26.10 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-21.33 Y26.12 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-21.31 Y26.18 F3500.00
+G1 X-21.31 Y26.06 F3500.00
+G1 X-21.33 Y26.12 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-20.35 Y26.12 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-20.32 Y26.18 F3500.00
+G1 X-20.32 Y26.06 F3500.00
+G1 X-20.35 Y26.12 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-17.91 Y26.10 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-17.94 Y26.24 F3500.00
+G1 X-17.89 Y26.18 F3500.00
+G1 X-17.86 Y26.04 F3500.00
+G1 X-17.91 Y26.10 F3500.00
+G1 X-17.91 Y26.10 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-21.04 Y26.17 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-20.99 Y26.34 F3500.00
+G1 X-20.95 Y26.37 F3500.00
+G1 X-20.99 Y26.19 F3500.00
+G1 X-21.04 Y26.17 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-20.84 Y26.19 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-20.82 Y26.26 F3500.00
+G1 X-20.81 Y26.16 F3500.00
+G1 X-20.84 Y26.19 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-13.51 Y26.19 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-13.48 Y26.26 F3500.00
+G1 X-13.48 Y26.16 F3500.00
+G1 X-13.51 Y26.19 F3500.00
+G1 X-13.51 Y26.19 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-20.54 Y26.27 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-20.52 Y26.33 F3500.00
+G1 X-20.52 Y26.21 F3500.00
+G1 X-20.54 Y26.27 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-20.04 Y26.47 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-20.02 Y26.63 F3500.00
+G1 X-20.02 Y26.31 F3500.00
+G1 X-20.04 Y26.47 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-16.04 Y26.35 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-16.05 Y26.50 F3500.00
+G1 X-16.00 Y26.39 F3500.00
+G1 X-15.99 Y26.24 F3500.00
+G1 X-16.04 Y26.35 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-21.28 Y26.37 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-21.26 Y26.43 F3500.00
+G1 X-21.26 Y26.31 F3500.00
+G1 X-21.28 Y26.37 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-19.65 Y26.54 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-19.63 Y26.70 F3500.00
+G1 X-19.63 Y26.40 F3500.00
+G1 X-19.65 Y26.54 F3500.00
+G1 X-19.65 Y26.54 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-20.79 Y26.37 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-20.75 Y26.51 F3500.00
+G1 X-20.75 Y26.39 F3500.00
+G1 X-20.79 Y26.37 F3500.00
+G1 X-20.79 Y26.37 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-20.39 Y26.44 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-20.37 Y26.53 F3500.00
+G1 X-20.37 Y26.38 F3500.00
+G1 X-20.39 Y26.44 F3500.00
+G1 X-20.39 Y26.44 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-18.14 Y26.77 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-19.11 Y28.72 F3500.00
+G1 X-19.56 Y29.18 F3500.00
+G1 X-19.73 Y29.32 F3500.00
+G1 X-19.06 Y28.72 F3500.00
+G1 X-18.57 Y27.87 F3500.00
+G1 X-17.96 Y26.34 F3500.00
+G1 X-18.14 Y26.77 F3500.00
+G1 X-18.14 Y26.77 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-13.56 Y26.39 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-13.53 Y26.45 F3500.00
+G1 X-13.53 Y26.36 F3500.00
+G1 X-13.56 Y26.39 F3500.00
+G1 X-13.56 Y26.39 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X8.13 Y26.50 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X7.55 Y27.11 F3500.00
+G1 X7.51 Y27.15 F3500.00
+G1 X8.12 Y26.69 F3500.00
+G1 X8.19 Y26.38 F3500.00
+G1 X8.13 Y26.50 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-19.80 Y26.66 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-19.78 Y26.82 F3500.00
+G1 X-19.78 Y26.50 F3500.00
+G1 X-19.80 Y26.66 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-18.28 Y26.44 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-18.26 Y26.50 F3500.00
+G1 X-18.25 Y26.41 F3500.00
+G1 X-18.28 Y26.44 F3500.00
+G1 X-18.28 Y26.44 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-20.59 Y26.53 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-20.66 Y26.63 F3500.00
+G1 X-20.66 Y26.66 F3500.00
+G1 X-20.56 Y26.53 F3500.00
+G1 X-20.58 Y26.39 F3500.00
+G1 X-20.59 Y26.53 F3500.00
+G1 X-20.59 Y26.53 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-4.48 Y26.56 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-4.36 Y26.74 F3500.00
+G1 X-4.41 Y26.59 F3500.00
+G1 X-4.53 Y26.42 F3500.00
+G1 X-4.48 Y26.56 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X36.15 Y26.50 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X36.17 Y26.52 F3500.00
+G1 X36.26 Y26.43 F3500.00
+G1 X36.15 Y26.50 F3500.00
+G1 X36.15 Y26.50 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-21.24 Y26.58 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-21.21 Y26.65 F3500.00
+G1 X-21.21 Y26.55 F3500.00
+G1 X-21.24 Y26.58 F3500.00
+G1 X-21.24 Y26.58 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-13.63 Y26.64 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-13.64 Y26.79 F3500.00
+G1 X-13.59 Y26.68 F3500.00
+G1 X-13.58 Y26.53 F3500.00
+G1 X-13.63 Y26.64 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-16.12 Y26.63 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-16.09 Y26.70 F3500.00
+G1 X-16.09 Y26.60 F3500.00
+G1 X-16.12 Y26.63 F3500.00
+G1 X-16.12 Y26.63 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-20.89 Y26.63 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-20.50 Y27.35 F3500.00
+G1 X-20.39 Y27.47 F3500.00
+G1 X-20.47 Y27.35 F3500.00
+G1 X-20.72 Y26.91 F3500.00
+G1 X-20.89 Y26.63 F3500.00
+G1 X-20.89 Y26.63 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-20.44 Y26.74 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-20.42 Y26.82 F3500.00
+G1 X-20.42 Y26.68 F3500.00
+G1 X-20.44 Y26.74 F3500.00
+G1 X-20.44 Y26.74 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-19.38 Y26.79 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-19.44 Y26.96 F3500.00
+G1 X-19.28 Y26.63 F3500.00
+G1 X-19.38 Y26.79 F3500.00
+G1 X-19.38 Y26.79 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-21.18 Y27.08 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-21.14 Y27.35 F3500.00
+G1 X-21.09 Y27.33 F3500.00
+G1 X-21.08 Y27.49 F3500.00
+G1 X-21.04 Y27.55 F3500.00
+G1 X-20.84 Y27.89 F3500.00
+G1 X-20.46 Y28.44 F3500.00
+G1 X-20.23 Y28.66 F3500.00
+G1 X-20.44 Y28.43 F3500.00
+G1 X-21.06 Y27.13 F3500.00
+G1 X-21.18 Y26.69 F3500.00
+G1 X-21.18 Y27.08 F3500.00
+G1 X-21.18 Y27.08 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X35.88 Y26.82 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X35.79 Y26.93 F3500.00
+G1 X35.90 Y26.84 F3500.00
+G1 X35.99 Y26.71 F3500.00
+G1 X35.88 Y26.82 F3500.00
+G1 X35.88 Y26.82 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-16.17 Y26.83 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-16.14 Y26.90 F3500.00
+G1 X-16.14 Y26.80 F3500.00
+G1 X-16.17 Y26.83 F3500.00
+G1 X-16.17 Y26.83 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-18.45 Y27.04 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-18.51 Y27.29 F3500.00
+G1 X-18.41 Y27.07 F3500.00
+G1 X-18.35 Y26.82 F3500.00
+G1 X-18.45 Y27.04 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-4.16 Y26.99 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-3.12 Y27.73 F3500.00
+G1 X-3.14 Y27.70 F3500.00
+G1 X-4.06 Y27.06 F3500.00
+G1 X-4.24 Y26.88 F3500.00
+G1 X-4.16 Y26.99 F3500.00
+G1 X-4.16 Y26.99 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-13.70 Y26.93 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-13.68 Y26.99 F3500.00
+G1 X-13.67 Y26.90 F3500.00
+G1 X-13.70 Y26.93 F3500.00
+G1 X-13.70 Y26.93 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X31.65 Y27.39 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X29.04 Y28.90 F3500.00
+G1 X28.30 Y29.32 F3500.00
+G1 X28.96 Y29.00 F3500.00
+G1 X29.59 Y28.70 F3500.00
+G1 X29.28 Y28.90 F3500.00
+G1 X28.75 Y29.20 F3500.00
+G1 X26.03 Y30.50 F3500.00
+G1 X25.20 Y30.88 F3500.00
+G1 X29.08 Y29.07 F3500.00
+G1 X32.32 Y27.01 F3500.00
+G1 X32.35 Y26.95 F3500.00
+G1 X31.65 Y27.39 F3500.00
+G1 X31.65 Y27.39 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X30.10 Y28.41 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X29.63 Y28.67 F3500.00
+G1 X29.84 Y28.52 F3500.00
+G1 X30.10 Y28.41 F3500.00
+G1 X30.10 Y28.41 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-20.46 Y27.04 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-20.16 Y27.20 F3500.00
+G1 X-20.19 Y27.17 F3500.00
+G1 X-20.37 Y27.07 F3500.00
+G1 X-20.46 Y27.04 F3500.00
+G1 X-20.46 Y27.04 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-19.61 Y27.02 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-19.49 Y27.05 F3500.00
+G1 X-19.50 Y27.02 F3500.00
+G1 X-19.58 Y26.99 F3500.00
+G1 X-19.61 Y27.02 F3500.00
+G1 X-19.61 Y27.02 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X8.27 Y27.10 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X7.97 Y27.29 F3500.00
+G1 X7.85 Y27.31 F3500.00
+G1 X7.85 Y27.34 F3500.00
+G1 X8.47 Y27.05 F3500.00
+G1 X8.27 Y27.10 F3500.00
+G1 X8.27 Y27.10 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-20.06 Y27.18 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-20.02 Y27.32 F3500.00
+G1 X-20.00 Y27.20 F3500.00
+G1 X-20.06 Y27.18 F3500.00
+G1 X-20.06 Y27.18 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-19.78 Y27.24 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-19.76 Y27.27 F3500.00
+G1 X-19.72 Y27.18 F3500.00
+G1 X-19.78 Y27.24 F3500.00
+G1 X-19.78 Y27.24 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-13.80 Y27.27 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-13.78 Y27.34 F3500.00
+G1 X-13.77 Y27.24 F3500.00
+G1 X-13.80 Y27.27 F3500.00
+G1 X-13.80 Y27.27 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-18.73 Y27.71 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-19.46 Y28.63 F3500.00
+G1 X-19.60 Y28.73 F3500.00
+G1 X-19.09 Y28.37 F3500.00
+G1 X-18.54 Y27.37 F3500.00
+G1 X-18.73 Y27.71 F3500.00
+G1 X-18.73 Y27.71 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-16.31 Y27.42 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-16.29 Y27.49 F3500.00
+G1 X-16.28 Y27.39 F3500.00
+G1 X-16.31 Y27.42 F3500.00
+G1 X-16.31 Y27.42 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X6.89 Y27.42 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X7.03 Y27.50 F3500.00
+G1 X6.92 Y27.40 F3500.00
+G1 X6.89 Y27.42 F3500.00
+G1 X6.89 Y27.42 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-13.85 Y27.47 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-13.83 Y27.53 F3500.00
+G1 X-13.82 Y27.44 F3500.00
+G1 X-13.85 Y27.47 F3500.00
+G1 X-13.85 Y27.47 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X7.32 Y27.43 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X7.52 Y27.44 F3500.00
+G1 X7.43 Y27.41 F3500.00
+G1 X7.32 Y27.43 F3500.00
+G1 X7.32 Y27.43 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-21.19 Y27.57 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-21.16 Y27.63 F3500.00
+G1 X-21.16 Y27.54 F3500.00
+G1 X-21.19 Y27.57 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-2.47 Y27.53 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-2.38 Y27.53 F3500.00
+G1 X-2.41 Y27.50 F3500.00
+G1 X-2.47 Y27.53 F3500.00
+G1 X-2.47 Y27.53 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X7.09 Y27.55 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X7.22 Y27.60 F3500.00
+G1 X7.31 Y27.55 F3500.00
+G1 X7.09 Y27.55 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X7.45 Y27.53 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X7.57 Y27.53 F3500.00
+G1 X7.51 Y27.51 F3500.00
+G1 X7.45 Y27.53 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-20.22 Y27.60 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-20.13 Y27.64 F3500.00
+G1 X-20.19 Y27.58 F3500.00
+G1 X-20.22 Y27.60 F3500.00
+G1 X-20.22 Y27.60 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-16.36 Y27.62 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-16.34 Y27.68 F3500.00
+G1 X-16.33 Y27.59 F3500.00
+G1 X-16.36 Y27.62 F3500.00
+G1 X-16.36 Y27.62 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-13.90 Y27.67 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-13.88 Y27.73 F3500.00
+G1 X-13.87 Y27.64 F3500.00
+G1 X-13.90 Y27.67 F3500.00
+G1 X-13.90 Y27.67 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X6.78 Y27.63 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X6.95 Y27.63 F3500.00
+G1 X6.87 Y27.61 F3500.00
+G1 X6.78 Y27.63 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-2.13 Y27.73 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-2.03 Y27.73 F3500.00
+G1 X-2.06 Y27.70 F3500.00
+G1 X-2.13 Y27.73 F3500.00
+G1 X-2.13 Y27.73 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-2.84 Y27.78 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-2.40 Y27.78 F3500.00
+G1 X-2.61 Y27.76 F3500.00
+G1 X-2.84 Y27.78 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-13.98 Y27.92 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-13.99 Y28.07 F3500.00
+G1 X-13.93 Y27.96 F3500.00
+G1 X-13.92 Y27.81 F3500.00
+G1 X-13.98 Y27.92 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-16.41 Y27.91 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-16.39 Y27.98 F3500.00
+G1 X-16.38 Y27.88 F3500.00
+G1 X-16.41 Y27.91 F3500.00
+G1 X-16.41 Y27.91 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-11.12 Y28.15 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-11.76 Y28.30 F3500.00
+G1 X-11.87 Y28.35 F3500.00
+G1 X-12.02 Y28.36 F3500.00
+G1 X-12.03 Y28.38 F3500.00
+G1 X-12.13 Y28.41 F3500.00
+G1 X-12.21 Y28.43 F3500.00
+G1 X-12.27 Y28.51 F3500.00
+G1 X-12.41 Y28.56 F3500.00
+G1 X-10.41 Y28.01 F3500.00
+G1 X-11.12 Y28.15 F3500.00
+G1 X-11.12 Y28.15 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X13.58 Y28.10 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X13.49 Y28.21 F3500.00
+G1 X13.60 Y28.12 F3500.00
+G1 X13.69 Y27.99 F3500.00
+G1 X13.58 Y28.10 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-16.46 Y28.14 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-16.43 Y28.20 F3500.00
+G1 X-16.43 Y28.08 F3500.00
+G1 X-16.46 Y28.14 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-14.05 Y28.21 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-14.02 Y28.27 F3500.00
+G1 X-14.02 Y28.18 F3500.00
+G1 X-14.05 Y28.21 F3500.00
+G1 X-14.05 Y28.21 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X32.53 Y28.30 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X32.48 Y28.37 F3500.00
+G1 X32.63 Y28.41 F3500.00
+G1 X32.78 Y28.48 F3500.00
+G1 X32.72 Y28.40 F3500.00
+G1 X32.63 Y28.26 F3500.00
+G1 X32.53 Y28.30 F3500.00
+G1 X32.53 Y28.30 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X33.21 Y28.29 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X32.99 Y28.46 F3500.00
+G1 X32.95 Y28.53 F3500.00
+G1 X33.30 Y28.23 F3500.00
+G1 X33.21 Y28.29 F3500.00
+G1 X33.21 Y28.29 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-20.89 Y28.31 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-20.87 Y28.37 F3500.00
+G1 X-20.86 Y28.28 F3500.00
+G1 X-20.89 Y28.31 F3500.00
+G1 X-20.89 Y28.31 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X13.39 Y28.35 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X13.29 Y28.46 F3500.00
+G1 X13.40 Y28.37 F3500.00
+G1 X13.50 Y28.24 F3500.00
+G1 X13.39 Y28.35 F3500.00
+G1 X13.39 Y28.35 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-16.51 Y28.36 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-16.48 Y28.42 F3500.00
+G1 X-16.48 Y28.33 F3500.00
+G1 X-16.51 Y28.36 F3500.00
+G1 X-16.51 Y28.36 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-14.10 Y28.41 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-14.07 Y28.47 F3500.00
+G1 X-14.07 Y28.38 F3500.00
+G1 X-14.10 Y28.41 F3500.00
+G1 X-14.10 Y28.41 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-20.82 Y28.56 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-20.16 Y29.32 F3500.00
+G1 X-20.23 Y29.25 F3500.00
+G1 X-20.77 Y28.61 F3500.00
+G1 X-20.82 Y28.56 F3500.00
+G1 X-20.82 Y28.56 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-12.46 Y28.46 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-12.37 Y28.47 F3500.00
+G1 X-12.40 Y28.44 F3500.00
+G1 X-12.46 Y28.46 F3500.00
+G1 X-12.46 Y28.46 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X32.34 Y28.48 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X32.70 Y28.73 F3500.00
+G1 X32.69 Y28.68 F3500.00
+G1 X32.55 Y28.68 F3500.00
+G1 X32.53 Y28.64 F3500.00
+G1 X32.47 Y28.51 F3500.00
+G1 X32.34 Y28.48 F3500.00
+G1 X32.34 Y28.48 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-12.66 Y28.51 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-12.57 Y28.52 F3500.00
+G1 X-12.60 Y28.49 F3500.00
+G1 X-12.66 Y28.51 F3500.00
+G1 X-12.66 Y28.51 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X13.19 Y28.59 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X13.09 Y28.71 F3500.00
+G1 X13.21 Y28.61 F3500.00
+G1 X13.30 Y28.48 F3500.00
+G1 X13.19 Y28.59 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-16.56 Y28.63 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-16.53 Y28.69 F3500.00
+G1 X-16.53 Y28.57 F3500.00
+G1 X-16.56 Y28.63 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-14.15 Y28.60 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-14.12 Y28.67 F3500.00
+G1 X-14.12 Y28.57 F3500.00
+G1 X-14.15 Y28.60 F3500.00
+G1 X-14.15 Y28.60 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-12.86 Y28.56 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-12.76 Y28.57 F3500.00
+G1 X-12.79 Y28.54 F3500.00
+G1 X-12.86 Y28.56 F3500.00
+G1 X-12.86 Y28.56 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-13.08 Y28.61 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-12.96 Y28.61 F3500.00
+G1 X-13.02 Y28.59 F3500.00
+G1 X-13.08 Y28.61 F3500.00
+G1 X-13.08 Y28.61 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-12.77 Y28.66 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-12.87 Y28.72 F3500.00
+G1 X-12.63 Y28.66 F3500.00
+G1 X-12.53 Y28.59 F3500.00
+G1 X-12.77 Y28.66 F3500.00
+G1 X-12.77 Y28.66 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-13.30 Y28.66 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-13.21 Y28.66 F3500.00
+G1 X-13.24 Y28.64 F3500.00
+G1 X-13.30 Y28.66 F3500.00
+G1 X-13.30 Y28.66 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-6.03 Y28.72 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-6.26 Y28.89 F3500.00
+G1 X-6.38 Y28.95 F3500.00
+G1 X-6.14 Y28.90 F3500.00
+G1 X-6.02 Y29.01 F3500.00
+G1 X-5.99 Y28.89 F3500.00
+G1 X-6.00 Y28.63 F3500.00
+G1 X-6.03 Y28.72 F3500.00
+G1 X-6.03 Y28.72 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-21.04 Y28.75 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-21.01 Y28.81 F3500.00
+G1 X-21.01 Y28.72 F3500.00
+G1 X-21.04 Y28.75 F3500.00
+G1 X-21.04 Y28.75 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-20.09 Y28.71 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-20.00 Y28.71 F3500.00
+G1 X-20.03 Y28.68 F3500.00
+G1 X-20.09 Y28.71 F3500.00
+G1 X-20.09 Y28.71 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-13.52 Y28.71 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-13.40 Y28.71 F3500.00
+G1 X-13.46 Y28.69 F3500.00
+G1 X-13.52 Y28.71 F3500.00
+G1 X-13.52 Y28.71 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-19.87 Y28.76 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-19.73 Y28.76 F3500.00
+G1 X-19.79 Y28.74 F3500.00
+G1 X-19.87 Y28.76 F3500.00
+G1 X-19.87 Y28.76 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-14.20 Y28.79 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-14.12 Y28.88 F3500.00
+G1 X-14.08 Y28.84 F3500.00
+G1 X-14.16 Y28.75 F3500.00
+G1 X-14.20 Y28.79 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-13.74 Y28.76 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-13.65 Y28.76 F3500.00
+G1 X-13.68 Y28.73 F3500.00
+G1 X-13.74 Y28.76 F3500.00
+G1 X-13.74 Y28.76 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-13.27 Y28.80 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-13.33 Y28.87 F3500.00
+G1 X-13.22 Y29.17 F3500.00
+G1 X-13.55 Y29.62 F3500.00
+G1 X-13.74 Y29.70 F3500.00
+G1 X-13.25 Y29.53 F3500.00
+G1 X-13.17 Y29.14 F3500.00
+G1 X-13.06 Y28.78 F3500.00
+G1 X-13.02 Y28.74 F3500.00
+G1 X-13.27 Y28.80 F3500.00
+G1 X-13.27 Y28.80 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X12.95 Y28.88 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X12.83 Y29.03 F3500.00
+G1 X13.00 Y28.88 F3500.00
+G1 X13.11 Y28.73 F3500.00
+G1 X12.95 Y28.88 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-16.60 Y28.88 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-16.58 Y28.94 F3500.00
+G1 X-16.58 Y28.82 F3500.00
+G1 X-16.60 Y28.88 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-13.94 Y28.81 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-13.85 Y28.81 F3500.00
+G1 X-13.88 Y28.78 F3500.00
+G1 X-13.94 Y28.81 F3500.00
+G1 X-13.94 Y28.81 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-20.99 Y28.95 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-20.96 Y29.01 F3500.00
+G1 X-20.96 Y28.92 F3500.00
+G1 X-20.99 Y28.95 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-14.27 Y29.08 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-14.89 Y29.27 F3500.00
+G1 X-13.47 Y28.90 F3500.00
+G1 X-14.27 Y29.08 F3500.00
+G1 X-14.27 Y29.08 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X32.43 Y29.07 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X32.50 Y29.20 F3500.00
+G1 X32.41 Y28.93 F3500.00
+G1 X32.43 Y29.07 F3500.00
+G1 X32.43 Y29.07 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X31.82 Y29.03 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X31.90 Y29.08 F3500.00
+G1 X31.94 Y29.01 F3500.00
+G1 X31.82 Y29.03 F3500.00
+G1 X31.82 Y29.03 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X32.13 Y29.01 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X32.23 Y29.01 F3500.00
+G1 X32.20 Y28.98 F3500.00
+G1 X32.13 Y29.01 F3500.00
+G1 X32.13 Y29.01 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-6.89 Y29.07 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-6.92 Y29.12 F3500.00
+G1 X-6.74 Y29.07 F3500.00
+G1 X-6.72 Y29.03 F3500.00
+G1 X-6.89 Y29.07 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-20.93 Y29.15 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-20.65 Y29.84 F3500.00
+G1 X-20.80 Y29.39 F3500.00
+G1 X-20.93 Y29.15 F3500.00
+G1 X-20.93 Y29.15 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-16.65 Y29.17 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-16.63 Y29.23 F3500.00
+G1 X-16.63 Y29.11 F3500.00
+G1 X-16.65 Y29.17 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-7.24 Y29.17 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-7.26 Y29.22 F3500.00
+G1 X-7.09 Y29.17 F3500.00
+G1 X-7.06 Y29.13 F3500.00
+G1 X-7.24 Y29.17 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X5.90 Y29.20 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X5.99 Y29.21 F3500.00
+G1 X5.96 Y29.18 F3500.00
+G1 X5.90 Y29.20 F3500.00
+G1 X5.90 Y29.20 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-7.65 Y29.30 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-7.75 Y29.36 F3500.00
+G1 X-7.51 Y29.30 F3500.00
+G1 X-7.41 Y29.23 F3500.00
+G1 X-7.65 Y29.30 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X5.65 Y29.25 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X5.74 Y29.26 F3500.00
+G1 X5.72 Y29.23 F3500.00
+G1 X5.65 Y29.25 F3500.00
+G1 X5.65 Y29.25 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-15.12 Y29.30 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-15.03 Y29.30 F3500.00
+G1 X-15.06 Y29.28 F3500.00
+G1 X-15.12 Y29.30 F3500.00
+G1 X-15.12 Y29.30 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-6.98 Y29.32 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-7.06 Y29.42 F3500.00
+G1 X-6.99 Y29.40 F3500.00
+G1 X-6.83 Y29.32 F3500.00
+G1 X-6.27 Y29.68 F3500.00
+G1 X-6.24 Y29.69 F3500.00
+G1 X-6.81 Y29.27 F3500.00
+G1 X-6.98 Y29.32 F3500.00
+G1 X-6.98 Y29.32 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X1.33 Y29.35 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X0.91 Y29.54 F3500.00
+G1 X0.76 Y29.63 F3500.00
+G1 X1.53 Y29.28 F3500.00
+G1 X1.33 Y29.35 F3500.00
+G1 X1.33 Y29.35 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X5.21 Y29.31 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X5.38 Y29.31 F3500.00
+G1 X5.29 Y29.28 F3500.00
+G1 X5.21 Y29.31 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X12.31 Y29.57 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X12.04 Y29.86 F3500.00
+G1 X12.36 Y29.57 F3500.00
+G1 X12.62 Y29.27 F3500.00
+G1 X12.31 Y29.57 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-20.00 Y29.35 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-19.90 Y29.35 F3500.00
+G1 X-19.93 Y29.32 F3500.00
+G1 X-20.00 Y29.35 F3500.00
+G1 X-20.00 Y29.35 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-15.43 Y29.37 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-15.46 Y29.41 F3500.00
+G1 X-15.26 Y29.37 F3500.00
+G1 X-15.43 Y29.37 F3500.00
+G1 X-15.43 Y29.37 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X4.62 Y29.35 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X4.81 Y29.36 F3500.00
+G1 X4.73 Y29.33 F3500.00
+G1 X4.62 Y29.35 F3500.00
+G1 X4.62 Y29.35 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X27.42 Y29.69 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X26.73 Y30.05 F3500.00
+G1 X27.52 Y29.69 F3500.00
+G1 X28.21 Y29.33 F3500.00
+G1 X27.42 Y29.69 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-16.85 Y29.50 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-16.99 Y29.61 F3500.00
+G1 X-16.84 Y29.56 F3500.00
+G1 X-16.69 Y29.44 F3500.00
+G1 X-16.85 Y29.50 F3500.00
+G1 X-16.85 Y29.50 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-8.44 Y29.54 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-8.86 Y29.71 F3500.00
+G1 X-8.32 Y29.55 F3500.00
+G1 X-7.90 Y29.38 F3500.00
+G1 X-8.44 Y29.54 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X3.73 Y29.41 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X4.10 Y29.41 F3500.00
+G1 X3.91 Y29.39 F3500.00
+G1 X3.73 Y29.41 F3500.00
+G1 X3.73 Y29.41 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-16.12 Y29.54 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-16.47 Y29.66 F3500.00
+G1 X-15.58 Y29.44 F3500.00
+G1 X-16.12 Y29.54 F3500.00
+G1 X-16.12 Y29.54 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X33.10 Y29.50 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X33.12 Y29.52 F3500.00
+G1 X33.20 Y29.44 F3500.00
+G1 X33.10 Y29.50 F3500.00
+G1 X33.10 Y29.50 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-7.05 Y30.09 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-7.13 Y30.74 F3500.00
+G1 X-7.83 Y30.81 F3500.00
+G1 X-8.47 Y30.82 F3500.00
+G1 X-7.82 Y30.84 F3500.00
+G1 X-7.14 Y30.79 F3500.00
+G1 X-7.01 Y30.52 F3500.00
+G1 X-6.90 Y30.30 F3500.00
+G1 X-6.79 Y30.25 F3500.00
+G1 X-6.90 Y30.27 F3500.00
+G1 X-7.03 Y29.89 F3500.00
+G1 X-7.04 Y29.69 F3500.00
+G1 X-7.05 Y30.09 F3500.00
+G1 X-7.05 Y30.09 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-5.78 Y29.58 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-5.09 Y29.97 F3500.00
+G1 X-4.46 Y30.32 F3500.00
+G1 X-4.17 Y30.35 F3500.00
+G1 X-3.97 Y30.34 F3500.00
+G1 X-4.11 Y30.32 F3500.00
+G1 X-5.55 Y29.61 F3500.00
+G1 X-5.54 Y29.57 F3500.00
+G1 X-5.73 Y29.53 F3500.00
+G1 X-5.78 Y29.58 F3500.00
+G1 X-5.78 Y29.58 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-5.42 Y29.65 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-5.33 Y29.65 F3500.00
+G1 X-5.36 Y29.62 F3500.00
+G1 X-5.42 Y29.65 F3500.00
+G1 X-5.42 Y29.65 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X32.85 Y29.70 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X32.87 Y29.72 F3500.00
+G1 X32.96 Y29.63 F3500.00
+G1 X32.85 Y29.70 F3500.00
+G1 X32.85 Y29.70 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-17.69 Y29.82 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-18.11 Y29.98 F3500.00
+G1 X-17.92 Y29.99 F3500.00
+G1 X-17.66 Y29.91 F3500.00
+G1 X-17.53 Y29.89 F3500.00
+G1 X-17.50 Y29.88 F3500.00
+G1 X-17.38 Y29.76 F3500.00
+G1 X-17.25 Y29.68 F3500.00
+G1 X-17.69 Y29.82 F3500.00
+G1 X-17.69 Y29.82 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-16.70 Y29.69 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-16.60 Y29.70 F3500.00
+G1 X-16.63 Y29.67 F3500.00
+G1 X-16.70 Y29.69 F3500.00
+G1 X-16.70 Y29.69 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-5.14 Y29.71 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-4.97 Y29.71 F3500.00
+G1 X-5.17 Y29.67 F3500.00
+G1 X-5.14 Y29.71 F3500.00
+G1 X-5.14 Y29.71 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X0.39 Y29.74 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X0.37 Y29.78 F3500.00
+G1 X0.59 Y29.67 F3500.00
+G1 X0.39 Y29.74 F3500.00
+G1 X0.39 Y29.74 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-16.92 Y29.75 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-16.80 Y29.75 F3500.00
+G1 X-16.86 Y29.72 F3500.00
+G1 X-16.92 Y29.75 F3500.00
+G1 X-16.92 Y29.75 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-14.21 Y29.82 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-14.49 Y29.92 F3500.00
+G1 X-14.15 Y30.60 F3500.00
+G1 X-13.81 Y31.28 F3500.00
+G1 X-14.28 Y31.47 F3500.00
+G1 X-14.72 Y31.67 F3500.00
+G1 X-14.27 Y31.51 F3500.00
+G1 X-13.59 Y31.40 F3500.00
+G1 X-14.19 Y31.75 F3500.00
+G1 X-15.28 Y32.17 F3500.00
+G1 X-15.87 Y32.39 F3500.00
+G1 X-16.05 Y32.47 F3500.00
+G1 X-15.87 Y32.44 F3500.00
+G1 X-15.37 Y32.57 F3500.00
+G1 X-13.68 Y33.00 F3500.00
+G1 X-13.27 Y33.11 F3500.00
+G1 X-13.35 Y33.22 F3500.00
+G1 X-13.36 Y33.25 F3500.00
+G1 X-13.30 Y32.72 F3500.00
+G1 X-13.47 Y32.27 F3500.00
+G1 X-14.03 Y32.13 F3500.00
+G1 X-14.54 Y31.98 F3500.00
+G1 X-13.98 Y31.71 F3500.00
+G1 X-13.42 Y31.48 F3500.00
+G1 X-13.19 Y31.56 F3500.00
+G1 X-12.94 Y31.62 F3500.00
+G1 X-13.18 Y31.51 F3500.00
+G1 X-13.56 Y31.36 F3500.00
+G1 X-13.12 Y31.10 F3500.00
+G1 X-12.75 Y30.95 F3500.00
+G1 X-13.24 Y31.09 F3500.00
+G1 X-13.73 Y31.24 F3500.00
+G1 X-14.39 Y29.94 F3500.00
+G1 X-14.08 Y29.82 F3500.00
+G1 X-13.86 Y29.72 F3500.00
+G1 X-14.21 Y29.82 F3500.00
+G1 X-14.21 Y29.82 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-17.14 Y29.79 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-17.05 Y29.80 F3500.00
+G1 X-17.08 Y29.77 F3500.00
+G1 X-17.14 Y29.79 F3500.00
+G1 X-17.14 Y29.79 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-9.52 Y29.89 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-9.79 Y30.01 F3500.00
+G1 X-9.40 Y29.89 F3500.00
+G1 X-9.13 Y29.77 F3500.00
+G1 X-9.52 Y29.89 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-4.83 Y29.79 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-4.74 Y29.80 F3500.00
+G1 X-4.77 Y29.77 F3500.00
+G1 X-4.83 Y29.79 F3500.00
+G1 X-4.83 Y29.79 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-17.36 Y29.85 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-17.24 Y29.85 F3500.00
+G1 X-17.30 Y29.82 F3500.00
+G1 X-17.36 Y29.85 F3500.00
+G1 X-17.36 Y29.85 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-4.64 Y29.84 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-4.54 Y29.85 F3500.00
+G1 X-4.57 Y29.82 F3500.00
+G1 X-4.64 Y29.84 F3500.00
+G1 X-4.64 Y29.84 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-6.27 Y30.15 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-6.36 Y30.38 F3500.00
+G1 X-6.37 Y30.43 F3500.00
+G1 X-6.26 Y30.43 F3500.00
+G1 X-6.24 Y30.12 F3500.00
+G1 X-6.26 Y29.89 F3500.00
+G1 X-6.27 Y30.15 F3500.00
+G1 X-6.27 Y30.15 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-4.13 Y29.96 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-3.96 Y30.00 F3500.00
+G1 X-3.99 Y29.96 F3500.00
+G1 X-4.16 Y29.92 F3500.00
+G1 X-4.13 Y29.96 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-20.64 Y30.06 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-20.62 Y30.12 F3500.00
+G1 X-20.62 Y30.00 F3500.00
+G1 X-20.64 Y30.06 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-0.35 Y29.99 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-0.26 Y29.99 F3500.00
+G1 X-0.29 Y29.96 F3500.00
+G1 X-0.35 Y29.99 F3500.00
+G1 X-0.35 Y29.99 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-3.83 Y30.04 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-3.70 Y30.04 F3500.00
+G1 X-3.76 Y30.02 F3500.00
+G1 X-3.83 Y30.04 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-10.39 Y30.16 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-10.56 Y30.25 F3500.00
+G1 X-10.24 Y30.16 F3500.00
+G1 X-10.07 Y30.07 F3500.00
+G1 X-10.39 Y30.16 F3500.00
+G1 X-10.39 Y30.16 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-3.60 Y30.09 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-3.51 Y30.09 F3500.00
+G1 X-3.54 Y30.06 F3500.00
+G1 X-3.60 Y30.09 F3500.00
+G1 X-3.60 Y30.09 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X25.64 Y30.47 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X24.71 Y30.88 F3500.00
+G1 X26.56 Y30.13 F3500.00
+G1 X26.54 Y30.10 F3500.00
+G1 X25.64 Y30.47 F3500.00
+G1 X25.64 Y30.47 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-0.90 Y30.14 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-0.80 Y30.14 F3500.00
+G1 X-0.83 Y30.11 F3500.00
+G1 X-0.90 Y30.14 F3500.00
+G1 X-0.90 Y30.14 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-3.04 Y30.19 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-2.89 Y30.19 F3500.00
+G1 X-2.95 Y30.17 F3500.00
+G1 X-3.04 Y30.19 F3500.00
+G1 X-3.04 Y30.19 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X0.62 Y30.21 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X0.74 Y30.21 F3500.00
+G1 X0.76 Y30.16 F3500.00
+G1 X0.62 Y30.21 F3500.00
+G1 X0.62 Y30.21 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-20.59 Y30.30 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-20.57 Y30.37 F3500.00
+G1 X-20.57 Y30.24 F3500.00
+G1 X-20.59 Y30.30 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-2.20 Y30.24 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-1.56 Y30.24 F3500.00
+G1 X-1.87 Y30.23 F3500.00
+G1 X-2.20 Y30.24 F3500.00
+G1 X-2.20 Y30.24 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X0.30 Y30.35 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X0.23 Y30.53 F3500.00
+G1 X0.28 Y30.50 F3500.00
+G1 X0.43 Y30.31 F3500.00
+G1 X0.46 Y30.26 F3500.00
+G1 X0.30 Y30.35 F3500.00
+G1 X0.30 Y30.35 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-3.28 Y30.34 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-3.16 Y30.34 F3500.00
+G1 X-3.22 Y30.31 F3500.00
+G1 X-3.28 Y30.34 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-4.76 Y30.39 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-4.61 Y30.39 F3500.00
+G1 X-4.68 Y30.36 F3500.00
+G1 X-4.76 Y30.39 F3500.00
+G1 X-4.76 Y30.39 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-2.99 Y30.39 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-2.87 Y30.39 F3500.00
+G1 X-2.93 Y30.36 F3500.00
+G1 X-2.99 Y30.39 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-11.66 Y30.56 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-12.07 Y30.73 F3500.00
+G1 X-11.56 Y30.58 F3500.00
+G1 X-11.15 Y30.41 F3500.00
+G1 X-11.66 Y30.56 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-5.01 Y30.44 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-4.88 Y30.44 F3500.00
+G1 X-4.95 Y30.41 F3500.00
+G1 X-5.01 Y30.44 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-2.74 Y30.44 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-2.62 Y30.44 F3500.00
+G1 X-2.68 Y30.41 F3500.00
+G1 X-2.74 Y30.44 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-20.55 Y30.52 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-20.52 Y30.59 F3500.00
+G1 X-20.52 Y30.49 F3500.00
+G1 X-20.55 Y30.52 F3500.00
+G1 X-20.55 Y30.52 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-5.30 Y30.49 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-5.18 Y30.49 F3500.00
+G1 X-5.24 Y30.46 F3500.00
+G1 X-5.30 Y30.49 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-4.12 Y30.48 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-3.97 Y30.49 F3500.00
+G1 X-4.04 Y30.46 F3500.00
+G1 X-4.12 Y30.48 F3500.00
+G1 X-4.12 Y30.48 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-3.33 Y30.48 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-3.19 Y30.49 F3500.00
+G1 X-3.25 Y30.46 F3500.00
+G1 X-3.33 Y30.48 F3500.00
+G1 X-3.33 Y30.48 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-2.39 Y30.50 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-1.25 Y30.92 F3500.00
+G1 X-2.78 Y33.90 F3500.00
+G1 X-4.02 Y35.56 F3500.00
+G1 X-5.09 Y36.25 F3500.00
+G1 X-5.24 Y36.34 F3500.00
+G1 X-4.71 Y36.13 F3500.00
+G1 X-3.75 Y35.35 F3500.00
+G1 X-2.69 Y33.84 F3500.00
+G1 X-1.22 Y30.88 F3500.00
+G1 X-2.38 Y30.48 F3500.00
+G1 X-2.56 Y30.45 F3500.00
+G1 X-2.39 Y30.50 F3500.00
+G1 X-2.39 Y30.50 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X31.60 Y30.53 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X31.62 Y30.55 F3500.00
+G1 X31.73 Y30.48 F3500.00
+G1 X31.60 Y30.53 F3500.00
+G1 X31.60 Y30.53 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-5.52 Y30.53 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-5.43 Y30.54 F3500.00
+G1 X-5.46 Y30.51 F3500.00
+G1 X-5.52 Y30.53 F3500.00
+G1 X-5.52 Y30.53 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-4.36 Y30.55 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-4.28 Y30.57 F3500.00
+G1 X-4.21 Y30.52 F3500.00
+G1 X-4.28 Y30.50 F3500.00
+G1 X-4.36 Y30.55 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-3.04 Y30.53 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-2.92 Y30.53 F3500.00
+G1 X-2.98 Y30.51 F3500.00
+G1 X-3.04 Y30.53 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-6.31 Y30.77 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-6.29 Y30.89 F3500.00
+G1 X-6.01 Y30.68 F3500.00
+G1 X-5.89 Y30.63 F3500.00
+G1 X-6.16 Y30.68 F3500.00
+G1 X-6.29 Y30.62 F3500.00
+G1 X-6.31 Y30.77 F3500.00
+G1 X-6.31 Y30.77 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-5.72 Y30.58 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-5.63 Y30.58 F3500.00
+G1 X-5.66 Y30.56 F3500.00
+G1 X-5.72 Y30.58 F3500.00
+G1 X-5.72 Y30.58 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-4.87 Y30.59 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-4.74 Y30.67 F3500.00
+G1 X-4.70 Y30.64 F3500.00
+G1 X-4.84 Y30.56 F3500.00
+G1 X-4.87 Y30.59 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-2.79 Y30.58 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-2.67 Y30.58 F3500.00
+G1 X-2.73 Y30.56 F3500.00
+G1 X-2.79 Y30.58 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-5.21 Y30.63 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-5.06 Y30.63 F3500.00
+G1 X-5.12 Y30.61 F3500.00
+G1 X-5.21 Y30.63 F3500.00
+G1 X-5.21 Y30.63 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-2.44 Y30.67 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-2.19 Y30.74 F3500.00
+G1 X-2.29 Y30.67 F3500.00
+G1 X-2.53 Y30.61 F3500.00
+G1 X-2.44 Y30.67 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X31.32 Y30.68 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X31.19 Y30.77 F3500.00
+G1 X31.33 Y30.72 F3500.00
+G1 X31.48 Y30.62 F3500.00
+G1 X31.32 Y30.68 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-20.49 Y30.70 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-20.45 Y30.87 F3500.00
+G1 X-20.41 Y30.90 F3500.00
+G1 X-20.45 Y30.72 F3500.00
+G1 X-20.49 Y30.70 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-5.45 Y30.68 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-5.33 Y30.68 F3500.00
+G1 X-5.39 Y30.66 F3500.00
+G1 X-5.45 Y30.68 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-4.30 Y30.75 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-4.27 Y30.81 F3500.00
+G1 X-4.27 Y30.69 F3500.00
+G1 X-4.30 Y30.75 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-5.67 Y30.73 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-5.58 Y30.73 F3500.00
+G1 X-5.61 Y30.70 F3500.00
+G1 X-5.67 Y30.73 F3500.00
+G1 X-5.67 Y30.73 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-5.87 Y30.78 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-5.77 Y30.78 F3500.00
+G1 X-5.80 Y30.75 F3500.00
+G1 X-5.87 Y30.78 F3500.00
+G1 X-5.87 Y30.78 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X9.34 Y30.78 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X9.64 Y30.78 F3500.00
+G1 X9.50 Y30.76 F3500.00
+G1 X9.34 Y30.78 F3500.00
+G1 X9.34 Y30.78 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X12.64 Y30.78 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X13.11 Y30.78 F3500.00
+G1 X12.87 Y30.77 F3500.00
+G1 X12.64 Y30.78 F3500.00
+G1 X12.64 Y30.78 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-12.53 Y30.87 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-12.63 Y30.94 F3500.00
+G1 X-12.40 Y30.87 F3500.00
+G1 X-12.31 Y30.81 F3500.00
+G1 X-12.53 Y30.87 F3500.00
+G1 X-12.53 Y30.87 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-6.15 Y30.85 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-6.18 Y30.89 F3500.00
+G1 X-6.00 Y30.85 F3500.00
+G1 X-5.98 Y30.80 F3500.00
+G1 X-6.15 Y30.85 F3500.00
+G1 X-6.15 Y30.85 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-4.69 Y30.90 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-4.67 Y30.96 F3500.00
+G1 X-4.67 Y30.83 F3500.00
+G1 X-4.69 Y30.90 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X8.60 Y30.83 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X8.90 Y30.83 F3500.00
+G1 X8.76 Y30.81 F3500.00
+G1 X8.60 Y30.83 F3500.00
+G1 X8.60 Y30.83 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X13.87 Y30.83 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X14.34 Y30.83 F3500.00
+G1 X14.10 Y30.82 F3500.00
+G1 X13.87 Y30.83 F3500.00
+G1 X13.87 Y30.83 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-9.09 Y30.88 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-8.87 Y30.88 F3500.00
+G1 X-8.98 Y30.86 F3500.00
+G1 X-9.09 Y30.88 F3500.00
+G1 X-9.09 Y30.88 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-1.68 Y30.91 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-1.55 Y31.02 F3500.00
+G1 X-2.83 Y33.40 F3500.00
+G1 X-3.29 Y33.97 F3500.00
+G1 X-3.60 Y33.19 F3500.00
+G1 X-3.86 Y32.56 F3500.00
+G1 X-3.25 Y34.08 F3500.00
+G1 X-1.52 Y30.95 F3500.00
+G1 X-1.70 Y30.88 F3500.00
+G1 X-1.68 Y30.91 F3500.00
+G1 X-1.68 Y30.91 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X7.91 Y30.88 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X8.16 Y30.88 F3500.00
+G1 X8.02 Y30.86 F3500.00
+G1 X7.91 Y30.88 F3500.00
+G1 X7.91 Y30.88 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X15.10 Y30.88 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X15.40 Y30.88 F3500.00
+G1 X15.26 Y30.86 F3500.00
+G1 X15.10 Y30.88 F3500.00
+G1 X15.10 Y30.88 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-9.68 Y30.93 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-9.46 Y30.93 F3500.00
+G1 X-9.57 Y30.91 F3500.00
+G1 X-9.68 Y30.93 F3500.00
+G1 X-9.68 Y30.93 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-4.25 Y30.99 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-4.22 Y31.06 F3500.00
+G1 X-4.22 Y30.93 F3500.00
+G1 X-4.25 Y30.99 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X7.13 Y30.93 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X7.37 Y30.93 F3500.00
+G1 X7.24 Y30.91 F3500.00
+G1 X7.13 Y30.93 F3500.00
+G1 X7.13 Y30.93 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X16.26 Y30.93 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X16.60 Y30.93 F3500.00
+G1 X16.44 Y30.91 F3500.00
+G1 X16.26 Y30.93 F3500.00
+G1 X16.26 Y30.93 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X24.42 Y30.97 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X24.39 Y31.01 F3500.00
+G1 X24.61 Y30.90 F3500.00
+G1 X24.42 Y30.97 F3500.00
+G1 X24.42 Y30.97 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X24.52 Y31.10 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X23.92 Y31.27 F3500.00
+G1 X24.05 Y31.15 F3500.00
+G1 X24.23 Y31.05 F3500.00
+G1 X23.87 Y31.17 F3500.00
+G1 X23.67 Y31.27 F3500.00
+G1 X23.84 Y31.31 F3500.00
+G1 X24.34 Y31.53 F3500.00
+G1 X24.85 Y31.73 F3500.00
+G1 X22.84 Y33.06 F3500.00
+G1 X20.74 Y34.15 F3500.00
+G1 X19.44 Y34.82 F3500.00
+G1 X22.84 Y33.11 F3500.00
+G1 X24.13 Y32.33 F3500.00
+G1 X24.94 Y31.82 F3500.00
+G1 X25.09 Y31.74 F3500.00
+G1 X24.54 Y31.55 F3500.00
+G1 X24.04 Y31.33 F3500.00
+G1 X24.60 Y31.12 F3500.00
+G1 X25.13 Y30.92 F3500.00
+G1 X24.52 Y31.10 F3500.00
+G1 X24.52 Y31.10 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-10.00 Y30.97 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-9.91 Y30.98 F3500.00
+G1 X-9.94 Y30.95 F3500.00
+G1 X-10.00 Y30.97 F3500.00
+G1 X-10.00 Y30.97 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X0.31 Y31.28 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-0.02 Y31.81 F3500.00
+G1 X-3.26 Y36.30 F3500.00
+G1 X-3.27 Y36.51 F3500.00
+G1 X-3.25 Y36.46 F3500.00
+G1 X-2.79 Y35.81 F3500.00
+G1 X0.07 Y31.73 F3500.00
+G1 X0.56 Y31.01 F3500.00
+G1 X0.58 Y30.95 F3500.00
+G1 X0.31 Y31.28 F3500.00
+G1 X0.31 Y31.28 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X6.02 Y30.98 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X6.36 Y30.98 F3500.00
+G1 X6.20 Y30.96 F3500.00
+G1 X6.02 Y30.98 F3500.00
+G1 X6.02 Y30.98 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X17.42 Y30.98 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X17.66 Y30.98 F3500.00
+G1 X17.53 Y30.96 F3500.00
+G1 X17.42 Y30.98 F3500.00
+G1 X17.42 Y30.98 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-20.40 Y31.04 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-20.35 Y31.22 F3500.00
+G1 X-20.31 Y31.24 F3500.00
+G1 X-20.35 Y31.07 F3500.00
+G1 X-20.40 Y31.04 F3500.00
+G1 X-20.40 Y31.04 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X1.61 Y31.03 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X3.56 Y31.03 F3500.00
+G1 X3.67 Y31.02 F3500.00
+G1 X2.59 Y31.02 F3500.00
+G1 X1.50 Y31.02 F3500.00
+G1 X1.61 Y31.03 F3500.00
+G1 X1.61 Y31.03 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X18.30 Y31.03 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X18.55 Y31.03 F3500.00
+G1 X18.41 Y31.01 F3500.00
+G1 X18.30 Y31.03 F3500.00
+G1 X18.30 Y31.03 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-4.65 Y31.11 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-4.62 Y31.18 F3500.00
+G1 X-4.62 Y31.08 F3500.00
+G1 X-4.65 Y31.11 F3500.00
+G1 X-4.65 Y31.11 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X19.16 Y31.08 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X19.31 Y31.08 F3500.00
+G1 X19.25 Y31.05 F3500.00
+G1 X19.16 Y31.08 F3500.00
+G1 X19.16 Y31.08 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X30.50 Y31.09 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X30.47 Y31.14 F3500.00
+G1 X30.59 Y31.09 F3500.00
+G1 X30.62 Y31.04 F3500.00
+G1 X30.50 Y31.09 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-10.64 Y31.20 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-10.85 Y31.41 F3500.00
+G1 X-10.75 Y31.36 F3500.00
+G1 X-10.48 Y31.15 F3500.00
+G1 X-10.44 Y31.09 F3500.00
+G1 X-10.64 Y31.20 F3500.00
+G1 X-10.64 Y31.20 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X20.79 Y31.13 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X20.91 Y31.13 F3500.00
+G1 X20.85 Y31.10 F3500.00
+G1 X20.79 Y31.13 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-6.36 Y31.39 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-6.34 Y31.52 F3500.00
+G1 X-6.34 Y31.25 F3500.00
+G1 X-6.36 Y31.39 F3500.00
+G1 X-6.36 Y31.39 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-4.20 Y31.24 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-4.18 Y31.30 F3500.00
+G1 X-4.18 Y31.18 F3500.00
+G1 X-4.20 Y31.24 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X21.40 Y31.18 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X21.60 Y31.18 F3500.00
+G1 X21.51 Y31.15 F3500.00
+G1 X21.40 Y31.18 F3500.00
+G1 X21.40 Y31.18 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X22.19 Y31.23 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X22.44 Y31.23 F3500.00
+G1 X22.30 Y31.21 F3500.00
+G1 X22.19 Y31.23 F3500.00
+G1 X22.19 Y31.23 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X30.15 Y31.24 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X30.13 Y31.29 F3500.00
+G1 X30.25 Y31.24 F3500.00
+G1 X30.27 Y31.19 F3500.00
+G1 X30.15 Y31.24 F3500.00
+G1 X30.15 Y31.24 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-4.60 Y31.31 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-4.57 Y31.37 F3500.00
+G1 X-4.57 Y31.28 F3500.00
+G1 X-4.60 Y31.31 F3500.00
+G1 X-4.60 Y31.31 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X23.03 Y31.28 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X23.30 Y31.28 F3500.00
+G1 X23.16 Y31.25 F3500.00
+G1 X23.03 Y31.28 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-4.15 Y31.46 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-4.13 Y31.52 F3500.00
+G1 X-4.12 Y31.43 F3500.00
+G1 X-4.15 Y31.46 F3500.00
+G1 X-4.15 Y31.46 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-4.55 Y31.51 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-4.52 Y31.57 F3500.00
+G1 X-4.52 Y31.48 F3500.00
+G1 X-4.55 Y31.51 F3500.00
+G1 X-4.55 Y31.51 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-20.25 Y31.54 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-19.83 Y32.17 F3500.00
+G1 X-18.10 Y32.79 F3500.00
+G1 X-18.17 Y32.76 F3500.00
+G1 X-18.16 Y32.72 F3500.00
+G1 X-18.32 Y32.67 F3500.00
+G1 X-19.97 Y31.99 F3500.00
+G1 X-20.18 Y31.66 F3500.00
+G1 X-20.25 Y31.54 F3500.00
+G1 X-20.25 Y31.54 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-4.11 Y31.65 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-4.08 Y31.72 F3500.00
+G1 X-4.08 Y31.62 F3500.00
+G1 X-4.11 Y31.65 F3500.00
+G1 X-4.11 Y31.65 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-12.70 Y31.71 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-12.40 Y31.77 F3500.00
+G1 X-12.55 Y31.70 F3500.00
+G1 X-12.84 Y31.64 F3500.00
+G1 X-12.70 Y31.71 F3500.00
+G1 X-12.70 Y31.71 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-4.50 Y31.70 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-4.47 Y31.77 F3500.00
+G1 X-4.47 Y31.67 F3500.00
+G1 X-4.50 Y31.70 F3500.00
+G1 X-4.50 Y31.70 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-14.94 Y31.73 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-14.96 Y31.78 F3500.00
+G1 X-14.84 Y31.73 F3500.00
+G1 X-14.82 Y31.68 F3500.00
+G1 X-14.94 Y31.73 F3500.00
+G1 X-14.94 Y31.73 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-11.00 Y31.81 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-11.15 Y31.93 F3500.00
+G1 X-11.30 Y31.97 F3500.00
+G1 X-11.48 Y32.06 F3500.00
+G1 X-11.67 Y32.12 F3500.00
+G1 X-11.47 Y32.09 F3500.00
+G1 X-12.13 Y32.55 F3500.00
+G1 X-13.00 Y33.16 F3500.00
+G1 X-12.98 Y33.17 F3500.00
+G1 X-12.01 Y32.54 F3500.00
+G1 X-11.01 Y32.03 F3500.00
+G1 X-10.95 Y31.86 F3500.00
+G1 X-10.98 Y31.68 F3500.00
+G1 X-11.00 Y31.81 F3500.00
+G1 X-11.00 Y31.81 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X28.49 Y31.76 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X28.59 Y31.77 F3500.00
+G1 X28.56 Y31.74 F3500.00
+G1 X28.49 Y31.76 F3500.00
+G1 X28.49 Y31.76 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-12.24 Y31.81 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-12.12 Y31.81 F3500.00
+G1 X-12.18 Y31.79 F3500.00
+G1 X-12.24 Y31.81 F3500.00
+G1 X-12.24 Y31.81 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-4.06 Y31.85 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-4.03 Y31.92 F3500.00
+G1 X-4.03 Y31.82 F3500.00
+G1 X-4.06 Y31.85 F3500.00
+G1 X-4.06 Y31.85 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X25.18 Y31.82 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X25.38 Y31.90 F3500.00
+G1 X25.43 Y31.89 F3500.00
+G1 X25.23 Y31.81 F3500.00
+G1 X25.18 Y31.82 F3500.00
+G1 X25.18 Y31.82 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X28.27 Y31.81 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X28.39 Y31.81 F3500.00
+G1 X28.33 Y31.79 F3500.00
+G1 X28.27 Y31.81 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-15.33 Y31.88 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-15.36 Y31.93 F3500.00
+G1 X-15.23 Y31.88 F3500.00
+G1 X-15.21 Y31.83 F3500.00
+G1 X-15.33 Y31.88 F3500.00
+G1 X-15.33 Y31.88 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-11.95 Y31.86 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-11.83 Y31.86 F3500.00
+G1 X-11.89 Y31.84 F3500.00
+G1 X-11.95 Y31.86 F3500.00
+G1 X-11.95 Y31.86 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-6.41 Y32.08 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-6.39 Y32.21 F3500.00
+G1 X-6.39 Y31.94 F3500.00
+G1 X-6.41 Y32.08 F3500.00
+G1 X-6.41 Y32.08 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-4.45 Y31.88 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-4.38 Y32.13 F3500.00
+G1 X-4.31 Y32.22 F3500.00
+G1 X-4.38 Y31.98 F3500.00
+G1 X-4.45 Y31.88 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X28.00 Y31.86 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X28.09 Y31.86 F3500.00
+G1 X28.06 Y31.83 F3500.00
+G1 X28.00 Y31.86 F3500.00
+G1 X28.00 Y31.86 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-11.70 Y31.91 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-11.56 Y31.91 F3500.00
+G1 X-11.62 Y31.89 F3500.00
+G1 X-11.70 Y31.91 F3500.00
+G1 X-11.70 Y31.91 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X27.73 Y31.91 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X27.85 Y31.91 F3500.00
+G1 X27.79 Y31.89 F3500.00
+G1 X27.73 Y31.91 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X25.55 Y31.98 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X25.15 Y32.23 F3500.00
+G1 X23.14 Y33.20 F3500.00
+G1 X19.21 Y35.03 F3500.00
+G1 X18.60 Y35.31 F3500.00
+G1 X20.88 Y34.35 F3500.00
+G1 X21.60 Y34.05 F3500.00
+G1 X21.74 Y33.98 F3500.00
+G1 X23.25 Y33.21 F3500.00
+G1 X22.74 Y33.66 F3500.00
+G1 X22.54 Y33.80 F3500.00
+G1 X22.73 Y33.72 F3500.00
+G1 X23.19 Y33.36 F3500.00
+G1 X24.48 Y32.60 F3500.00
+G1 X25.55 Y32.13 F3500.00
+G1 X25.60 Y32.08 F3500.00
+G1 X25.77 Y32.06 F3500.00
+G1 X25.79 Y32.13 F3500.00
+G1 X25.89 Y32.17 F3500.00
+G1 X26.09 Y32.17 F3500.00
+G1 X25.84 Y32.05 F3500.00
+G1 X25.55 Y31.98 F3500.00
+G1 X25.55 Y31.98 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X27.46 Y31.96 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X27.55 Y31.96 F3500.00
+G1 X27.52 Y31.93 F3500.00
+G1 X27.46 Y31.96 F3500.00
+G1 X27.46 Y31.96 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-4.01 Y32.05 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-3.98 Y32.11 F3500.00
+G1 X-3.98 Y32.02 F3500.00
+G1 X-4.01 Y32.05 F3500.00
+G1 X-4.01 Y32.05 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-15.86 Y32.06 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-15.77 Y32.06 F3500.00
+G1 X-15.80 Y32.03 F3500.00
+G1 X-15.86 Y32.06 F3500.00
+G1 X-15.86 Y32.06 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-10.94 Y32.15 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-11.65 Y32.64 F3500.00
+G1 X-12.34 Y33.08 F3500.00
+G1 X-12.28 Y33.44 F3500.00
+G1 X-10.43 Y34.70 F3500.00
+G1 X-7.74 Y35.77 F3500.00
+G1 X-8.04 Y35.63 F3500.00
+G1 X-8.41 Y35.50 F3500.00
+G1 X-8.90 Y34.86 F3500.00
+G1 X-10.09 Y33.02 F3500.00
+G1 X-10.17 Y32.85 F3500.00
+G1 X-10.03 Y32.88 F3500.00
+G1 X-10.14 Y32.79 F3500.00
+G1 X-10.81 Y32.26 F3500.00
+G1 X-10.94 Y32.15 F3500.00
+G1 X-10.94 Y32.15 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-10.70 Y32.45 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-10.40 Y32.70 F3500.00
+G1 X-10.16 Y32.98 F3500.00
+G1 X-9.08 Y34.69 F3500.00
+G1 X-8.59 Y35.34 F3500.00
+G1 X-8.49 Y35.47 F3500.00
+G1 X-8.67 Y35.40 F3500.00
+G1 X-10.73 Y34.49 F3500.00
+G1 X-12.11 Y33.55 F3500.00
+G1 X-12.31 Y33.14 F3500.00
+G1 X-11.62 Y32.67 F3500.00
+G1 X-10.90 Y32.28 F3500.00
+G1 X-10.70 Y32.45 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X26.23 Y32.11 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X26.32 Y32.11 F3500.00
+G1 X26.29 Y32.08 F3500.00
+G1 X26.23 Y32.11 F3500.00
+G1 X26.23 Y32.11 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-11.90 Y32.16 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-11.78 Y32.16 F3500.00
+G1 X-11.84 Y32.13 F3500.00
+G1 X-11.90 Y32.16 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-12.22 Y32.21 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-12.05 Y32.21 F3500.00
+G1 X-12.13 Y32.19 F3500.00
+G1 X-12.22 Y32.21 F3500.00
+G1 X-12.22 Y32.21 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-3.95 Y32.22 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-3.91 Y32.40 F3500.00
+G1 X-3.87 Y32.42 F3500.00
+G1 X-3.91 Y32.25 F3500.00
+G1 X-3.95 Y32.22 F3500.00
+G1 X-3.95 Y32.22 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-12.76 Y32.26 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-12.51 Y32.26 F3500.00
+G1 X-12.65 Y32.24 F3500.00
+G1 X-12.76 Y32.26 F3500.00
+G1 X-12.76 Y32.26 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-4.30 Y32.35 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-4.13 Y32.85 F3500.00
+G1 X-4.20 Y32.57 F3500.00
+G1 X-4.30 Y32.35 F3500.00
+G1 X-4.30 Y32.35 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-17.09 Y32.45 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-17.00 Y32.46 F3500.00
+G1 X-17.03 Y32.43 F3500.00
+G1 X-17.09 Y32.45 F3500.00
+G1 X-17.09 Y32.45 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-17.29 Y32.50 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-17.19 Y32.50 F3500.00
+G1 X-17.22 Y32.47 F3500.00
+G1 X-17.29 Y32.50 F3500.00
+G1 X-17.29 Y32.50 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-16.32 Y32.54 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-16.42 Y32.61 F3500.00
+G1 X-16.19 Y32.55 F3500.00
+G1 X-16.10 Y32.48 F3500.00
+G1 X-16.32 Y32.54 F3500.00
+G1 X-16.32 Y32.54 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-6.47 Y32.53 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-6.94 Y33.02 F3500.00
+G1 X-6.99 Y33.09 F3500.00
+G1 X-6.44 Y32.50 F3500.00
+G1 X-6.47 Y32.53 F3500.00
+G1 X-6.47 Y32.53 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-17.49 Y32.55 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-17.39 Y32.55 F3500.00
+G1 X-17.42 Y32.52 F3500.00
+G1 X-17.49 Y32.55 F3500.00
+G1 X-17.49 Y32.55 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-17.68 Y32.60 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-17.59 Y32.60 F3500.00
+G1 X-17.62 Y32.57 F3500.00
+G1 X-17.68 Y32.60 F3500.00
+G1 X-17.68 Y32.60 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-17.95 Y32.65 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-17.83 Y32.65 F3500.00
+G1 X-17.89 Y32.63 F3500.00
+G1 X-17.95 Y32.65 F3500.00
+G1 X-17.95 Y32.65 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-16.74 Y32.67 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-16.76 Y32.71 F3500.00
+G1 X-16.59 Y32.67 F3500.00
+G1 X-16.56 Y32.63 F3500.00
+G1 X-16.74 Y32.67 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-16.99 Y32.75 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-16.90 Y32.75 F3500.00
+G1 X-16.93 Y32.72 F3500.00
+G1 X-16.99 Y32.75 F3500.00
+G1 X-16.99 Y32.75 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-17.26 Y32.80 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-17.14 Y32.80 F3500.00
+G1 X-17.20 Y32.77 F3500.00
+G1 X-17.26 Y32.80 F3500.00
+G1 X-17.26 Y32.80 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-17.94 Y32.86 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-17.57 Y32.92 F3500.00
+G1 X-17.46 Y32.85 F3500.00
+G1 X-17.70 Y32.83 F3500.00
+G1 X-17.94 Y32.86 F3500.00
+G1 X-17.94 Y32.86 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-9.70 Y32.99 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-9.40 Y33.05 F3500.00
+G1 X-9.55 Y32.98 F3500.00
+G1 X-9.84 Y32.92 F3500.00
+G1 X-9.70 Y32.99 F3500.00
+G1 X-9.70 Y32.99 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-4.08 Y33.01 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-3.98 Y33.28 F3500.00
+G1 X-3.94 Y33.31 F3500.00
+G1 X-4.04 Y33.04 F3500.00
+G1 X-4.08 Y33.01 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-16.58 Y33.09 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-16.45 Y33.09 F3500.00
+G1 X-16.51 Y33.07 F3500.00
+G1 X-16.58 Y33.09 F3500.00
+G1 X-16.58 Y33.09 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-9.24 Y33.09 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-9.09 Y33.10 F3500.00
+G1 X-9.15 Y33.07 F3500.00
+G1 X-9.24 Y33.09 F3500.00
+G1 X-9.24 Y33.09 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-16.28 Y33.14 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-16.13 Y33.14 F3500.00
+G1 X-16.19 Y33.12 F3500.00
+G1 X-16.28 Y33.14 F3500.00
+G1 X-16.28 Y33.14 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-8.87 Y33.14 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-8.68 Y33.15 F3500.00
+G1 X-8.76 Y33.12 F3500.00
+G1 X-8.87 Y33.14 F3500.00
+G1 X-8.87 Y33.14 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-7.62 Y33.14 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-7.47 Y33.14 F3500.00
+G1 X-7.53 Y33.12 F3500.00
+G1 X-7.62 Y33.14 F3500.00
+G1 X-7.62 Y33.14 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-15.71 Y33.19 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-15.52 Y33.19 F3500.00
+G1 X-15.60 Y33.17 F3500.00
+G1 X-15.71 Y33.19 F3500.00
+G1 X-15.71 Y33.19 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-14.89 Y33.24 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-14.50 Y33.37 F3500.00
+G1 X-14.34 Y33.49 F3500.00
+G1 X-14.17 Y33.53 F3500.00
+G1 X-14.30 Y33.46 F3500.00
+G1 X-14.38 Y33.30 F3500.00
+G1 X-14.84 Y33.22 F3500.00
+G1 X-14.89 Y33.24 F3500.00
+G1 X-14.89 Y33.24 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-13.75 Y33.29 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-13.57 Y33.29 F3500.00
+G1 X-13.66 Y33.27 F3500.00
+G1 X-13.75 Y33.29 F3500.00
+G1 X-13.75 Y33.29 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-3.90 Y33.51 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-3.69 Y34.01 F3500.00
+G1 X-3.50 Y34.44 F3500.00
+G1 X-3.72 Y34.70 F3500.00
+G1 X-3.87 Y34.89 F3500.00
+G1 X-3.76 Y34.79 F3500.00
+G1 X-3.51 Y34.45 F3500.00
+G1 X-3.67 Y33.94 F3500.00
+G1 X-3.88 Y33.49 F3500.00
+G1 X-3.90 Y33.51 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-14.49 Y33.63 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-14.46 Y33.71 F3500.00
+G1 X-14.46 Y33.57 F3500.00
+G1 X-14.49 Y33.63 F3500.00
+G1 X-14.49 Y33.63 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-14.05 Y33.60 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-13.93 Y33.65 F3500.00
+G1 X-13.95 Y33.60 F3500.00
+G1 X-14.08 Y33.56 F3500.00
+G1 X-14.05 Y33.60 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-12.58 Y33.68 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-12.44 Y33.80 F3500.00
+G1 X-12.53 Y33.68 F3500.00
+G1 X-12.67 Y33.55 F3500.00
+G1 X-12.58 Y33.68 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-13.72 Y33.74 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-13.55 Y34.14 F3500.00
+G1 X-13.54 Y34.46 F3500.00
+G1 X-13.52 Y34.16 F3500.00
+G1 X-13.49 Y33.85 F3500.00
+G1 X-12.23 Y34.43 F3500.00
+G1 X-11.91 Y34.61 F3500.00
+G1 X-12.11 Y34.64 F3500.00
+G1 X-12.05 Y34.68 F3500.00
+G1 X-10.77 Y35.19 F3500.00
+G1 X-9.45 Y35.83 F3500.00
+G1 X-9.15 Y35.96 F3500.00
+G1 X-14.46 Y35.96 F3500.00
+G1 X-19.76 Y35.97 F3500.00
+G1 X-19.76 Y35.28 F3500.00
+G1 X-19.76 Y34.59 F3500.00
+G1 X-17.21 Y34.59 F3500.00
+G1 X-14.59 Y34.50 F3500.00
+G1 X-14.59 Y34.48 F3500.00
+G1 X-17.21 Y34.54 F3500.00
+G1 X-19.76 Y34.54 F3500.00
+G1 X-19.76 Y34.42 F3500.00
+G1 X-19.76 Y34.29 F3500.00
+G1 X-20.80 Y34.29 F3500.00
+G1 X-21.83 Y34.29 F3500.00
+G1 X-21.82 Y35.46 F3500.00
+G1 X-21.71 Y36.64 F3500.00
+G1 X-21.69 Y36.62 F3500.00
+G1 X-21.78 Y35.47 F3500.00
+G1 X-21.78 Y34.34 F3500.00
+G1 X-20.80 Y34.34 F3500.00
+G1 X-19.81 Y34.34 F3500.00
+G1 X-19.81 Y35.35 F3500.00
+G1 X-19.92 Y36.37 F3500.00
+G1 X-19.90 Y36.40 F3500.00
+G1 X-19.76 Y36.21 F3500.00
+G1 X-19.76 Y36.01 F3500.00
+G1 X-14.38 Y36.01 F3500.00
+G1 X-9.00 Y36.01 F3500.00
+G1 X-8.44 Y36.26 F3500.00
+G1 X-7.79 Y36.51 F3500.00
+G1 X-7.73 Y36.51 F3500.00
+G1 X-8.86 Y36.02 F3500.00
+G1 X-11.99 Y34.51 F3500.00
+G1 X-13.23 Y33.90 F3500.00
+G1 X-13.81 Y33.67 F3500.00
+G1 X-13.72 Y33.74 F3500.00
+G1 X-13.72 Y33.74 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X22.32 Y33.85 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X22.30 Y33.90 F3500.00
+G1 X22.42 Y33.85 F3500.00
+G1 X22.45 Y33.80 F3500.00
+G1 X22.32 Y33.85 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X22.09 Y33.93 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X22.19 Y33.93 F3500.00
+G1 X22.16 Y33.90 F3500.00
+G1 X22.09 Y33.93 F3500.00
+G1 X22.09 Y33.93 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-14.53 Y34.19 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-14.51 Y34.28 F3500.00
+G1 X-14.51 Y34.11 F3500.00
+G1 X-14.53 Y34.19 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-11.89 Y34.16 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-11.11 Y34.66 F3500.00
+G1 X-10.96 Y34.71 F3500.00
+G1 X-11.26 Y34.52 F3500.00
+G1 X-11.73 Y34.24 F3500.00
+G1 X-11.89 Y34.16 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-13.52 Y34.60 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-13.16 Y34.63 F3500.00
+G1 X-12.85 Y34.61 F3500.00
+G1 X-13.20 Y34.59 F3500.00
+G1 X-13.52 Y34.60 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-10.87 Y34.79 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-10.78 Y34.82 F3500.00
+G1 X-10.84 Y34.76 F3500.00
+G1 X-10.87 Y34.79 F3500.00
+G1 X-10.87 Y34.79 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X18.95 Y35.01 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X18.66 Y35.17 F3500.00
+G1 X19.05 Y35.01 F3500.00
+G1 X19.35 Y34.84 F3500.00
+G1 X18.95 Y35.01 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-10.14 Y35.13 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-8.71 Y35.71 F3500.00
+G1 X-9.17 Y35.50 F3500.00
+G1 X-10.06 Y35.12 F3500.00
+G1 X-10.49 Y34.94 F3500.00
+G1 X-10.14 Y35.13 F3500.00
+G1 X-10.14 Y35.13 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-4.06 Y35.12 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-4.18 Y35.25 F3500.00
+G1 X-4.05 Y35.13 F3500.00
+G1 X-3.91 Y35.00 F3500.00
+G1 X-4.06 Y35.12 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X17.91 Y35.44 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X17.32 Y35.71 F3500.00
+G1 X18.48 Y35.25 F3500.00
+G1 X18.51 Y35.20 F3500.00
+G1 X17.91 Y35.44 F3500.00
+G1 X17.91 Y35.44 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X18.12 Y35.48 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X17.77 Y35.64 F3500.00
+G1 X17.84 Y35.65 F3500.00
+G1 X18.51 Y35.33 F3500.00
+G1 X18.12 Y35.48 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-4.42 Y35.50 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-4.78 Y35.77 F3500.00
+G1 X-5.04 Y35.95 F3500.00
+G1 X-4.80 Y35.84 F3500.00
+G1 X-4.29 Y35.38 F3500.00
+G1 X-4.42 Y35.50 F3500.00
+G1 X-4.42 Y35.50 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X17.48 Y35.75 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X17.45 Y35.79 F3500.00
+G1 X17.67 Y35.67 F3500.00
+G1 X17.48 Y35.75 F3500.00
+G1 X17.48 Y35.75 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X17.11 Y35.77 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X17.08 Y35.82 F3500.00
+G1 X17.21 Y35.77 F3500.00
+G1 X17.23 Y35.72 F3500.00
+G1 X17.11 Y35.77 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-8.49 Y35.79 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-7.96 Y35.94 F3500.00
+G1 X-8.14 Y35.87 F3500.00
+G1 X-8.42 Y35.79 F3500.00
+G1 X-8.49 Y35.79 F3500.00
+G1 X-8.49 Y35.79 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-7.50 Y35.84 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-7.16 Y35.93 F3500.00
+G1 X-7.28 Y35.87 F3500.00
+G1 X-7.62 Y35.78 F3500.00
+G1 X-7.50 Y35.84 F3500.00
+G1 X-7.50 Y35.84 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X17.08 Y35.89 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X17.06 Y35.93 F3500.00
+G1 X17.28 Y35.82 F3500.00
+G1 X17.08 Y35.89 F3500.00
+G1 X17.08 Y35.89 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X16.57 Y35.95 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X16.38 Y36.04 F3500.00
+G1 X16.86 Y35.89 F3500.00
+G1 X16.57 Y35.95 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-6.89 Y36.01 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-6.72 Y36.06 F3500.00
+G1 X-6.74 Y36.01 F3500.00
+G1 X-6.92 Y35.97 F3500.00
+G1 X-6.89 Y36.01 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-5.34 Y36.01 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-5.36 Y36.06 F3500.00
+G1 X-5.17 Y36.01 F3500.00
+G1 X-5.34 Y36.01 F3500.00
+G1 X-5.34 Y36.01 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-7.53 Y36.11 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-7.21 Y36.20 F3500.00
+G1 X-7.38 Y36.11 F3500.00
+G1 X-7.70 Y36.02 F3500.00
+G1 X-7.53 Y36.11 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X16.54 Y36.09 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X16.52 Y36.13 F3500.00
+G1 X16.74 Y36.02 F3500.00
+G1 X16.54 Y36.09 F3500.00
+G1 X16.54 Y36.09 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-6.24 Y36.10 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-5.80 Y36.10 F3500.00
+G1 X-6.00 Y36.08 F3500.00
+G1 X-6.24 Y36.10 F3500.00
+G1 X-6.24 Y36.10 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X15.76 Y36.25 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X15.30 Y36.44 F3500.00
+G1 X16.31 Y36.09 F3500.00
+G1 X15.76 Y36.25 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X15.74 Y36.37 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X15.20 Y36.59 F3500.00
+G1 X16.36 Y36.19 F3500.00
+G1 X15.74 Y36.37 F3500.00
+G1 X15.74 Y36.37 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-6.96 Y36.29 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-6.72 Y36.35 F3500.00
+G1 X-6.82 Y36.29 F3500.00
+G1 X-7.06 Y36.22 F3500.00
+G1 X-6.96 Y36.29 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-6.26 Y36.40 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-5.70 Y36.40 F3500.00
+G1 X-5.98 Y36.38 F3500.00
+G1 X-6.26 Y36.40 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-20.29 Y36.44 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-20.12 Y36.44 F3500.00
+G1 X-20.21 Y36.42 F3500.00
+G1 X-20.29 Y36.44 F3500.00
+G1 X-20.29 Y36.44 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-20.69 Y36.49 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-20.51 Y36.49 F3500.00
+G1 X-20.60 Y36.47 F3500.00
+G1 X-20.69 Y36.49 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-21.08 Y36.54 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-20.91 Y36.54 F3500.00
+G1 X-20.99 Y36.52 F3500.00
+G1 X-21.08 Y36.54 F3500.00
+G1 X-21.08 Y36.54 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-3.14 Y36.54 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-3.01 Y36.54 F3500.00
+G1 X-3.08 Y36.51 F3500.00
+G1 X-3.14 Y36.54 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X14.87 Y36.56 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X14.84 Y36.60 F3500.00
+G1 X15.01 Y36.56 F3500.00
+G1 X15.04 Y36.51 F3500.00
+G1 X14.87 Y36.56 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-21.47 Y36.59 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-21.30 Y36.59 F3500.00
+G1 X-21.39 Y36.57 F3500.00
+G1 X-21.47 Y36.59 F3500.00
+G1 X-21.47 Y36.59 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-2.87 Y36.59 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-2.77 Y36.59 F3500.00
+G1 X-2.80 Y36.56 F3500.00
+G1 X-2.87 Y36.59 F3500.00
+G1 X-2.87 Y36.59 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-2.55 Y36.64 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-2.42 Y36.64 F3500.00
+G1 X-2.48 Y36.61 F3500.00
+G1 X-2.55 Y36.64 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X14.61 Y36.64 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X14.70 Y36.64 F3500.00
+G1 X14.67 Y36.61 F3500.00
+G1 X14.61 Y36.64 F3500.00
+G1 X14.61 Y36.64 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-7.24 Y36.70 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-7.11 Y36.70 F3500.00
+G1 X-7.26 Y36.66 F3500.00
+G1 X-7.24 Y36.70 F3500.00
+G1 X-7.24 Y36.70 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-2.25 Y36.69 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-2.10 Y36.69 F3500.00
+G1 X-2.16 Y36.66 F3500.00
+G1 X-2.25 Y36.69 F3500.00
+G1 X-2.25 Y36.69 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X14.41 Y36.68 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X14.51 Y36.69 F3500.00
+G1 X14.48 Y36.66 F3500.00
+G1 X14.41 Y36.68 F3500.00
+G1 X14.41 Y36.68 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X14.86 Y36.68 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X14.95 Y36.69 F3500.00
+G1 X14.92 Y36.66 F3500.00
+G1 X14.86 Y36.68 F3500.00
+G1 X14.86 Y36.68 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-1.86 Y36.74 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-1.73 Y36.74 F3500.00
+G1 X-1.80 Y36.71 F3500.00
+G1 X-1.86 Y36.74 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X14.19 Y36.74 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X14.31 Y36.74 F3500.00
+G1 X14.25 Y36.71 F3500.00
+G1 X14.19 Y36.74 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X14.66 Y36.73 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X14.75 Y36.74 F3500.00
+G1 X14.72 Y36.71 F3500.00
+G1 X14.66 Y36.73 F3500.00
+G1 X14.66 Y36.73 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-6.95 Y36.78 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-6.86 Y36.79 F3500.00
+G1 X-6.89 Y36.76 F3500.00
+G1 X-6.95 Y36.78 F3500.00
+G1 X-6.95 Y36.78 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-1.46 Y36.79 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-1.34 Y36.79 F3500.00
+G1 X-1.40 Y36.76 F3500.00
+G1 X-1.46 Y36.79 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X14.46 Y36.78 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X14.56 Y36.79 F3500.00
+G1 X14.53 Y36.76 F3500.00
+G1 X14.46 Y36.78 F3500.00
+G1 X14.46 Y36.78 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-6.70 Y36.83 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-6.61 Y36.84 F3500.00
+G1 X-6.64 Y36.81 F3500.00
+G1 X-6.70 Y36.83 F3500.00
+G1 X-6.70 Y36.83 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-1.04 Y36.83 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-0.95 Y36.84 F3500.00
+G1 X-0.98 Y36.81 F3500.00
+G1 X-1.04 Y36.83 F3500.00
+G1 X-1.04 Y36.83 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X13.67 Y36.83 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X13.77 Y36.84 F3500.00
+G1 X13.74 Y36.81 F3500.00
+G1 X13.67 Y36.83 F3500.00
+G1 X13.67 Y36.83 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X14.24 Y36.84 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X14.36 Y36.84 F3500.00
+G1 X14.30 Y36.81 F3500.00
+G1 X14.24 Y36.84 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X13.94 Y36.88 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X14.09 Y36.89 F3500.00
+G1 X14.03 Y36.86 F3500.00
+G1 X13.94 Y36.88 F3500.00
+G1 X13.94 Y36.88 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-6.11 Y36.93 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-6.02 Y36.93 F3500.00
+G1 X-6.05 Y36.90 F3500.00
+G1 X-6.11 Y36.93 F3500.00
+G1 X-6.11 Y36.93 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X0.48 Y36.93 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X0.65 Y36.93 F3500.00
+G1 X0.57 Y36.91 F3500.00
+G1 X0.48 Y36.93 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X12.71 Y36.93 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X12.86 Y36.93 F3500.00
+G1 X12.80 Y36.91 F3500.00
+G1 X12.71 Y36.93 F3500.00
+G1 X12.71 Y36.93 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X13.65 Y36.93 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X13.80 Y36.93 F3500.00
+G1 X13.73 Y36.91 F3500.00
+G1 X13.65 Y36.93 F3500.00
+G1 X13.65 Y36.93 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-5.67 Y36.98 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-5.48 Y36.99 F3500.00
+G1 X-5.56 Y36.96 F3500.00
+G1 X-5.67 Y36.98 F3500.00
+G1 X-5.67 Y36.98 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X1.27 Y36.99 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X1.52 Y36.98 F3500.00
+G1 X1.38 Y36.96 F3500.00
+G1 X1.27 Y36.99 F3500.00
+G1 X1.27 Y36.99 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X12.20 Y36.98 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X12.37 Y36.98 F3500.00
+G1 X12.28 Y36.96 F3500.00
+G1 X12.20 Y36.98 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X13.40 Y36.98 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X13.53 Y36.98 F3500.00
+G1 X13.46 Y36.96 F3500.00
+G1 X13.40 Y36.98 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-5.03 Y37.03 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-4.86 Y37.03 F3500.00
+G1 X-4.95 Y37.01 F3500.00
+G1 X-5.03 Y37.03 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X2.03 Y37.03 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X2.25 Y37.03 F3500.00
+G1 X2.14 Y37.01 F3500.00
+G1 X2.03 Y37.03 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X11.61 Y37.03 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X11.78 Y37.03 F3500.00
+G1 X11.69 Y37.01 F3500.00
+G1 X11.61 Y37.03 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X13.01 Y37.03 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X13.16 Y37.03 F3500.00
+G1 X13.09 Y37.01 F3500.00
+G1 X13.01 Y37.03 F3500.00
+G1 X13.01 Y37.03 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-4.47 Y37.08 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-4.24 Y37.08 F3500.00
+G1 X-4.36 Y37.06 F3500.00
+G1 X-4.47 Y37.08 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X2.79 Y37.08 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X3.07 Y37.08 F3500.00
+G1 X2.93 Y37.06 F3500.00
+G1 X2.79 Y37.08 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X10.87 Y37.08 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X11.11 Y37.08 F3500.00
+G1 X10.98 Y37.06 F3500.00
+G1 X10.87 Y37.08 F3500.00
+G1 X10.87 Y37.08 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X12.64 Y37.08 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X12.81 Y37.08 F3500.00
+G1 X12.73 Y37.06 F3500.00
+G1 X12.64 Y37.08 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-3.90 Y37.13 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-3.65 Y37.13 F3500.00
+G1 X-3.79 Y37.11 F3500.00
+G1 X-3.90 Y37.13 F3500.00
+G1 X-3.90 Y37.13 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X3.85 Y37.13 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X4.47 Y37.13 F3500.00
+G1 X4.16 Y37.12 F3500.00
+G1 X3.85 Y37.13 F3500.00
+G1 X3.85 Y37.13 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X10.06 Y37.13 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X10.38 Y37.13 F3500.00
+G1 X10.22 Y37.11 F3500.00
+G1 X10.06 Y37.13 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X12.15 Y37.13 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X12.34 Y37.13 F3500.00
+G1 X12.26 Y37.11 F3500.00
+G1 X12.15 Y37.13 F3500.00
+G1 X12.15 Y37.13 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-3.33 Y37.18 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-3.11 Y37.18 F3500.00
+G1 X-3.22 Y37.16 F3500.00
+G1 X-3.33 Y37.18 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X5.53 Y37.18 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X6.24 Y37.18 F3500.00
+G1 X5.88 Y37.17 F3500.00
+G1 X5.53 Y37.18 F3500.00
+G1 X5.53 Y37.18 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X9.07 Y37.18 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X9.49 Y37.18 F3500.00
+G1 X9.28 Y37.16 F3500.00
+G1 X9.07 Y37.18 F3500.00
+G1 X9.07 Y37.18 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X11.51 Y37.18 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X11.78 Y37.18 F3500.00
+G1 X11.64 Y37.16 F3500.00
+G1 X11.51 Y37.18 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-2.74 Y37.23 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-2.52 Y37.23 F3500.00
+G1 X-2.63 Y37.21 F3500.00
+G1 X-2.74 Y37.23 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X10.97 Y37.23 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X11.14 Y37.23 F3500.00
+G1 X11.05 Y37.21 F3500.00
+G1 X10.97 Y37.23 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-2.18 Y37.28 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-1.93 Y37.28 F3500.00
+G1 X-2.07 Y37.26 F3500.00
+G1 X-2.18 Y37.28 F3500.00
+G1 X-2.18 Y37.28 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X10.45 Y37.28 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X10.67 Y37.28 F3500.00
+G1 X10.56 Y37.26 F3500.00
+G1 X10.45 Y37.28 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-1.61 Y37.33 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-1.39 Y37.33 F3500.00
+G1 X-1.50 Y37.31 F3500.00
+G1 X-1.61 Y37.33 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X9.93 Y37.33 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X10.18 Y37.33 F3500.00
+G1 X10.04 Y37.31 F3500.00
+G1 X9.93 Y37.33 F3500.00
+G1 X9.93 Y37.33 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-1.04 Y37.38 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-0.80 Y37.38 F3500.00
+G1 X-0.93 Y37.36 F3500.00
+G1 X-1.04 Y37.38 F3500.00
+G1 X-1.04 Y37.38 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X9.24 Y37.38 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X9.54 Y37.38 F3500.00
+G1 X9.40 Y37.36 F3500.00
+G1 X9.24 Y37.38 F3500.00
+G1 X9.24 Y37.38 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-0.50 Y37.43 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-0.31 Y37.43 F3500.00
+G1 X-0.39 Y37.41 F3500.00
+G1 X-0.50 Y37.43 F3500.00
+G1 X-0.50 Y37.43 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X8.48 Y37.43 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X8.82 Y37.43 F3500.00
+G1 X8.66 Y37.41 F3500.00
+G1 X8.48 Y37.43 F3500.00
+G1 X8.48 Y37.43 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X-0.01 Y37.48 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X0.28 Y37.48 F3500.00
+G1 X0.15 Y37.46 F3500.00
+G1 X-0.01 Y37.48 F3500.00
+G1 X-0.01 Y37.48 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X7.30 Y37.48 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X7.84 Y37.48 F3500.00
+G1 X7.58 Y37.46 F3500.00
+G1 X7.30 Y37.48 F3500.00
+G1 X7.30 Y37.48 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X0.80 Y37.53 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X1.20 Y37.53 F3500.00
+G1 X0.99 Y37.51 F3500.00
+G1 X0.80 Y37.53 F3500.00
+G1 X0.80 Y37.53 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X4.96 Y37.53 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X5.94 Y37.53 F3500.00
+G1 X6.01 Y37.52 F3500.00
+G1 X5.47 Y37.51 F3500.00
+G1 X4.91 Y37.52 F3500.00
+G1 X4.96 Y37.53 F3500.00
+G1 X4.96 Y37.53 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 1323 segments.)
+G1 X2.01 Y37.58 F3500.00
+M300 S0.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X3.26 Y37.58 F3500.00
+G1 X3.34 Y37.57 F3500.00
+G1 X2.63 Y37.56 F3500.00
+G1 X1.93 Y37.57 F3500.00
+G1 X2.01 Y37.58 F3500.00
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+
+
+(end of print job)
+M300 S35.00 (pen up)
+G4 P150 (wait 150ms)
+M300 S255 (turn off servo)
+G1 X0 Y0 F3500.00
+G1 Z0.00 F150.00 (go up to finished level)
+G1 X0.00 Y0.00 F3500.00 (go home)
+M18 (drives off)
