@@ -2,21 +2,21 @@
 #define STEPS 200
 
 // Define stepper motor connections and motor interface type. Motor interface type must be set to 1 when using a driver
-Stepper stepper(STEPS, 3, 4); // Pin 2 connected to DIRECTION & Pin 3 connected to STEP Pin of Driver
+Stepper stepper(STEPS, 7, 8); // Pin 2 connected to DIRECTION & Pin 3 connected to STEP Pin of Driver
 #define motorInterfaceType 1
 
 void setup() {
   // max 1000
   Serial.begin(9600);
-    stepper.setSpeed(400);
+  stepper.setSpeed(400);
 }
-
-int originaltime;
-boolean save_original_time = true, is_forward = true, is_off = false;
-float backward_time = 0.400,  forward_time= 0.500, off_time = 2;
 
 void loop() {
 
+  
+  
+
+/*
   // On
   if(is_forward){
         if(save_original_time){
@@ -45,4 +45,5 @@ void loop() {
           }
         }
   }
+  */
 }
