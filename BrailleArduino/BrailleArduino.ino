@@ -13,7 +13,7 @@ int maximum_height = 2070;
 int maximum_medium = 690; // 1700 absolute maximum, 620 great value
 
 String coordinates_x = "", coordinates_y = "", coordinates_z = "";
-int x = 0, y = 0, z = maximum_medium;
+int x = 0, y = 0, z = 0;
 
 
 bool previous_method_1_has_ran = false;
@@ -36,6 +36,7 @@ void setup() {
   stepper.setSpeed(500); // max 1000
   stepper2.setSpeed(500); // max 1000
   stepper3.setSpeed(500); // max 1000
+  /*
   Serial.println(
     "Started!\n(note: X and Y axis step is " + 
     String(stepo, DEC) + 
@@ -43,6 +44,8 @@ void setup() {
     String(stepo2, DEC) + 
     ")\na (go up)     z (forward)     e (go down)\nq (left)      s (backward)    d (right)\n\n" + 
     "Or type coordinates as three numbers separated by 1 space each with the ranges 0-" + String(maximum_width, DEC) + " 0-" + String(maximum_height, DEC) + " 0/1 \n\n");
+  */
+  Serial.println("Ready " + String(maximum_width, DEC) + " " + String(maximum_height, DEC));
 }
 
 
@@ -54,23 +57,41 @@ void loop() {
     // Step 1: read the incoming message:
     char received = Serial.read();
 
-    // Step 2: check method 1 which is jogging the motor manually
-    bool method_1_has_ran = manually_stepping_motor(received);
-
-    // Step 3: check method 2 which is sending the motor to specific coordinates
-    if(!method_1_has_ran && !previous_method_1_has_ran){
-      automatically_stepping_motor(received);
-
-      // Step 4: save method_1_has_ran to cancel the \n that comes after it
-      previous_method_1_has_ran = method_1_has_ran;
+    switch(received){
+      case 'Sethome':
+        x = 0;
+        y = 0;
+        break;
+      case 'Step100':
+        stepo = 100;
+        break;
+      case 'Step50':
+        stepo = 50;
+        break;
+      case 'Step10':
+        stepo = 10;
+        break;
+      default:
+        // Step 2: check method 1 which is jogging the motor manually
+        bool method_1_has_ran = manually_stepping_motor(received);
+    
+        // Step 3: check method 2 which is sending the motor to specific coordinates
+        if(!method_1_has_ran && !previous_method_1_has_ran){
+          automatically_stepping_motor(received);
+    
+          // Step 4: save method_1_has_ran to cancel the \n that comes after it
+          previous_method_1_has_ran = method_1_has_ran;
+        }
+        break;
     }
+
   }
 }
 
 
 
 void automatically_stepping_motor(char received){
-  
+
   bool coords_are_queued = false;
 
   if(isdigit(received) || received==' ' || received=='\n'){
@@ -79,7 +100,7 @@ void automatically_stepping_motor(char received){
       my_dude_coordinates_full_string += String(received);
     else
       coords_are_queued = check_coordinates_being_inputed(received);
-    
+
   } else
     my_dude_coordinates_full_string = ""; // \0 just means empty char
 
@@ -108,7 +129,8 @@ void automatically_stepping_motor(char received){
     coordinates_z = "";
     my_dude_coordinates_full_string = "";
     
-    showcoords();
+    //showcoords();
+    Serial.println("Done");
   }
 }
 
@@ -120,46 +142,36 @@ bool manually_stepping_motor(char received){
   boolean method_1_has_ran = true;
   switch(received){
     case 'e':
+      z = 0;
       z_go_up();
       break;
     case 'a':
+      z = maximum_medium;
       z_go_down();
       break;
     case 'q':
       Serial.println("left");
-      if(x>=stepo){
-        x -= stepo;
-        stepper.step(-stepo);
-        stepper2.step(-stepo);
-      }
-      showcoords();
+      x -= stepo;
+      stepper.step(-stepo);
+      stepper2.step(-stepo);
       break;
     case 'd':
       Serial.println("right");
-      if(x<=maximum_width-stepo){
-        x += stepo;
-        stepper.step(stepo);
-        stepper2.step(stepo);
-      }
-      showcoords();
+      x += stepo;
+      stepper.step(stepo);
+      stepper2.step(stepo);
       break;
     case 's':
       Serial.println("backward");
-      if(y>=stepo){
-        y -= stepo;
-        stepper.step(-stepo);
-        stepper2.step(stepo);
-      }
-      showcoords();
+      y -= stepo;
+      stepper.step(-stepo);
+      stepper2.step(stepo);
       break;
     case 'z':
       Serial.println("forward");
-      if(y<=maximum_height-stepo){
-        y += stepo;
-        stepper.step(stepo);
-        stepper2.step(-stepo);
-      }
-      showcoords();
+      y += stepo;
+      stepper.step(stepo);
+      stepper2.step(-stepo);
       break;
     default:
       method_1_has_ran = false;
@@ -275,7 +287,7 @@ void run_poke_request(){
   if(poke_request==1){
     z = 0;
     z_go_down();
-    delay(3000);
+    delay(1500);
     z_go_up();
   }
 }
@@ -305,7 +317,7 @@ void step_motors_this_much(int difference, String axis){
       stepper2.step(stepper2_step);
     } else {
       stepper.step(difference);
-      stepper2.step(difference);
+      stepper2.step(difference);p
       break;
     }
   }
