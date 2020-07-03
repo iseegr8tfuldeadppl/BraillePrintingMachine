@@ -317,7 +317,7 @@ void step_motors_this_much(int difference, String axis){
       stepper2.step(stepper2_step);
     } else {
       stepper.step(difference);
-      stepper2.step(difference);p
+      stepper2.step(difference);
       break;
     }
   }
