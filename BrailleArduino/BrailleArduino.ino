@@ -10,7 +10,7 @@ Stepper stepper3(STEPS, 7, 8); // Pin 2 connected to DIRECTION & Pin 3 connected
 //#define motorInterfaceType 1
 int maximum_width = 4550;
 int maximum_height = 2070;
-int maximum_medium = 1000; // 1700 absolute maximum, 620 great value
+int maximum_medium = 1300; // 1700 absolute maximum, 620 great value
 
 String coordinates_x = "", coordinates_y = "", coordinates_z = "";
 int x = 0, y = 0, z = 0;

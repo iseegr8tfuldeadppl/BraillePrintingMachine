@@ -115,6 +115,7 @@ void draw() {
 
 boolean sentence_with_indicators_fits(){
   String new_sentence = add_indicators(sentence);
+  new_sentence = sentence;
   return new_sentence.length()<amount_of_slots;
 }
 
@@ -330,6 +331,7 @@ void treat_response(String response) {
         index = -1;
         coordinates = new ArrayList<Coordinates>();
       } else {
+        print("index " + index);
         print("Sending dot x: " + coordinates.get(index).x + " y: " + coordinates.get(index).y + " " + coordinates.get(index).poke_request);
         port.write(coordinates.get(index).x + " " + coordinates.get(index).y + " " + coordinates.get(index).poke_request + "\n");
       }
@@ -375,6 +377,7 @@ int index = -1;
 void turn_into_coordinates() {
 
   String new_sentence = add_indicators(sentence);
+  new_sentence = sentence;
   Pair<String, List<Coordinates>> p = blabla(new_sentence);
 
   // re-order dot coordinates from left to right
@@ -412,12 +415,11 @@ void turn_into_coordinates() {
     }
   }
   
-  print("len " + coordinates.size());
+  println("coordinates_len " + coordinates.size());
   for (Coordinates coords : coordinates)  if(coords.poke_request==1) println("x " + coords.x + " y " + coords.y);
   
   // add the dots that just go to maximum y of the same x to be able to move with more accuracy
   List<Coordinates> new_coordinates = new  ArrayList<Coordinates>();
-  
   
   // add the first rama9 of going up to maximum
   new_coordinates.add(new Coordinates() {{
@@ -427,13 +429,13 @@ void turn_into_coordinates() {
   }});
   
   for(int i=0; i<coordinates.size(); i++){
+    final int i_final = i;
+    new_coordinates.add(new Coordinates(){{
+      x= coordinates.get(i_final).x;
+      y= coordinates.get(i_final).y;
+      poke_request = 1;
+    }});
     if(coordinates.size()>i+1){
-      final int i_final = i;
-      new_coordinates.add(new Coordinates(){{
-        x= coordinates.get(i_final).x;
-        y= coordinates.get(i_final).y;
-        poke_request = 1;
-      }});
       if(coordinates.get(i).x != coordinates.get(i+1).x){
         new_coordinates.add(new Coordinates() {{
           x = coordinates.get(i_final).x;
@@ -452,14 +454,27 @@ void turn_into_coordinates() {
     poke_request = 0;
   }});  
   
-  coordinates = new ArrayList<Coordinates>(new_coordinates);
+  coordinates = new ArrayList<Coordinates>();
+  coordinates.addAll(new_coordinates);
+  println("coordinates_len " + coordinates.size());
+  
+  /*
+  int counter = 0;
+  for(Coordinates coord:coordinates){
+    if(coord.poke_request==1)
+      counter += 1;
+  }
+  println("counter " + counter);
+  */
   
   
+  
+  /*
   // mirror coodinates so when you poke at the paper you can flip it upside-down to actually read from a better side
   int mirror_value = coordinates.get(0).x;
   for (Coordinates coord : new_coordinates)
     coord.x = mirror_value - coord.x;
-    
+  */
   
   // add the coordinate of the maximum y and 0 so it goes back to zero after being done
   coordinates.add(new Coordinates() {{
@@ -662,6 +677,7 @@ private List<Coordinates> apply_this_letter_to_this_slot_portrait(int slottag, S
       y = selected_slot.point6y;
       poke_request = 1;
     }});
+    println("x " + selected_slot.point4x + " y " + selected_slot.point4y + " x2 " + selected_slot.point6x + " y2 " + selected_slot.point6y);
     break;
   case "}": // Number indicator
     coordinates_of_dots_to_po9_for_this_paragraph.add(new Coordinates() {{
