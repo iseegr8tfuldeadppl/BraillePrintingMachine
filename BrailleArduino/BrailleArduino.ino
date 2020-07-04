@@ -10,7 +10,7 @@ Stepper stepper3(STEPS, 7, 8); // Pin 2 connected to DIRECTION & Pin 3 connected
 //#define motorInterfaceType 1
 int maximum_width = 4550;
 int maximum_height = 2070;
-int maximum_medium = 690; // 1700 absolute maximum, 620 great value
+int maximum_medium = 1000; // 1700 absolute maximum, 620 great value
 
 String coordinates_x = "", coordinates_y = "", coordinates_z = "";
 int x = 0, y = 0, z = 0;
@@ -58,18 +58,21 @@ void loop() {
     char received = Serial.read();
 
     switch(received){
-      case 'Sethome':
+      case 'h':
         x = 0;
         y = 0;
         break;
-      case 'Step100':
+      case 'r':
         stepo = 100;
+        Serial.println("X-Y step is now 100");
         break;
-      case 'Step50':
+      case 't':
         stepo = 50;
+        Serial.println("X-Y step is now 50");
         break;
-      case 'Step10':
+      case 'y':
         stepo = 10;
+        Serial.println("X-Y step is now 10");
         break;
       default:
         // Step 2: check method 1 which is jogging the motor manually
@@ -112,6 +115,7 @@ void automatically_stepping_motor(char received){
     int x_difference = coordinates_x.toInt()-x;
     step_motors_this_much(x_difference, "x");
 
+    delay(1000);
     // Step 3.4.1.2: y axis
     int y_difference = coordinates_y.toInt()-y;
     step_motors_this_much(y_difference, "y");
@@ -164,18 +168,18 @@ bool manually_stepping_motor(char received){
     case 's':
       Serial.println("backward");
       y -= stepo;
-      stepper.step(-stepo);
-      stepper2.step(stepo);
+      stepper.step(stepo);
+      stepper2.step(-stepo);
       break;
     case 'z':
       Serial.println("forward");
       y += stepo;
-      stepper.step(stepo);
-      stepper2.step(-stepo);
+      stepper.step(-stepo);
+      stepper2.step(stepo);
       break;
     default:
       method_1_has_ran = false;
-      Serial.println("entered default mode.");
+      //Serial.println("entered default mode.");
       break;
   }
   
@@ -251,13 +255,13 @@ void showcoords() {
 
 void z_go_down(){
   Serial.println("going down");
-  int temp_maximum_medium2 = -maximum_medium;
+  int temp_maximum_medium = maximum_medium;
   while(true){
-    if(temp_maximum_medium2<=-stepo2){
-      temp_maximum_medium2 += stepo2;
-      stepper3.step(-stepo2);
+    if(temp_maximum_medium>=stepo2){
+      temp_maximum_medium -= stepo2;
+      stepper3.step(stepo2);
     } else {
-      stepper3.step(temp_maximum_medium2);
+      stepper3.step(temp_maximum_medium);
       break;
     }
   }
@@ -267,13 +271,13 @@ void z_go_down(){
 
 void z_go_up(){
   Serial.println("going up");
-  int temp_maximum_medium = maximum_medium;
+  int temp_maximum_medium2 = -maximum_medium;
   while(true){
-    if(temp_maximum_medium>=stepo2){
-      temp_maximum_medium -= stepo2;
-      stepper3.step(stepo2);
+    if(temp_maximum_medium2<=-stepo2){
+      temp_maximum_medium2 += stepo2;
+      stepper3.step(-stepo2);
     } else {
-      stepper3.step(temp_maximum_medium);
+      stepper3.step(temp_maximum_medium2);
       break;
     }
   }
@@ -300,7 +304,7 @@ void step_motors_this_much(int difference, String axis){
   int stepper_step = stepo;
   int stepper2_step = stepo;
   if(axis=="y")
-    stepper2_step = -stepo;
+    stepper_step = -stepo;
 
   // Prep 2 : if it's going left/backwards flip variables
   if(difference<0){
