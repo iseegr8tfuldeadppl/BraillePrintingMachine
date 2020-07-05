@@ -1,0 +1,13 @@
+Pre-run Preparations:
+
+> wire arduino
+> turn on processing 3
+> choose port
+> turn on machine
+> move all the way to left then move a little to right
+> move all the way to y 0
+> set home
+> fasten z axis belt
+> fasten x y axis belts
+> hold the left side of machine down
+> put paper in exact spot with holding arm
