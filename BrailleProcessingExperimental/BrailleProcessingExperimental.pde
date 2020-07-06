@@ -44,13 +44,13 @@ void setup() {
 
 
 // Braille to text conversion variables
-int slots_per_line = 5; // 14
-int lines = 3; // 2
+int slots_per_line = 9; // 14
+int lines = 4; // 2
 int vertical_spacing_between_single_slot_dots = 200; // 1
 int vertical_spacing_between_full_slots = 400; // 2
 
-int horizontal_spacing_between_single_slot_dots = 450; // 1
-int horizontal_spacing_between_full_slots = 650; // 3
+int horizontal_spacing_between_single_slot_dots = 200; // 1
+int horizontal_spacing_between_full_slots = 400; // 3
 
 int width_of_map = 0, height_of_map = 0;
 int possible_width_of_map = 0, possible_height_of_map = 0;
@@ -59,7 +59,7 @@ int amount_of_slots = 0;
 
 void draw() {
 
-  background(155);  a
+  background(155);
   fill(0);
   int y = 24, dy = 24;
   text("INSTRUCTIONS", 12, y); 
@@ -342,12 +342,13 @@ void treat_response(String response) {
 
       index += 1;
       if (index==coordinates.size()) {
+        println("sentence " + sentence);
         sentence = "";
         index = -1;
         coordinates = new ArrayList<Coordinates>();
         go_home();
       } else {
-        //println("Sending dot x: " + coordinates.get(index).x + " y: " + coordinates.get(index).y + " " + coordinates.get(index).poke_request);
+        println("Sending dot x: " + coordinates.get(index).x + " y: " + coordinates.get(index).y + " " + coordinates.get(index).poke_request);
         port.write(coordinates.get(index).x + " " + coordinates.get(index).y + " " + coordinates.get(index).poke_request + "\n");
       }
     }
