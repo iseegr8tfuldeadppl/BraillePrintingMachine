@@ -571,22 +571,28 @@ private boolean is_capitalized(char character) {
 
 private String add_indicators(String word) {
   boolean currently_number = false;
-  boolean first_character = true;
+  boolean currently_capitalized = false;
   String result = "";
   for (char character : word.toCharArray()) {
 
-    if (is_a_number(character) &&  (!currently_number || first_character)) {
-      first_character = false;
+    // Add number indicator at the beggining and the end of strings of numbers
+    if (is_a_number(character) && !currently_number) {
       currently_number = true;
       result += "}";
-    } else if (!is_a_number(character) && (currently_number || first_character)) {
-      first_character = false;
+    } else if (!is_a_number(character) && currently_number) {
       currently_number = false;
+      result += "}";
     }
-
-    if (is_capitalized(character)) {
+    
+    // Add capitalization indicator at the beginning and the end of strings of capitalized words
+    if (is_capitalized(character) && !currently_capitalized) {
+      currently_capitalized = true;
+      result += "/";
+    } else if (!is_capitalized(character) && currently_capitalized) {
+      currently_capitalized = false;
       result += "/";
     }
+
     result += character;
   }
   return result;
@@ -698,19 +704,6 @@ private List<Coordinates> apply_this_letter_to_this_slot_portrait(int slottag, S
   final Slot selected_slot = slots.get(slottag);
 
   switch(letter) {
-  case "{": // Letter indicator
-    coordinates_of_dots_to_po9_for_this_paragraph.add(new Coordinates(){{
-      x = selected_slot.point4x;
-      y = selected_slot.point4y;
-      poke_request = 1;
-    }});
-    coordinates_of_dots_to_po9_for_this_paragraph.add(new Coordinates(){{
-      x = selected_slot.point6x;
-      y = selected_slot.point6y;
-      poke_request = 1;
-    }});
-    println("x " + selected_slot.point4x + " y " + selected_slot.point4y + " x2 " + selected_slot.point6x + " y2 " + selected_slot.point6y);
-    break;
   case "}": // Number indicator
     coordinates_of_dots_to_po9_for_this_paragraph.add(new Coordinates() {{
       x = selected_slot.point2x;
