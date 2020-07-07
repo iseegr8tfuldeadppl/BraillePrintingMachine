@@ -422,18 +422,27 @@ void turn_into_coordinates() {
   }
 
   // re-order coordinates from top to bottom
+  boolean up_true_down_false = true;
   for (int i=0; i<coordinates_len; i++) {
     for (int j=0; j<coordinates_len; j++) {
       if (coordinates_len>j+1) {
         if (coordinates.get(j).x==coordinates.get(j+1).x) {
 
-          if (coordinates.get(j).y<coordinates.get(j+1).y) {
-            Coordinates temp = coordinates.get(j);
-            coordinates.set(j, coordinates.get(j+1));
-            coordinates.set(j+1, temp);
+          if(up_true_down_false){
+            if (coordinates.get(j).y<coordinates.get(j+1).y) {
+              Coordinates temp = coordinates.get(j);
+              coordinates.set(j, coordinates.get(j+1));
+              coordinates.set(j+1, temp);
+            }
+          } else {
+            if (coordinates.get(j).y>coordinates.get(j+1).y) {
+              Coordinates temp = coordinates.get(j);
+              coordinates.set(j, coordinates.get(j+1));
+              coordinates.set(j+1, temp);
+            }
           }
           
-        }
+        } else up_true_down_false = !up_true_down_false;
       } else
         break;
     }
@@ -443,12 +452,14 @@ void turn_into_coordinates() {
   // add the dots that just go to maximum y of the same x to be able to move with more accuracy
   List<Coordinates> new_coordinates = new  ArrayList<Coordinates>();
   
+  /*
   // add the first rama9 of going up to maximum
   new_coordinates.add(new Coordinates() {{
     x = 0;
     y = possible_height_of_map;
     poke_request = 0;
   }});
+  */
   
   for(int i=0; i<coordinates.size(); i++){
     final int i_final = i;
@@ -457,6 +468,8 @@ void turn_into_coordinates() {
       y= coordinates.get(i_final).y;
       poke_request = 1;
     }});
+    
+    /*
     if(coordinates.size()>i+1){
       if(coordinates.get(i).x != coordinates.get(i+1).x){
         new_coordinates.add(new Coordinates() {{
@@ -466,8 +479,10 @@ void turn_into_coordinates() {
         }});
       }
     }
+    */
   }
   
+  /*
   // add the last rama9 of going up to maximum
   final int final_coordinates_len = coordinates.size();
   new_coordinates.add(new Coordinates() {{
@@ -475,6 +490,7 @@ void turn_into_coordinates() {
     y = possible_height_of_map;
     poke_request = 0;
   }});
+  */
   
   coordinates = new ArrayList<Coordinates>();
   coordinates.addAll(new_coordinates);

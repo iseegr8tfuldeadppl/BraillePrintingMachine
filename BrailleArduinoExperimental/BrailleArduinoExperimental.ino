@@ -125,7 +125,6 @@ void automatically_stepping_motor(char received){
     run_poke_request();
 
     // Step 3.4.3: aftermath cleanup & preparation to continue
-    // converting coordinates_x/y into an array is necessary or else the atoi() function won't convert correctly
     x = coordinates_x.toInt();
     y = coordinates_y.toInt();
     
