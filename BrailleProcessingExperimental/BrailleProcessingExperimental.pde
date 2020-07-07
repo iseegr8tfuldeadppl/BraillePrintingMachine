@@ -128,9 +128,9 @@ boolean sentence_with_indicators_fits(){
 
 void go_home(){
   if(port!=null){
-    port.write(x + " " + possible_height_of_map + " 0\n");
-    port.write("0 " + possible_height_of_map + " 0\n");
     port.write("0 0 0\n");
+  } else {
+    println("Can't go home, port is null");
   }
 }
 
@@ -225,9 +225,11 @@ void keyPressed() {
   
   }
   if (keyCode == KeyEvent.VK_ALT) {
+    println("DUDE CLICK ON THE PROGRAM WINDOW AGAIN TO BE ABLE TO STEER THE MACHINE AND CONTINUE RUNNING");
     coordinates = new ArrayList<Coordinates>();
     sentence = "";
     index = -1;
+    go_home();
   }
 }
 
@@ -420,20 +422,46 @@ void turn_into_coordinates() {
         break;
     }
   }
-
+  
+  
+  // i'm counting the different values of x so i can loop after this in a way that makes dots go up and down in ordering so the machine goes up and down as it prints not just down down down and wasting trajectory
+  List<Integer> all_possible_x = new ArrayList<Integer>();
+  for(Coordinates coord:coordinates){
+    boolean alrdy_in = false;
+    for(Integer x:all_possible_x){
+      if(x==coord.x){
+        alrdy_in = true;
+        break;
+      }
+    }
+    if(!alrdy_in)
+        all_possible_x.add(coord.x);
+  }
+  
   // re-order coordinates from top to bottom
-  boolean up_true_down_false = true;
   for (int i=0; i<coordinates_len; i++) {
     for (int j=0; j<coordinates_len; j++) {
       if (coordinates_len>j+1) {
         if (coordinates.get(j).x==coordinates.get(j+1).x) {
 
-          if(up_true_down_false){
+          // find x in the all_possible_x list and then decide if we're ordering upwards or downwards
+          int x_odd_or_even = -1;
+          for(int z=0; z<all_possible_x.size(); z++){
+            if(coordinates.get(j).x==all_possible_x.get(z)){
+              x_odd_or_even = z;
+              break;
+            }
+          }
+          
+          if(x_odd_or_even==-1){
+            println("Fatal error in x_odd_or_even equaling to -1");
+          } else if(x_odd_or_even%2==0){
             if (coordinates.get(j).y<coordinates.get(j+1).y) {
               Coordinates temp = coordinates.get(j);
               coordinates.set(j, coordinates.get(j+1));
               coordinates.set(j+1, temp);
             }
+            
           } else {
             if (coordinates.get(j).y>coordinates.get(j+1).y) {
               Coordinates temp = coordinates.get(j);
@@ -441,8 +469,8 @@ void turn_into_coordinates() {
               coordinates.set(j+1, temp);
             }
           }
-          
-        } else up_true_down_false = !up_true_down_false;
+                    
+        }
       } else
         break;
     }
@@ -450,7 +478,7 @@ void turn_into_coordinates() {
   
   
   // add the dots that just go to maximum y of the same x to be able to move with more accuracy
-  List<Coordinates> new_coordinates = new  ArrayList<Coordinates>();
+  //List<Coordinates> new_coordinates = new  ArrayList<Coordinates>();
   
   /*
   // add the first rama9 of going up to maximum
@@ -459,7 +487,6 @@ void turn_into_coordinates() {
     y = possible_height_of_map;
     poke_request = 0;
   }});
-  */
   
   for(int i=0; i<coordinates.size(); i++){
     final int i_final = i;
@@ -469,7 +496,6 @@ void turn_into_coordinates() {
       poke_request = 1;
     }});
     
-    /*
     if(coordinates.size()>i+1){
       if(coordinates.get(i).x != coordinates.get(i+1).x){
         new_coordinates.add(new Coordinates() {{
@@ -479,10 +505,8 @@ void turn_into_coordinates() {
         }});
       }
     }
-    */
   }
   
-  /*
   // add the last rama9 of going up to maximum
   final int final_coordinates_len = coordinates.size();
   new_coordinates.add(new Coordinates() {{
@@ -490,12 +514,10 @@ void turn_into_coordinates() {
     y = possible_height_of_map;
     poke_request = 0;
   }});
-  */
   
   coordinates = new ArrayList<Coordinates>();
   coordinates.addAll(new_coordinates);
   
-  /*
   int counter = 0;
   for(Coordinates coord:coordinates){
     if(coord.poke_request==1)
@@ -515,6 +537,8 @@ void turn_into_coordinates() {
   println("last x " + coordinates.get(coordinates.size()-1).x + " last y " + coordinates.get(coordinates.size()-1).y + " last poke_request " + coordinates.get(coordinates.size()-1).poke_request);
   //println("coordinates_len " + coordinates.size());
   for (Coordinates coords : coordinates) println("x " + coords.x + " y " + coords.y);
+  println("sentence " + sentence);
+  println(coordinates.size() + " dots");
   
   //String map  = p.getKey();  print(map);
 }
