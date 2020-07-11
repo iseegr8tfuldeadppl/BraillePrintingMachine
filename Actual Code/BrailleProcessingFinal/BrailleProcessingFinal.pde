@@ -150,7 +150,8 @@ void keyPressed() {
           index = 0;
           port.write("h\n");
         } else {
-          println("Have you entered an empty sentence?");
+          println("Have you entered an empty sentence? press enter again and type a sentence");
+          im_typing = false;
         }
       }
     } else if(key == KeyEvent.VK_BACK_SPACE){

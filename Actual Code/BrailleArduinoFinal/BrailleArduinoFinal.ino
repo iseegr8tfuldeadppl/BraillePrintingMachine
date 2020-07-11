@@ -4,8 +4,15 @@
 
 // Define stepper motor connections and motor interface type. Motor interface type must be set to 1 when using a driver
 Stepper stepper(STEPS, 5, 6); // Pin 2 connected to DIRECTION & Pin 3 connected to STEP Pin of Driver
+// activator = pin 10
 Stepper stepper2(STEPS, 3, 4); // Pin 2 connected to DIRECTION & Pin 3 connected to STEP Pin of Driver
+// activator = pin 11
 Stepper stepper3(STEPS, 7, 8); // Pin 2 connected to DIRECTION & Pin 3 connected to STEP Pin of Driver
+// activator = pin 9
+
+#define StepperSleepo 10
+#define Stepper2Sleepo 11
+#define Stepper3Sleepo 9
 
 //#define motorInterfaceType 1
 int maximum_width = 5300; // 9500 4550
@@ -29,13 +36,22 @@ int stepo2 = 10;
 String my_dude_coordinates_full_string = "";
 
 
-
+boolean stepperOn = false, stepper2On = false, stepper3On = false;
 void setup() {
   Serial.begin(9600);
 
   stepper.setSpeed(500); // max 1000
   stepper2.setSpeed(500); // max 1000
   stepper3.setSpeed(500); // max 1000
+
+  pinMode(StepperSleepo, OUTPUT);
+  pinMode(Stepper2Sleepo, OUTPUT);
+  pinMode(Stepper3Sleepo, OUTPUT);
+  
+  digitalWrite(StepperSleepo, LOW);
+  digitalWrite(Stepper2Sleepo, LOW);
+  digitalWrite(Stepper3Sleepo, LOW);
+  
   /*
   Serial.println(
     "Started!\n(note: X and Y axis step is " + 
@@ -46,12 +62,24 @@ void setup() {
     "Or type coordinates as three numbers separated by 1 space each with the ranges 0-" + String(maximum_width, DEC) + " 0-" + String(maximum_height, DEC) + " 0/1 \n\n");
   */
   Serial.println("Ready " + String(maximum_width, DEC) + " " + String(maximum_height, DEC));
+
 }
 
 
-
+int previous_request = -1;
 void loop() {
 
+  // Pre: if manual requests surpassed 2 seconds of inactivity turn all motors off
+  if(previous_request!=-1){
+    if(millis()-previous_request>2000){
+      previous_request = -1;
+      stepperOn = false;
+      stepper2On = false;
+      digitalWrite(StepperSleepo, LOW);
+      digitalWrite(Stepper2Sleepo, LOW);
+    }
+  }
+    
   if (Serial.available() > 0) {
     
     // Step 1: read the incoming message:
@@ -151,31 +179,67 @@ bool manually_stepping_motor(char received){
       break;
     case 'a':
       z = maximum_medium;
-      z_go_down();
+      z_go_down(true);
       break;
     case 'q':
       Serial.println("left");
       x -= stepo;
+      if(!stepperOn){
+        stepperOn = true;
+        digitalWrite(StepperSleepo, HIGH);
+      }
+      if(!stepper2On){
+        stepper2On = true;
+        digitalWrite(Stepper2Sleepo, HIGH);
+      }
       stepper.step(-stepo);
       stepper2.step(-stepo);
+      previous_request = millis();
       break;
     case 'd':
       Serial.println("right");
       x += stepo;
+      if(!stepperOn){
+        stepperOn = true;
+        digitalWrite(StepperSleepo, HIGH);
+      }
+      if(!stepper2On){
+        stepper2On = true;
+        digitalWrite(Stepper2Sleepo, HIGH);
+      }
       stepper.step(stepo);
       stepper2.step(stepo);
+      previous_request = millis();
       break;
     case 's':
       Serial.println("backward");
       y -= stepo;
+      if(!stepperOn){
+        stepperOn = true;
+        digitalWrite(StepperSleepo, HIGH);
+      }
+      if(!stepper2On){
+        stepper2On = true;
+        digitalWrite(Stepper2Sleepo, HIGH);
+      }
       stepper.step(stepo);
       stepper2.step(-stepo);
+      previous_request = millis();
       break;
     case 'z':
       Serial.println("forward");
       y += stepo;
+      if(!stepperOn){
+        stepperOn = true;
+        digitalWrite(StepperSleepo, HIGH);
+      }
+      if(!stepper2On){
+        stepper2On = true;
+        digitalWrite(Stepper2Sleepo, HIGH);
+      }
       stepper.step(-stepo);
       stepper2.step(stepo);
+      previous_request = millis();
       break;
     default:
       method_1_has_ran = false;
@@ -253,9 +317,15 @@ void showcoords() {
 
 
 
-void z_go_down(){
+void z_go_down(boolean turn_off){
   Serial.println("going down");
   int temp_maximum_medium = maximum_medium;
+  
+  if(!stepper3On){
+    stepper3On = true;
+    digitalWrite(Stepper3Sleepo, HIGH);
+  }
+  delay(5);
   while(true){
     if(temp_maximum_medium>=stepo2){
       temp_maximum_medium -= stepo2;
@@ -265,6 +335,10 @@ void z_go_down(){
       break;
     }
   }
+  if(turn_off){
+    stepper3On = false;
+    digitalWrite(Stepper3Sleepo, LOW);
+  }
 }
 
 
@@ -272,6 +346,12 @@ void z_go_down(){
 void z_go_up(){
   Serial.println("going up");
   int temp_maximum_medium2 = -maximum_medium;
+  
+  if(!stepper3On){
+    stepper3On = true;
+    digitalWrite(Stepper3Sleepo, HIGH);
+  }
+  delay(5);
   while(true){
     if(temp_maximum_medium2<=-stepo2){
       temp_maximum_medium2 += stepo2;
@@ -281,6 +361,8 @@ void z_go_up(){
       break;
     }
   }
+  stepper3On = false;
+  digitalWrite(Stepper3Sleepo, LOW);
 }
 
 
@@ -290,7 +372,7 @@ void run_poke_request(){
   // if state is 1 poke the paper
   if(poke_request==1){
     z = 0;
-    z_go_down();
+    z_go_down(false);
     delay(400);
     z_go_up();
   }
@@ -314,6 +396,15 @@ void step_motors_this_much(int difference, String axis){
   }
 
   // Main: do it
+  if(!stepperOn){
+    stepperOn = true;
+    digitalWrite(StepperSleepo, HIGH);
+  }
+  if(!stepper2On){
+    stepper2On = true;
+    digitalWrite(Stepper2Sleepo, HIGH);
+  }
+  delay(5);
   while(true){
     if(difference>=stepo){
       difference -= stepo;
@@ -325,4 +416,8 @@ void step_motors_this_much(int difference, String axis){
       break;
     }
   }
+  stepperOn = false;
+  stepper2On = false;
+  digitalWrite(StepperSleepo, LOW);
+  digitalWrite(Stepper2Sleepo, LOW);
 }
