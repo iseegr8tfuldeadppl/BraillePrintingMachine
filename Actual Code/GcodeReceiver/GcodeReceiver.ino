@@ -61,16 +61,14 @@ void loop() {
   while(true){
     // top left -0.5 -1
     // top right 1 0.5
-    for(int i=0; i<100; i++){
+    for(int i=0; i<25; i++){
       stepper1.step(-1);
       stepper2.step(1);
     }
-    delay(10);
-    for(int i=0; i<100; i++){
+    for(int i=0; i<25; i++){
       stepper1.step(-1);
       stepper2.step(-1);
     }
-    delay(10);
   }
   
   // Pre: keep listening for messages
