@@ -43,7 +43,7 @@ void setup() {
   
   // Prepare: Serial
   Serial.begin(9600);
-  
+
   stepper1.setSpeed(1000); // max 1000
   stepper2.setSpeed(1000); // max 1000
   //pen.setSpeed(500); // max 1000
@@ -55,22 +55,6 @@ void setup() {
 
 void loop() {
 
-
-
-  // BACKWARD DIAGONAL CODE
-  while(true){
-    // top left -0.5 -1
-    // top right 1 0.5
-    for(int i=0; i<25; i++){
-      stepper1.step(-1);
-      stepper2.step(1);
-    }
-    for(int i=0; i<25; i++){
-      stepper1.step(-1);
-      stepper2.step(-1);
-    }
-  }
-  
   // Pre: keep listening for messages
   if (Serial.available() > 0) {
     
@@ -195,10 +179,12 @@ void move_pen(boolean up_true_down_false){
   
 }
 
+
 //int delay_between_x_and_y = 10;
 int x_left, y_left;
 int x_how_many_times, y_how_many_times;
 int x_step, y_step;
+boolean bad_method = false;
 void bs(){
   
   // Step 1: loop through the string to extract coordinates
@@ -233,20 +219,28 @@ void bs(){
 
   // Step 3.1: ratio
   float ratio = x_difference / y_difference;
+  
+  bad_method = y_difference<0 && (x_difference>0.5 || x_different<-0.5);
 
-  x_step = ratio * x_step_each;
-  y_step = y_step_each;
+  int x_step_each_temp = x_step_each, y_step_each_temp = y_step_each;
+  if(bad_method){
+    x_step_each_temp = 1;
+    y_step_each_temp = 1;
+  }
+  
+  x_step = ratio * x_step_each_temp;
+  y_step = y_step_each_temp;
 
   // Step 3.2: if we're going further into y than into x then flip the ratio
   if(x_difference!=0 && y_difference!=0){
     if(abs(ratio)<1){
       ratio = 1 / ratio; 
 
-      x_step = x_step_each;
-      y_step = ratio * y_step_each;
+      x_step = x_step_each_temp;
+      y_step = ratio * y_step_each_temp;
     }
   } else {
-    x_step = x_step_each;
+    x_step = x_step_each_temp;
   }
 
   // Prep 4 : if it's going left/backwards flip variables
@@ -259,12 +253,12 @@ void bs(){
   x_difference = abs(x_difference);
   y_difference = abs(y_difference);
 
-  x_how_many_times = x_difference / x_step_each;
-  x_left = x_difference % x_step_each;
+  x_how_many_times = x_difference / x_step_each_temp;
+  x_left = x_difference % x_step_each_temp;
 
-  y_how_many_times = x_difference / x_step_each;
-  y_left = y_difference % y_step_each;
-  
+  y_how_many_times = y_difference / y_step_each_temp;
+  y_left = y_difference % y_step_each_temp;
+
   // update x and y
   x = x_in_command;
   y = y_in_command;
@@ -273,30 +267,48 @@ void bs(){
 void treat_coordinates(){
 
     bs();
-    /*
-    // Step 5: move motors interchangeably between x and y
-    while(x_how_many_times>0 || y_how_many_times>0){
 
-        if(y_how_many_times>0){
-          stepper1.step(y_step);
-          stepper2.step(-y_step);
-          y_how_many_times --;
+    if(bad_method){
+        while(x_how_many_times>25 || y_how_many_times>25){
+            // top left -0.5 -1
+            // top right 1 0.5
+            if(x_how_many_times>0){
+              for(int i=0; i<25; i++){
+                stepper1.step(x_step);
+                stepper2.step(x_step);
+              }
+              x_how_many_times -= 25;
+            }
+            
+            if(y_how_many_times>0){
+              for(int i=0; i<25; i++){
+                stepper1.step(y_step);
+                stepper2.step(-y_step);
+              }
+              y_how_many_times -= 25;
+            }
         }
-
-        delay(100);
         
-        if(x_how_many_times>0){
-          stepper1.step(x_step);
-          stepper2.step(x_step);
-          x_how_many_times --;
+    } else {
+        // Step 5: move motors interchangeably between x and y
+        while(x_how_many_times>0 || y_how_many_times>0){
+            if(x_how_many_times>0){
+              stepper1.step(x_step);
+              stepper2.step(x_step);
+              x_how_many_times --;
+            }
+            
+            if(y_how_many_times>0){
+              stepper1.step(y_step);
+              stepper2.step(-y_step);
+              y_how_many_times --;
+            }
         }
-        
-        delay(100);
     }
 
+    
     // Step the last few steps
     if(x_left>0){
-        
       int value = x_left;
       if(x_step<0)
         value = - x_left;
@@ -304,16 +316,14 @@ void treat_coordinates(){
       stepper1.step(value);
       stepper2.step(value);
     }
-    */
-
+    // Step the last few steps
+    if(y_left>0){
+      int value = y_left;
+      if(y_step<0)
+        value = - y_left;
+        
+      stepper1.step(value);
+      stepper2.step(-value);
+    }
     
-  int lol= -5;
-  while(true){
-    stepper1.step(-5);
-    stepper2.step(-5);
-    stepper1.step(-5);
-    stepper2.step(5);
-  }
-
-
 }
