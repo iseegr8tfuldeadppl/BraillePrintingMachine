@@ -17,6 +17,9 @@ int y_range = 3200; // 2500 2070
 
 int x = 0, y = 0;
 
+int y_step_each = 10;
+int x_step_each = 10;
+
 
 // Setup: pen
 Stepper pen(STEPS, 7, 8); // Pin 2 connected to DIRECTION & Pin 3 connected to STEP Pin of Driver
@@ -36,22 +39,40 @@ void setup() {
   pinMode(penEnable, OUTPUT);
   digitalWrite(stepper1Enable, HIGH);
   digitalWrite(stepper2Enable, HIGH);
-  digitalWrite(penEnable, HIGH);
+  digitalWrite(penEnable, LOW);
   
   // Prepare: Serial
   Serial.begin(9600);
   
-  stepper1.setSpeed(500); // max 1000
-  stepper2.setSpeed(500); // max 1000
-  pen.setSpeed(500); // max 1000
+  stepper1.setSpeed(1000); // max 1000
+  stepper2.setSpeed(1000); // max 1000
+  //pen.setSpeed(500); // max 1000
   
   // Prepare: Display Information
-  //Serial.println("Ready " + String(x_range, DEC) + " " + String(y_range, DEC));
+  Serial.println("Ready " + String(x_range, DEC) + " " + String(y_range, DEC));
 }
 
 
 void loop() {
 
+
+
+  // BACKWARD DIAGONAL CODE
+  while(true){
+    // top left -0.5 -1
+    // top right 1 0.5
+    for(int i=0; i<100; i++){
+      stepper1.step(-1);
+      stepper2.step(1);
+    }
+    delay(10);
+    for(int i=0; i<100; i++){
+      stepper1.step(-1);
+      stepper2.step(-1);
+    }
+    delay(10);
+  }
+  
   // Pre: keep listening for messages
   if (Serial.available() > 0) {
     
@@ -84,15 +105,15 @@ void process_command(){
     return;
   } 
   
-  if(command=="M300 S30"){
-    if(pen_is_up)
-      move_pen(false);
+  if(command.startsWith("M300 S30")){
+    if(!pen_is_up)
+      move_pen(true);
     return;
   } 
   
-  if(command=="M300 S50"){
-    if(!pen_is_up)
-      move_pen(true);
+  if(command.startsWith("M300 S50")){
+    if(pen_is_up)
+      move_pen(false);
     return;
   } 
   
@@ -105,6 +126,24 @@ void process_command(){
   if(command=="G0"){
     x = 0;
     y = 0;
+    return;
+  }
+  
+  if(command=="B1"){
+    x_step_each = 6;
+    y_step_each = 6;
+    return;
+  }
+  
+  if(command=="B2"){
+    x_step_each = 50;
+    y_step_each = 50;
+    return;
+  }
+  
+  if(command=="B3"){
+    x_step_each = 100;
+    y_step_each = 100;
     return;
   }
 }
@@ -158,122 +197,125 @@ void move_pen(boolean up_true_down_false){
   
 }
 
+//int delay_between_x_and_y = 10;
+int x_left, y_left;
+int x_how_many_times, y_how_many_times;
+int x_step, y_step;
+void bs(){
+  
+  // Step 1: loop through the string to extract coordinates
+  int index = 0;
+  float x_in_command, y_in_command;
+  char * token = strtok(command.c_str(), " ");
+  while( token != NULL ) {
+
+    if(index==1){
+        String tokeno = String(token);
+        tokeno.replace("X", "");
+        x_in_command = atof(tokeno.c_str());// + x_range/2;
+    } else if(index==2){
+        String tokeno = String(token);
+        tokeno.replace("Y", "");
+        y_in_command = atof(tokeno.c_str());// + y_range/2;
+        break;
+    }
+
+    index ++;
+    token = strtok(NULL, " ");
+  }
+
+  // safety
+  if(x_in_command<0) x_in_command = 0;
+  else if(x_in_command>x_range) x_in_command = x_range;
+  if(y_in_command<0) y_in_command = 0;
+  else if(y_in_command>y_range) y_in_command = y_range;
+  
+  int x_difference = x_in_command - x;
+  int y_difference = y_in_command - y;
+
+  // Step 3.1: ratio
+  float ratio = x_difference / y_difference;
+
+  x_step = ratio * x_step_each;
+  y_step = y_step_each;
+
+  // Step 3.2: if we're going further into y than into x then flip the ratio
+  if(x_difference!=0 && y_difference!=0){
+    if(abs(ratio)<1){
+      ratio = 1 / ratio; 
+
+      x_step = x_step_each;
+      y_step = ratio * y_step_each;
+    }
+  } else {
+    x_step = x_step_each;
+  }
+
+  // Prep 4 : if it's going left/backwards flip variables
+  if(x_difference<-0.5)
+    x_step = -x_step;
+    
+  if(y_difference<-0.5)
+    y_step = - y_step;
+
+  x_difference = abs(x_difference);
+  y_difference = abs(y_difference);
+
+  x_how_many_times = x_difference / x_step_each;
+  x_left = x_difference % x_step_each;
+
+  y_how_many_times = x_difference / x_step_each;
+  y_left = y_difference % y_step_each;
+  
+  // update x and y
+  x = x_in_command;
+  y = y_in_command;
+}
+
 void treat_coordinates(){
 
-  int y_step_each = 6;
-  int x_step_each = 6;
-  //int delay_between_x_and_y = 1;
-
-  // Step 1: loop through the string to extract coordinates
-    float x_in_command, y_in_command;
-    int index = 0;
-    char * token = strtok(command.c_str(), " ");
-    while( token != NULL ) {
-
-      if(index==1){
-          String tokeno = String(token);
-          tokeno.replace("X", "");
-          x_in_command = atof(tokeno.c_str());
-      } else if(index==2){
-          String tokeno = String(token);
-          tokeno.replace("Y", "");
-          y_in_command = atof(tokeno.c_str());
-          break;
-      }
-
-      index ++;
-      token = strtok(NULL, " ");
-    }
-
-    // Step 2: find distance to walk
-    x = 0;
-    y = 0;
-    float x_difference = x_in_command - x;
-    float y_difference = y_in_command - y;
-
-    // Step 3: sort of triangulate the distance
-
-    // Step 3.1: ratio
-    float ratio = x_difference / y_difference;
-
-    float x_step = ratio * x_step_each, y_step = y_step_each;
-
-    // Step 3.2: if we're going further into y than into x then flip the ratio
-    if(x_difference!=0 && y_difference!=0){
-      if(abs(ratio)<1){
-        ratio = 1 / ratio; 
-
-        x_step = x_step_each;
-        y_step = ratio * y_step_each;
-      }
-    } else {
-      ratio = 1;
-      x_step = x_step_each;
-    }
-
-    // Prep 4 : if it's going left/backwards flip variables
-    if(x_difference<0)
-      x_step = -x_step;
-      
-    if(y_difference<0)
-      y_step = - y_step;
-
-    x_difference = abs(x_difference);
-    y_difference = abs(y_difference);
-
+    bs();
+    /*
     // Step 5: move motors interchangeably between x and y
-    while(x_difference>x_step_each || y_difference>y_step_each){
+    while(x_how_many_times>0 || y_how_many_times>0){
 
-      // Step 5.1: go into x
-      if(x_difference>0){
-        stepper1.step(x_step);
-        stepper2.step(x_step);
-
-        // Step 5.1.2: decrease difference, update x but for the last rama9
-        x_difference -= abs(x_step);
-        
-        //delay(delay_between_x_and_y);
-      }
-
-      // Step 5.2: go into y
-      if(y_difference>0){
+        if(y_how_many_times>0){
           stepper1.step(y_step);
           stepper2.step(-y_step);
+          y_how_many_times --;
+        }
 
-        // Step 5.2.2: decrease difference, update y
-        y_difference -= abs(y_step);
-        //delay(delay_between_x_and_y);
-      }
-      
+        delay(100);
+        
+        if(x_how_many_times>0){
+          stepper1.step(x_step);
+          stepper2.step(x_step);
+          x_how_many_times --;
+        }
+        
+        delay(100);
     }
 
     // Step the last few steps
-    if(x_difference>0){
+    if(x_left>0){
         
-      int value = x_difference;
+      int value = x_left;
       if(x_step<0)
-        value = - x_difference;
+        value = - x_left;
         
       stepper1.step(value);
       stepper2.step(value);
     }
-      
+    */
+
     
-    // Step the last few steps
-    if(y_difference>0){
-        
-      int value = y_difference;
-      if(y_step<0)
-        value = -y_difference;
-        
-      stepper1.step(value);
-      stepper2.step(-value);
-    }
+  int lol= -5;
+  while(true){
+    stepper1.step(-5);
+    stepper2.step(-5);
+    stepper1.step(-5);
+    stepper2.step(5);
+  }
 
-    // update x and y
-    x = x_in_command;
-    y = y_in_command;
 
-    Serial.println("after x " + String(x, DEC) + " y " + String(y, DEC));
-  
 }
