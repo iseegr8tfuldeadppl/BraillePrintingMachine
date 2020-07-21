@@ -3,10 +3,16 @@
 #include <ctype.h>
 
 // Define stepper motor connections and motor interface type. Motor interface type must be set to 1 when using a driver
-Stepper stepper(STEPS, 5, 6); // Pin 2 connected to DIRECTION & Pin 3 connected to STEP Pin of Driver
-// activator = pin 10
-Stepper stepper2(STEPS, 3, 4); // Pin 2 connected to DIRECTION & Pin 3 connected to STEP Pin of Driver
+
+Stepper stepper(STEPS, 3, 4); // Pin 2 connected to DIRECTION & Pin 3 connected to STEP Pin of Driver
 // activator = pin 11
+#define stepper1Enable 11
+
+Stepper stepper2(STEPS, 5, 6); // Pin 2 connected to DIRECTION & Pin 3 connected to STEP Pin of Driver
+// activator = pin 10
+#define stepper2Enable 10
+
+
 Stepper stepper3(STEPS, 7, 8); // Pin 2 connected to DIRECTION & Pin 3 connected to STEP Pin of Driver
 // activator = pin 9
 
@@ -222,8 +228,8 @@ bool manually_stepping_motor(char received){
         stepper2On = true;
         digitalWrite(Stepper2Sleepo, HIGH);
       }
-      stepper.step(stepo);
-      stepper2.step(-stepo);
+      stepper.step(-stepo);
+      stepper2.step(stepo);
       previous_request = millis();
       break;
     case 'z':
@@ -237,8 +243,8 @@ bool manually_stepping_motor(char received){
         stepper2On = true;
         digitalWrite(Stepper2Sleepo, HIGH);
       }
-      stepper.step(-stepo);
-      stepper2.step(stepo);
+      stepper.step(stepo);
+      stepper2.step(-stepo);
       previous_request = millis();
       break;
     default:
@@ -386,7 +392,7 @@ void step_motors_this_much(int difference, String axis){
   int stepper_step = stepo;
   int stepper2_step = stepo;
   if(axis=="y")
-    stepper_step = -stepo;
+    stepper2_step = -stepo;
 
   // Prep 2 : if it's going left/backwards flip variables
   if(difference<0){
