@@ -5,12 +5,12 @@
 // Setup: X & Y axies
 // Define stepper motor connections and motor interface type. Motor interface type must be set to 1 when using a driver
 Stepper stepper1(STEPS, 3, 4); // Pin 2 connected to DIRECTION & Pin 3 connected to STEP Pin of Driver
-// activator = pin 10
-#define stepper1Enable 10
+// activator = pin 11
+#define stepper1Enable 11
 
 Stepper stepper2(STEPS, 5, 6); // Pin 2 connected to DIRECTION & Pin 3 connected to STEP Pin of Driver
-// activator = pin 11
-#define stepper2Enable 11
+// activator = pin 10
+#define stepper2Enable 10
 
 int x_range = 5300; // 9500 4550
 int y_range = 3200; // 2500 2070
@@ -179,8 +179,6 @@ void move_pen(boolean up_true_down_false){
   
 }
 
-
-//int delay_between_x_and_y = 10;
 int x_left, y_left;
 int x_how_many_times, y_how_many_times;
 int x_step, y_step;
@@ -189,8 +187,8 @@ void bs(){
   
   // Step 1: loop through the string to extract coordinates
   int index = 0;
-  float x_in_command, y_in_command;
   char * token = strtok(command.c_str(), " ");
+  float x_in_command, y_in_command;
   while( token != NULL ) {
 
     if(index==1){
@@ -220,12 +218,12 @@ void bs(){
   // Step 3.1: ratio
   float ratio = x_difference / y_difference;
   
-  bad_method = y_difference<0 && (x_difference>0.5 || x_different<-0.5);
+  bad_method = y_difference<0 && (x_difference>0.5 || x_difference<-0.5);
 
   int x_step_each_temp = x_step_each, y_step_each_temp = y_step_each;
   if(bad_method){
-    x_step_each_temp = 1;
-    y_step_each_temp = 1;
+    x_step_each_temp = 25;
+    y_step_each_temp = 25;
   }
   
   x_step = ratio * x_step_each_temp;
@@ -262,68 +260,87 @@ void bs(){
   // update x and y
   x = x_in_command;
   y = y_in_command;
+    
+}
+
+void execute_bad_method() {
+  int x_value = 1;
+  if(x_step<0)
+    x_value = -1;
+  int y_value = 1;
+  if(y_step<0)
+    y_value = -1;
+  while(x_how_many_times>0 || y_how_many_times>0){
+      if(x_how_many_times>0){
+        for(int i=0; i<abs(x_step); i++){
+          stepper1.step(x_value);
+          stepper2.step(x_value);
+        }
+        x_how_many_times --;
+      }
+      
+      if(y_how_many_times>0){
+        for(int i=0; i<abs(y_step); i++){
+          stepper1.step(y_value);
+          stepper2.step(-y_value);
+        }
+        y_how_many_times --;
+      }
+  }
+}
+
+void execute_normal_method(){
+  
+                // top left -0.5 -1
+                // top right 1 0.5
+                
+  // Step 5: move motors interchangeably between x and y
+  while(x_how_many_times>0 || y_how_many_times>0){
+      if(x_how_many_times>0){
+        stepper1.step(x_step);
+        stepper2.step(x_step);
+        x_how_many_times --;
+      }
+      
+      if(y_how_many_times>0){
+        stepper1.step(y_step);
+        stepper2.step(-y_step);
+        y_how_many_times --;
+      }
+  }
+}
+
+void execute_lst_few_bits() {
+  // Step the last few steps
+  if(x_left>0){
+    int value = x_left;
+    if(x_step<0)
+      value = - x_left;
+      
+    stepper1.step(value);
+    stepper2.step(value);
+  }
+  // Step the last few steps
+  if(y_left>0){
+    int value = y_left;
+    if(y_step<0)
+      value = - y_left;
+
+    stepper1.step(value);
+    stepper2.step(-value);
+  }
 }
 
 void treat_coordinates(){
 
     bs();
 
-    if(bad_method){
-        while(x_how_many_times>25 || y_how_many_times>25){
-            // top left -0.5 -1
-            // top right 1 0.5
-            if(x_how_many_times>0){
-              for(int i=0; i<25; i++){
-                stepper1.step(x_step);
-                stepper2.step(x_step);
-              }
-              x_how_many_times -= 25;
-            }
-            
-            if(y_how_many_times>0){
-              for(int i=0; i<25; i++){
-                stepper1.step(y_step);
-                stepper2.step(-y_step);
-              }
-              y_how_many_times -= 25;
-            }
-        }
-        
-    } else {
-        // Step 5: move motors interchangeably between x and y
-        while(x_how_many_times>0 || y_how_many_times>0){
-            if(x_how_many_times>0){
-              stepper1.step(x_step);
-              stepper2.step(x_step);
-              x_how_many_times --;
-            }
-            
-            if(y_how_many_times>0){
-              stepper1.step(y_step);
-              stepper2.step(-y_step);
-              y_how_many_times --;
-            }
-        }
-    }
+    if(bad_method)
+        execute_bad_method();
+    else
+        execute_normal_method();
 
-    
-    // Step the last few steps
-    if(x_left>0){
-      int value = x_left;
-      if(x_step<0)
-        value = - x_left;
-        
-      stepper1.step(value);
-      stepper2.step(value);
-    }
-    // Step the last few steps
-    if(y_left>0){
-      int value = y_left;
-      if(y_step<0)
-        value = - y_left;
-        
-      stepper1.step(value);
-      stepper2.step(-value);
-    }
-    
+
+    execute_last_few_bits();
+
 }
