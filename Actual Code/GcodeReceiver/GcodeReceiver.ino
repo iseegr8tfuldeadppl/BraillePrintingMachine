@@ -44,8 +44,8 @@ void setup() {
   // Prepare: Serial
   Serial.begin(9600);
 
-  stepper1.setSpeed(1000); // max 1000
-  stepper2.setSpeed(1000); // max 1000
+  stepper1.setSpeed(500); // max 1000
+  stepper2.setSpeed(500); // max 1000
   //pen.setSpeed(500); // max 1000
   
   // Prepare: Display Information
@@ -218,13 +218,8 @@ void bs(){
   // Step 3.1: ratio
   float ratio = x_difference / y_difference;
   
-  bad_method = y_difference<0 && (x_difference>0.5 || x_difference<-0.5);
-
-  int x_step_each_temp = x_step_each, y_step_each_temp = y_step_each;
-  if(bad_method){
-    x_step_each_temp = 25;
-    y_step_each_temp = 25;
-  }
+  int x_step_each_temp = 50;
+  int y_step_each_temp = 50;
   
   x_step = ratio * x_step_each_temp;
   y_step = y_step_each_temp;
@@ -241,6 +236,8 @@ void bs(){
     x_step = x_step_each_temp;
   }
 
+  Serial.println("x_difference " + String(x_difference, DEC));
+  Serial.println("y_difference " + String(y_difference, DEC));
   // Prep 4 : if it's going left/backwards flip variables
   if(x_difference<-0.5)
     x_step = -x_step;
@@ -257,6 +254,15 @@ void bs(){
   y_how_many_times = y_difference / y_step_each_temp;
   y_left = y_difference % y_step_each_temp;
 
+  /*
+  Serial.println("y_step " + String(y_step, DEC));
+  Serial.println("x_step " + String(x_step, DEC));
+  Serial.println("x_how_many_times " + String(x_how_many_times, DEC));
+  Serial.println("x_left " + String(x_left, DEC));
+  Serial.println("y_how_many_times " + String(y_how_many_times, DEC));
+  Serial.println("y_left " + String(y_left, DEC));
+  */
+  
   // update x and y
   x = x_in_command;
   y = y_in_command;
@@ -298,7 +304,7 @@ void execute_normal_method(){
   while(x_how_many_times>0 || y_how_many_times>0){
       if(x_how_many_times>0){
         stepper1.step(x_step);
-        stepper2.step(x_step);
+        stepper2.step(y_step);
         x_how_many_times --;
       }
       
@@ -310,13 +316,13 @@ void execute_normal_method(){
   }
 }
 
-void execute_lst_few_bits() {
+void execute_last_few_bits() {
   // Step the last few steps
   if(x_left>0){
     int value = x_left;
     if(x_step<0)
       value = - x_left;
-      
+
     stepper1.step(value);
     stepper2.step(value);
   }
@@ -335,12 +341,11 @@ void treat_coordinates(){
 
     bs();
 
-    if(bad_method)
-        execute_bad_method();
-    else
-        execute_normal_method();
+    execute_bad_method();
 
 
     execute_last_few_bits();
+
+    Serial.println("x " + String(x, DEC) + " y " + String(y, DEC));
 
 }
